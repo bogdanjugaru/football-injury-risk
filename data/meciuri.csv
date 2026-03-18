@@ -1,0 +1,901 @@
+﻿match_id,sezon,data_meci,competitie,echipa_acasa,echipa_deplasare,goluri_acasa,goluri_deplasare,rezultat,suprafata_teren,conditii_meteo,temperatura_c,spectatori
+M0001,2019-20,2020-03-06,Serie A,Brentford,AFC Bournemouth,4,1,V,Gazon natural,Caldura,13,76239
+M0002,2019-20,2019-08-15,Cupa Nationala,Inter Miami,Borussia Dortmund,1,2,I,Gazon hibrid,Soare,33,82150
+M0003,2019-20,2019-09-30,UEFA Europa League,Borussia Dortmund,Arsenal,2,2,E,Gazon sintetic,Ploaie,27,72931
+M0004,2019-20,2020-02-03,Bundesliga,Al Ahli,Lille,3,1,V,Gazon natural,Ploaie,13,34348
+M0005,2019-20,2019-10-21,UEFA Champions League,Besiktas,Inter Miami,0,1,I,Gazon natural,Vant puternic,30,18749
+M0006,2019-20,2020-05-18,Bundesliga,Chelsea,Nacional,1,0,V,Gazon natural,Caldura,10,47911
+M0007,2019-20,2019-08-21,Ligue 1,Arsenal,Al Nassr,2,2,E,Gazon natural,Frig,20,76660
+M0008,2019-20,2019-10-04,UEFA Champions League,Bayer Leverkusen,Juventus,4,0,V,Gazon natural,Caldura,16,76078
+M0009,2019-20,2020-04-16,Ligue 1,Borussia Dortmund,Chelsea,5,2,V,Gazon hibrid,Vant puternic,34,77553
+M0010,2019-20,2019-12-24,Cupa Nationala,Manchester United,Inter Milan,1,2,I,Gazon natural,Frig,7,51784
+M0011,2019-20,2020-05-05,Serie A,Juventus,Chelsea,1,1,E,Gazon hibrid,Ploaie,3,85685
+M0012,2019-20,2020-02-11,Premier League,Brentford,Al Ittihad,3,5,I,Gazon hibrid,Frig,33,85010
+M0013,2019-20,2020-05-04,UEFA Europa League,Retired,Aston Villa,0,2,I,Gazon hibrid,Frig,11,21972
+M0014,2019-20,2020-04-09,UEFA Champions League,Inter Miami,AC Milan,6,0,V,Gazon hibrid,Caldura,2,57244
+M0015,2019-20,2020-02-05,La Liga,Juventus,Chelsea,0,1,I,Gazon hibrid,Vant puternic,26,54930
+M0016,2019-20,2020-05-18,Bundesliga,Al Hilal,Al Nassr,0,2,I,Gazon sintetic,Caldura,13,49909
+M0017,2019-20,2019-12-07,Cupa Nationala,Paris Saint-Germain,Al Ittihad,1,2,I,Gazon hibrid,Frig,14,23396
+M0018,2019-20,2019-11-04,Bundesliga,Besiktas,Manchester City,2,2,E,Gazon hibrid,Caldura,19,56299
+M0019,2019-20,2020-05-06,Premier League,AFC Bournemouth,AC Milan,5,4,V,Gazon sintetic,Frig,12,39174
+M0020,2019-20,2019-11-04,Cupa Nationala,Galatasaray,Al Hilal,2,1,V,Gazon natural,Vant puternic,26,26978
+M0021,2019-20,2020-05-28,UEFA Champions League,AS Roma,Nacional,1,2,I,Gazon hibrid,Caldura,25,18398
+M0022,2019-20,2019-09-24,UEFA Champions League,AFC Bournemouth,Rayo Vallecano,2,1,V,Gazon natural,Frig,35,39452
+M0023,2019-20,2019-08-09,Ligue 1,Aston Villa,Inter Miami,2,3,I,Gazon sintetic,Ploaie,2,30448
+M0024,2019-20,2020-04-19,Premier League,LA Galaxy,Tottenham,3,0,V,Gazon sintetic,Caldura,32,26602
+M0025,2019-20,2020-04-24,Serie A,Sevilla,Atletico Madrid,3,1,V,Gazon sintetic,Soare,7,52739
+M0026,2019-20,2020-01-05,Premier League,Atletico Madrid,Nacional,0,1,I,Gazon sintetic,Vant puternic,14,19053
+M0027,2019-20,2020-02-04,UEFA Europa League,Atletico Madrid,Juventus,2,1,V,Gazon sintetic,Caldura,8,36214
+M0028,2019-20,2020-01-10,Ligue 1,Borussia Dortmund,Liverpool,0,4,I,Gazon natural,Soare,20,16421
+M0029,2019-20,2019-10-30,Premier League,FC Barcelona,Paris Saint-Germain,2,2,E,Gazon hibrid,Caldura,35,66982
+M0030,2019-20,2020-04-01,Serie A,Sevilla,Al Ahli,0,1,I,Gazon hibrid,Caldura,24,57716
+M0031,2019-20,2020-01-17,UEFA Europa League,AS Roma,Bayern München,2,4,I,Gazon sintetic,Soare,22,81489
+M0032,2019-20,2020-03-18,Bundesliga,West Ham,Nacional,2,1,V,Gazon natural,Frig,23,71874
+M0033,2019-20,2020-05-04,UEFA Europa League,Al Hilal,Al Ittihad,2,2,E,Gazon sintetic,Vant puternic,20,28301
+M0034,2019-20,2020-01-03,Premier League,West Ham,Bayern München,5,4,V,Gazon hibrid,Frig,23,8328
+M0035,2019-20,2019-08-21,UEFA Champions League,Bayern München,Lille,0,3,I,Gazon hibrid,Ploaie,16,14535
+M0036,2019-20,2019-09-29,Premier League,Real Madrid,Bayern München,3,3,E,Gazon natural,Soare,22,49555
+M0037,2019-20,2020-04-24,Bundesliga,Al Nassr,FC Barcelona,1,2,I,Gazon hibrid,Soare,20,44749
+M0038,2019-20,2020-02-14,Cupa Nationala,Manchester City,Arsenal,2,6,I,Gazon natural,Frig,16,60452
+M0039,2019-20,2019-12-28,La Liga,Brentford,Liverpool,2,0,V,Gazon natural,Vant puternic,34,26981
+M0040,2019-20,2019-11-16,Serie A,Paris Saint-Germain,Manchester City,5,0,V,Gazon natural,Caldura,8,22527
+M0041,2019-20,2019-10-04,La Liga,AC Milan,Manchester United,1,0,V,Gazon hibrid,Vant puternic,7,12731
+M0042,2019-20,2019-09-16,Cupa Nationala,Aston Villa,Lille,2,1,V,Gazon natural,Ploaie,31,50220
+M0043,2019-20,2020-03-29,Cupa Nationala,Bayer Leverkusen,Juventus,1,2,I,Gazon natural,Ploaie,24,67924
+M0044,2019-20,2019-12-12,Ligue 1,Liverpool,Inter Miami,3,1,V,Gazon sintetic,Ploaie,26,25284
+M0045,2019-20,2019-10-12,Cupa Nationala,FC Barcelona,Al Hilal,2,2,E,Gazon sintetic,Caldura,17,18402
+M0046,2019-20,2020-05-08,Premier League,Arsenal,Sevilla,4,2,V,Gazon hibrid,Frig,13,13299
+M0047,2019-20,2019-11-10,Serie A,Liverpool,Atletico Madrid,1,2,I,Gazon hibrid,Caldura,13,8836
+M0048,2019-20,2019-10-28,Serie A,Inter Miami,Juventus,1,4,I,Gazon hibrid,Frig,12,18213
+M0049,2019-20,2020-05-26,Bundesliga,Borussia Dortmund,Inter Miami,0,1,I,Gazon natural,Ploaie,22,52669
+M0050,2019-20,2020-01-11,UEFA Europa League,Real Madrid,Atletico Madrid,2,1,V,Gazon natural,Frig,31,69631
+M0051,2019-20,2020-02-18,UEFA Champions League,AFC Bournemouth,AS Roma,1,4,I,Gazon sintetic,Vant puternic,33,85112
+M0052,2019-20,2020-03-16,Cupa Nationala,Tottenham,AC Milan,2,3,I,Gazon natural,Ploaie,13,62690
+M0053,2019-20,2019-08-29,Cupa Nationala,Manchester United,Juventus,1,2,I,Gazon hibrid,Frig,9,33080
+M0054,2019-20,2019-10-10,Serie A,Retired,Inter Miami,2,2,E,Gazon natural,Ploaie,3,17917
+M0055,2019-20,2020-02-20,La Liga,Bayern München,Aston Villa,3,2,V,Gazon hibrid,Ploaie,13,9935
+M0056,2019-20,2020-05-10,Cupa Nationala,FC Barcelona,Al Ittihad,2,3,I,Gazon hibrid,Caldura,34,79569
+M0057,2019-20,2019-11-16,UEFA Champions League,Brentford,Besiktas,2,2,E,Gazon hibrid,Caldura,24,29203
+M0058,2019-20,2019-09-01,La Liga,Real Madrid,Nacional,3,4,I,Gazon natural,Soare,19,44597
+M0059,2019-20,2019-09-11,UEFA Champions League,Real Madrid,Arsenal,3,3,E,Gazon natural,Frig,6,50467
+M0060,2019-20,2020-05-19,La Liga,AS Roma,AFC Bournemouth,4,3,V,Gazon natural,Caldura,12,81923
+M0061,2019-20,2019-09-17,Serie A,Besiktas,Bayer Leverkusen,1,1,E,Gazon natural,Caldura,14,5643
+M0062,2019-20,2019-09-12,Premier League,Nacional,Retired,1,2,I,Gazon hibrid,Soare,11,57142
+M0063,2019-20,2019-10-17,Cupa Nationala,Sevilla,AS Roma,0,0,E,Gazon sintetic,Frig,10,12012
+M0064,2019-20,2019-09-29,Bundesliga,Tottenham,Galatasaray,0,1,I,Gazon natural,Soare,9,85938
+M0065,2019-20,2019-10-09,Cupa Nationala,FC Barcelona,Liverpool,3,2,V,Gazon natural,Ploaie,15,9852
+M0066,2019-20,2020-03-08,La Liga,Manchester City,AC Milan,1,1,E,Gazon hibrid,Ploaie,31,44513
+M0067,2019-20,2019-10-16,Premier League,Rayo Vallecano,Inter Milan,3,1,V,Gazon natural,Vant puternic,3,78188
+M0068,2019-20,2020-01-20,UEFA Champions League,Arsenal,Bayern München,4,2,V,Gazon natural,Ploaie,20,54227
+M0069,2019-20,2020-05-29,UEFA Champions League,Bayern München,Bayer Leverkusen,1,3,I,Gazon hibrid,Frig,6,5162
+M0070,2019-20,2019-10-05,La Liga,Atletico Madrid,Paris Saint-Germain,3,2,V,Gazon natural,Ploaie,31,20551
+M0071,2019-20,2019-11-06,UEFA Champions League,Al Ahli,Manchester City,1,1,E,Gazon hibrid,Vant puternic,26,45231
+M0072,2019-20,2019-08-14,Bundesliga,Bayern München,AFC Bournemouth,1,0,V,Gazon natural,Ploaie,32,12053
+M0073,2019-20,2020-02-02,Cupa Nationala,Borussia Dortmund,Tottenham,2,1,V,Gazon sintetic,Soare,12,83520
+M0074,2019-20,2019-09-13,La Liga,Sevilla,Liverpool,1,3,I,Gazon sintetic,Ploaie,10,21578
+M0075,2019-20,2020-01-23,Bundesliga,Manchester City,Inter Milan,1,4,I,Gazon hibrid,Soare,16,42415
+M0076,2019-20,2019-08-31,UEFA Europa League,FC Barcelona,Chelsea,0,2,I,Gazon sintetic,Caldura,30,53308
+M0077,2019-20,2019-09-03,UEFA Champions League,Borussia Dortmund,LA Galaxy,1,2,I,Gazon sintetic,Vant puternic,29,27607
+M0078,2019-20,2020-04-02,Ligue 1,Real Madrid,Al Ittihad,3,0,V,Gazon sintetic,Frig,2,19491
+M0079,2019-20,2019-09-30,La Liga,FC Barcelona,Manchester United,3,2,V,Gazon natural,Soare,28,77593
+M0080,2019-20,2020-03-18,Premier League,AFC Bournemouth,Inter Milan,1,3,I,Gazon sintetic,Ploaie,29,72669
+M0081,2019-20,2020-04-21,UEFA Champions League,FC Barcelona,Lille,0,2,I,Gazon sintetic,Soare,11,82692
+M0082,2019-20,2020-01-23,Serie A,Bayer Leverkusen,Tottenham,3,1,V,Gazon hibrid,Soare,28,64370
+M0083,2019-20,2019-08-28,Premier League,Inter Milan,Chelsea,2,1,V,Gazon natural,Vant puternic,25,74559
+M0084,2019-20,2020-01-01,Premier League,Al Ittihad,West Ham,1,1,E,Gazon hibrid,Ploaie,3,7284
+M0085,2019-20,2020-01-26,UEFA Champions League,Borussia Dortmund,Juventus,2,2,E,Gazon sintetic,Frig,29,83139
+M0086,2019-20,2019-08-16,UEFA Champions League,Chelsea,West Ham,1,2,I,Gazon natural,Ploaie,27,25523
+M0087,2019-20,2020-03-11,Bundesliga,Brentford,Chelsea,4,1,V,Gazon natural,Vant puternic,6,73762
+M0088,2019-20,2020-03-31,Ligue 1,Real Madrid,Bayern München,0,0,E,Gazon sintetic,Frig,29,18129
+M0089,2019-20,2020-05-28,Premier League,LA Galaxy,Besiktas,0,0,E,Gazon natural,Frig,33,66257
+M0090,2019-20,2019-08-20,Serie A,Tottenham,Al Ittihad,0,2,I,Gazon hibrid,Caldura,6,78783
+M0091,2019-20,2020-01-09,Premier League,Al Ittihad,Lille,1,6,I,Gazon sintetic,Ploaie,4,38491
+M0092,2019-20,2020-05-28,Cupa Nationala,West Ham,FC Barcelona,1,3,I,Gazon sintetic,Caldura,35,69595
+M0093,2019-20,2019-11-10,Premier League,AFC Bournemouth,Manchester United,2,1,V,Gazon sintetic,Frig,20,18376
+M0094,2019-20,2019-09-20,La Liga,Nacional,Aston Villa,0,1,I,Gazon sintetic,Frig,19,37537
+M0095,2019-20,2020-01-13,Ligue 1,AFC Bournemouth,Juventus,1,1,E,Gazon hibrid,Caldura,9,85025
+M0096,2019-20,2019-09-04,Bundesliga,Brentford,Lille,3,4,I,Gazon sintetic,Ploaie,3,33094
+M0097,2019-20,2020-04-20,Bundesliga,Liverpool,Sevilla,2,4,I,Gazon natural,Soare,28,12198
+M0098,2019-20,2019-12-11,Premier League,AS Roma,Bayer Leverkusen,0,4,I,Gazon natural,Vant puternic,34,83049
+M0099,2019-20,2019-10-15,Cupa Nationala,West Ham,Brentford,4,0,V,Gazon natural,Caldura,34,87045
+M0100,2019-20,2019-08-16,UEFA Europa League,Manchester City,Rayo Vallecano,3,3,E,Gazon sintetic,Vant puternic,10,26065
+M0101,2019-20,2020-01-30,Serie A,Tottenham,Liverpool,2,2,E,Gazon hibrid,Frig,34,53994
+M0102,2019-20,2020-05-03,Ligue 1,Brentford,Lille,1,3,I,Gazon hibrid,Soare,28,67168
+M0103,2019-20,2019-09-17,Serie A,Inter Miami,Retired,3,0,V,Gazon sintetic,Caldura,7,44263
+M0104,2019-20,2019-09-13,Cupa Nationala,Arsenal,Galatasaray,5,2,V,Gazon hibrid,Caldura,19,26672
+M0105,2019-20,2019-10-17,Cupa Nationala,Borussia Dortmund,Rayo Vallecano,2,3,I,Gazon hibrid,Soare,19,10653
+M0106,2019-20,2019-09-30,UEFA Europa League,Besiktas,AFC Bournemouth,1,3,I,Gazon natural,Vant puternic,29,10769
+M0107,2019-20,2019-10-30,Serie A,Retired,Real Madrid,2,2,E,Gazon sintetic,Frig,24,19025
+M0108,2019-20,2019-11-02,UEFA Europa League,Liverpool,Arsenal,1,0,V,Gazon hibrid,Vant puternic,26,55296
+M0109,2019-20,2020-03-07,Ligue 1,Real Madrid,Al Ittihad,0,1,I,Gazon natural,Soare,30,6522
+M0110,2019-20,2019-09-22,UEFA Champions League,Al Ahli,Besiktas,1,0,V,Gazon hibrid,Ploaie,28,41073
+M0111,2019-20,2020-04-14,Serie A,Bayern München,Lille,5,5,E,Gazon sintetic,Caldura,27,74822
+M0112,2019-20,2019-08-22,Ligue 1,West Ham,AFC Bournemouth,4,0,V,Gazon sintetic,Frig,11,74102
+M0113,2019-20,2020-03-05,Premier League,Brentford,Manchester United,0,3,I,Gazon sintetic,Soare,15,19804
+M0114,2019-20,2019-10-23,UEFA Europa League,Real Madrid,Paris Saint-Germain,6,3,V,Gazon natural,Ploaie,15,67273
+M0115,2019-20,2020-01-22,Ligue 1,Nacional,Lille,1,1,E,Gazon sintetic,Caldura,34,17372
+M0116,2019-20,2019-08-12,Ligue 1,Arsenal,Al Hilal,4,1,V,Gazon sintetic,Frig,11,39364
+M0117,2019-20,2020-03-07,Serie A,Tottenham,Inter Milan,1,0,V,Gazon hibrid,Vant puternic,19,8703
+M0118,2019-20,2019-09-02,Premier League,Nacional,Arsenal,2,2,E,Gazon hibrid,Ploaie,18,82928
+M0119,2019-20,2020-02-22,Premier League,FC Barcelona,Lille,2,2,E,Gazon sintetic,Soare,30,40503
+M0120,2019-20,2019-11-24,UEFA Europa League,Nacional,Inter Milan,3,2,V,Gazon hibrid,Frig,18,76554
+M0121,2019-20,2020-05-24,Cupa Nationala,Borussia Dortmund,Real Madrid,1,2,I,Gazon sintetic,Caldura,26,79346
+M0122,2019-20,2020-01-15,UEFA Champions League,LA Galaxy,Galatasaray,1,1,E,Gazon hibrid,Soare,9,21268
+M0123,2019-20,2019-08-30,UEFA Champions League,Bayern München,AC Milan,3,3,E,Gazon natural,Frig,4,51040
+M0124,2019-20,2020-03-30,La Liga,Tottenham,Manchester United,0,2,I,Gazon natural,Caldura,27,32150
+M0125,2019-20,2019-12-06,Bundesliga,Nacional,Inter Miami,1,2,I,Gazon natural,Caldura,18,47946
+M0126,2019-20,2020-02-11,Ligue 1,Paris Saint-Germain,Sevilla,2,0,V,Gazon natural,Vant puternic,35,81069
+M0127,2019-20,2019-08-25,UEFA Europa League,Chelsea,Juventus,1,1,E,Gazon hibrid,Vant puternic,29,61536
+M0128,2019-20,2019-08-26,Bundesliga,Retired,Nacional,1,1,E,Gazon natural,Vant puternic,22,60520
+M0129,2019-20,2020-03-14,Cupa Nationala,Paris Saint-Germain,West Ham,1,4,I,Gazon sintetic,Vant puternic,16,30203
+M0130,2019-20,2020-03-05,UEFA Champions League,West Ham,Bayer Leverkusen,0,3,I,Gazon sintetic,Frig,26,22145
+M0131,2019-20,2020-01-20,UEFA Europa League,Juventus,Borussia Dortmund,3,0,V,Gazon hibrid,Vant puternic,24,35002
+M0132,2019-20,2020-03-05,Bundesliga,Sevilla,Lille,1,0,V,Gazon natural,Vant puternic,13,64234
+M0133,2019-20,2020-03-30,UEFA Champions League,Borussia Dortmund,Retired,1,0,V,Gazon hibrid,Soare,26,8637
+M0134,2019-20,2019-10-30,Premier League,Inter Milan,Galatasaray,1,5,I,Gazon sintetic,Caldura,18,74914
+M0135,2019-20,2019-08-31,La Liga,Rayo Vallecano,Aston Villa,0,4,I,Gazon natural,Frig,35,56915
+M0136,2019-20,2020-05-13,Bundesliga,Al Nassr,West Ham,0,3,I,Gazon hibrid,Caldura,24,63207
+M0137,2019-20,2020-03-16,Ligue 1,Lille,Manchester City,0,2,I,Gazon natural,Frig,6,24303
+M0138,2019-20,2019-08-28,Cupa Nationala,Tottenham,Juventus,1,1,E,Gazon sintetic,Ploaie,29,50314
+M0139,2019-20,2020-03-24,Bundesliga,Aston Villa,Sevilla,2,5,I,Gazon sintetic,Vant puternic,34,27915
+M0140,2019-20,2019-10-03,Serie A,LA Galaxy,Bayern München,2,2,E,Gazon hibrid,Vant puternic,18,52451
+M0141,2019-20,2019-08-17,Ligue 1,Al Ittihad,Sevilla,2,1,V,Gazon hibrid,Vant puternic,20,66239
+M0142,2019-20,2019-11-09,Bundesliga,Al Hilal,Al Ahli,3,0,V,Gazon natural,Ploaie,30,42416
+M0143,2019-20,2020-03-18,Serie A,Retired,Galatasaray,1,3,I,Gazon natural,Vant puternic,12,69131
+M0144,2019-20,2019-11-07,UEFA Europa League,AS Roma,Bayer Leverkusen,4,2,V,Gazon hibrid,Ploaie,6,67224
+M0145,2019-20,2020-05-04,UEFA Europa League,Besiktas,Lille,0,3,I,Gazon natural,Soare,18,48116
+M0146,2019-20,2020-02-14,Serie A,AC Milan,FC Barcelona,2,3,I,Gazon sintetic,Caldura,34,23982
+M0147,2019-20,2020-01-17,La Liga,Al Ittihad,AFC Bournemouth,3,3,E,Gazon natural,Soare,34,14060
+M0148,2019-20,2020-03-30,Premier League,Arsenal,Liverpool,2,2,E,Gazon sintetic,Vant puternic,13,41549
+M0149,2019-20,2020-02-01,Serie A,Chelsea,Al Ittihad,1,1,E,Gazon hibrid,Vant puternic,6,67273
+M0150,2019-20,2020-05-09,UEFA Champions League,Atletico Madrid,Liverpool,0,2,I,Gazon natural,Caldura,9,24278
+M0151,2019-20,2020-04-19,UEFA Europa League,Liverpool,Rayo Vallecano,2,3,I,Gazon hibrid,Caldura,29,81850
+M0152,2019-20,2019-10-19,La Liga,Rayo Vallecano,West Ham,4,3,V,Gazon sintetic,Vant puternic,32,80861
+M0153,2019-20,2019-09-23,Bundesliga,Bayern München,Retired,1,1,E,Gazon sintetic,Frig,16,9774
+M0154,2019-20,2019-12-08,Serie A,Galatasaray,Arsenal,1,0,V,Gazon hibrid,Ploaie,30,26329
+M0155,2019-20,2019-11-30,Premier League,Rayo Vallecano,Real Madrid,2,0,V,Gazon hibrid,Caldura,33,8943
+M0156,2019-20,2020-05-17,La Liga,Arsenal,AS Roma,1,0,V,Gazon hibrid,Caldura,15,26991
+M0157,2019-20,2019-08-23,Serie A,Al Ahli,Tottenham,3,0,V,Gazon natural,Soare,3,13261
+M0158,2019-20,2020-03-24,La Liga,Rayo Vallecano,Aston Villa,1,0,V,Gazon hibrid,Caldura,32,55624
+M0159,2019-20,2020-05-07,UEFA Champions League,Tottenham,Lille,0,1,I,Gazon sintetic,Soare,20,13088
+M0160,2019-20,2020-01-11,Premier League,Real Madrid,LA Galaxy,2,2,E,Gazon hibrid,Caldura,5,68253
+M0161,2019-20,2020-05-08,Ligue 1,Al Ittihad,Borussia Dortmund,2,0,V,Gazon sintetic,Caldura,22,17800
+M0162,2019-20,2019-11-10,Cupa Nationala,FC Barcelona,Lille,3,6,I,Gazon sintetic,Ploaie,2,53504
+M0163,2019-20,2020-05-28,UEFA Champions League,Al Ittihad,Besiktas,1,3,I,Gazon natural,Soare,29,61734
+M0164,2019-20,2019-12-16,UEFA Europa League,Aston Villa,Brentford,0,0,E,Gazon sintetic,Vant puternic,7,16835
+M0165,2019-20,2019-08-01,Premier League,AFC Bournemouth,LA Galaxy,3,2,V,Gazon sintetic,Caldura,19,86082
+M0166,2019-20,2020-04-24,Serie A,Al Nassr,FC Barcelona,2,1,V,Gazon sintetic,Frig,14,43561
+M0167,2019-20,2020-04-30,UEFA Europa League,Al Ahli,Arsenal,3,2,V,Gazon natural,Frig,31,7021
+M0168,2019-20,2020-05-03,Premier League,Rayo Vallecano,AFC Bournemouth,1,2,I,Gazon sintetic,Caldura,33,85526
+M0169,2019-20,2019-08-16,Bundesliga,Manchester United,Aston Villa,1,2,I,Gazon sintetic,Frig,6,79625
+M0170,2019-20,2019-08-12,La Liga,Liverpool,Aston Villa,2,1,V,Gazon natural,Ploaie,29,51990
+M0171,2019-20,2020-02-11,La Liga,Liverpool,Juventus,0,5,I,Gazon hibrid,Vant puternic,10,14547
+M0172,2019-20,2020-01-19,Premier League,Liverpool,Paris Saint-Germain,2,5,I,Gazon sintetic,Frig,31,43114
+M0173,2019-20,2020-04-06,Premier League,Galatasaray,Al Ahli,1,2,I,Gazon natural,Caldura,11,41743
+M0174,2019-20,2019-10-10,Bundesliga,Galatasaray,Nacional,1,0,V,Gazon hibrid,Frig,23,72138
+M0175,2019-20,2019-08-28,Ligue 1,Manchester United,Liverpool,3,3,E,Gazon hibrid,Vant puternic,19,22287
+M0176,2019-20,2019-12-29,La Liga,Inter Milan,Paris Saint-Germain,1,3,I,Gazon sintetic,Frig,34,21569
+M0177,2019-20,2019-10-04,La Liga,Lille,AS Roma,3,1,V,Gazon hibrid,Caldura,3,11524
+M0178,2019-20,2019-11-21,UEFA Europa League,Manchester United,Nacional,4,4,E,Gazon sintetic,Soare,31,27502
+M0179,2019-20,2019-12-21,Bundesliga,Atletico Madrid,Bayern München,3,1,V,Gazon hibrid,Ploaie,22,41699
+M0180,2019-20,2019-09-15,Bundesliga,Lille,Manchester United,2,2,E,Gazon natural,Vant puternic,30,36505
+M0181,2020-21,2021-03-03,UEFA Champions League,Galatasaray,Al Ahli,0,4,I,Gazon natural,Frig,6,12722
+M0182,2020-21,2020-09-16,La Liga,Besiktas,Sevilla,0,1,I,Gazon hibrid,Ploaie,31,19314
+M0183,2020-21,2020-11-04,La Liga,Galatasaray,Al Hilal,1,2,I,Gazon hibrid,Vant puternic,16,62748
+M0184,2020-21,2020-11-11,UEFA Europa League,Sevilla,Al Ahli,0,1,I,Gazon hibrid,Vant puternic,2,5603
+M0185,2020-21,2020-09-14,Ligue 1,Al Nassr,Chelsea,4,2,V,Gazon hibrid,Vant puternic,20,34753
+M0186,2020-21,2021-02-28,UEFA Europa League,Al Ahli,Al Nassr,2,2,E,Gazon sintetic,Ploaie,18,41572
+M0187,2020-21,2021-02-28,Bundesliga,Al Nassr,Tottenham,3,0,V,Gazon sintetic,Ploaie,21,75571
+M0188,2020-21,2020-09-06,Bundesliga,Galatasaray,AFC Bournemouth,0,1,I,Gazon sintetic,Caldura,27,34069
+M0189,2020-21,2021-03-28,UEFA Champions League,Juventus,Manchester United,4,1,V,Gazon sintetic,Vant puternic,35,36713
+M0190,2020-21,2021-03-04,Ligue 1,Al Hilal,Al Ahli,2,1,V,Gazon hibrid,Frig,4,61264
+M0191,2020-21,2021-05-29,Ligue 1,Brentford,AC Milan,2,5,I,Gazon sintetic,Caldura,34,30589
+M0192,2020-21,2021-01-10,Ligue 1,LA Galaxy,Juventus,3,1,V,Gazon sintetic,Ploaie,5,48364
+M0193,2020-21,2021-03-17,La Liga,Al Hilal,Sevilla,3,4,I,Gazon sintetic,Vant puternic,30,86248
+M0194,2020-21,2020-09-10,Serie A,Al Hilal,Paris Saint-Germain,1,1,E,Gazon hibrid,Ploaie,2,82865
+M0195,2020-21,2021-01-14,Ligue 1,FC Barcelona,Besiktas,0,1,I,Gazon hibrid,Soare,8,35614
+M0196,2020-21,2020-09-21,UEFA Europa League,Inter Milan,Galatasaray,2,2,E,Gazon natural,Caldura,3,23654
+M0197,2020-21,2021-03-16,Bundesliga,Al Hilal,Manchester City,2,0,V,Gazon natural,Soare,27,86393
+M0198,2020-21,2021-01-09,Premier League,Paris Saint-Germain,AFC Bournemouth,3,4,I,Gazon hibrid,Ploaie,2,15838
+M0199,2020-21,2021-03-13,UEFA Champions League,Bayern München,AC Milan,4,3,V,Gazon natural,Soare,12,59746
+M0200,2020-21,2021-01-11,Bundesliga,Sevilla,Inter Milan,0,1,I,Gazon sintetic,Caldura,18,62691
+M0201,2020-21,2021-03-13,Cupa Nationala,Al Hilal,FC Barcelona,1,4,I,Gazon natural,Frig,14,21926
+M0202,2020-21,2021-01-29,UEFA Champions League,Liverpool,Sevilla,3,2,V,Gazon hibrid,Soare,16,13619
+M0203,2020-21,2021-02-18,Serie A,Sevilla,Lille,1,2,I,Gazon sintetic,Soare,15,80887
+M0204,2020-21,2020-12-21,Serie A,Tottenham,Lille,1,4,I,Gazon sintetic,Soare,34,85160
+M0205,2020-21,2020-09-06,Premier League,Manchester City,Manchester United,2,2,E,Gazon natural,Vant puternic,13,76492
+M0206,2020-21,2020-12-03,UEFA Champions League,Besiktas,Paris Saint-Germain,4,2,V,Gazon natural,Soare,25,55845
+M0207,2020-21,2020-08-31,La Liga,Manchester United,FC Barcelona,1,1,E,Gazon hibrid,Soare,27,79867
+M0208,2020-21,2020-09-07,Cupa Nationala,Borussia Dortmund,Sevilla,2,2,E,Gazon sintetic,Soare,17,67781
+M0209,2020-21,2020-10-04,Serie A,West Ham,Al Ittihad,3,4,I,Gazon hibrid,Vant puternic,21,81159
+M0210,2020-21,2020-08-11,UEFA Europa League,Paris Saint-Germain,AFC Bournemouth,0,1,I,Gazon natural,Vant puternic,22,6055
+M0211,2020-21,2021-01-26,Serie A,Atletico Madrid,AS Roma,3,0,V,Gazon sintetic,Vant puternic,18,22040
+M0212,2020-21,2020-12-25,Bundesliga,Arsenal,Juventus,0,2,I,Gazon hibrid,Soare,13,80062
+M0213,2020-21,2020-11-22,Premier League,Al Ahli,Real Madrid,1,3,I,Gazon natural,Soare,4,89299
+M0214,2020-21,2021-01-30,UEFA Europa League,Nacional,FC Barcelona,1,2,I,Gazon hibrid,Vant puternic,17,6827
+M0215,2020-21,2020-09-15,Bundesliga,Al Ahli,Tottenham,1,1,E,Gazon hibrid,Soare,20,48845
+M0216,2020-21,2021-05-16,Cupa Nationala,Liverpool,Al Hilal,2,5,I,Gazon sintetic,Caldura,13,16498
+M0217,2020-21,2021-01-07,Serie A,AS Roma,Brentford,1,0,V,Gazon sintetic,Ploaie,2,23542
+M0218,2020-21,2021-01-29,Cupa Nationala,Liverpool,Paris Saint-Germain,2,0,V,Gazon sintetic,Soare,10,5143
+M0219,2020-21,2020-09-16,Serie A,Brentford,Tottenham,3,3,E,Gazon hibrid,Caldura,2,28715
+M0220,2020-21,2020-10-26,Bundesliga,AC Milan,Brentford,0,3,I,Gazon natural,Vant puternic,35,21317
+M0221,2020-21,2020-08-03,UEFA Europa League,Rayo Vallecano,Retired,2,2,E,Gazon natural,Soare,34,62216
+M0222,2020-21,2021-01-18,UEFA Champions League,Atletico Madrid,Aston Villa,2,0,V,Gazon hibrid,Frig,32,26951
+M0223,2020-21,2021-05-12,UEFA Champions League,Inter Milan,Arsenal,2,2,E,Gazon natural,Frig,15,13803
+M0224,2020-21,2021-04-18,Bundesliga,Aston Villa,Al Ahli,4,1,V,Gazon hibrid,Vant puternic,23,45762
+M0225,2020-21,2021-04-21,Cupa Nationala,Sevilla,Tottenham,0,2,I,Gazon natural,Soare,5,28282
+M0226,2020-21,2021-05-02,Serie A,Atletico Madrid,LA Galaxy,0,4,I,Gazon natural,Ploaie,5,38025
+M0227,2020-21,2020-12-21,Serie A,Galatasaray,Manchester City,2,1,V,Gazon hibrid,Ploaie,35,19379
+M0228,2020-21,2021-02-01,La Liga,Manchester United,Borussia Dortmund,2,2,E,Gazon hibrid,Ploaie,2,21722
+M0229,2020-21,2020-08-26,Bundesliga,FC Barcelona,AFC Bournemouth,1,2,I,Gazon natural,Ploaie,10,62528
+M0230,2020-21,2020-10-05,UEFA Champions League,Retired,Besiktas,2,0,V,Gazon hibrid,Ploaie,4,22123
+M0231,2020-21,2021-03-02,Ligue 1,West Ham,Galatasaray,1,0,V,Gazon sintetic,Ploaie,2,12528
+M0232,2020-21,2021-03-14,Premier League,Besiktas,AFC Bournemouth,2,1,V,Gazon hibrid,Caldura,16,22304
+M0233,2020-21,2020-10-22,Premier League,Manchester United,Bayer Leverkusen,6,0,V,Gazon sintetic,Vant puternic,26,84707
+M0234,2020-21,2021-05-26,Premier League,FC Barcelona,Juventus,3,2,V,Gazon natural,Vant puternic,17,75937
+M0235,2020-21,2021-02-15,Premier League,Al Ittihad,Manchester United,1,0,V,Gazon natural,Soare,28,68812
+M0236,2020-21,2020-08-29,UEFA Champions League,Lille,Rayo Vallecano,1,2,I,Gazon sintetic,Frig,31,10318
+M0237,2020-21,2021-02-18,UEFA Europa League,Aston Villa,AFC Bournemouth,4,0,V,Gazon sintetic,Vant puternic,5,44740
+M0238,2020-21,2021-01-01,UEFA Europa League,Manchester City,Chelsea,2,1,V,Gazon sintetic,Ploaie,21,84253
+M0239,2020-21,2021-05-18,UEFA Europa League,AC Milan,Real Madrid,1,0,V,Gazon natural,Frig,14,21970
+M0240,2020-21,2020-10-08,Premier League,AS Roma,Arsenal,1,3,I,Gazon sintetic,Ploaie,18,33369
+M0241,2020-21,2021-01-23,UEFA Champions League,Nacional,Bayern München,5,2,V,Gazon sintetic,Ploaie,8,72461
+M0242,2020-21,2021-05-01,Premier League,West Ham,FC Barcelona,3,4,I,Gazon hibrid,Caldura,28,24335
+M0243,2020-21,2020-09-13,UEFA Europa League,Real Madrid,Inter Miami,2,2,E,Gazon sintetic,Ploaie,14,78361
+M0244,2020-21,2020-10-08,Ligue 1,Al Hilal,Real Madrid,3,5,I,Gazon sintetic,Ploaie,25,12550
+M0245,2020-21,2020-11-24,La Liga,Paris Saint-Germain,Real Madrid,1,4,I,Gazon hibrid,Ploaie,6,15313
+M0246,2020-21,2021-02-24,Ligue 1,Paris Saint-Germain,West Ham,0,5,I,Gazon sintetic,Frig,26,78887
+M0247,2020-21,2021-01-17,Ligue 1,Al Ittihad,West Ham,3,1,V,Gazon hibrid,Vant puternic,14,52250
+M0248,2020-21,2021-02-06,Ligue 1,Real Madrid,Brentford,2,6,I,Gazon sintetic,Frig,34,55109
+M0249,2020-21,2020-11-15,Bundesliga,Manchester United,Brentford,4,0,V,Gazon sintetic,Vant puternic,25,7900
+M0250,2020-21,2021-01-04,Bundesliga,Lille,Besiktas,2,3,I,Gazon sintetic,Caldura,11,47348
+M0251,2020-21,2021-02-20,Premier League,Paris Saint-Germain,Arsenal,1,1,E,Gazon natural,Soare,31,41199
+M0252,2020-21,2021-02-05,Premier League,Bayern München,Chelsea,3,2,V,Gazon sintetic,Ploaie,26,21061
+M0253,2020-21,2020-12-14,Serie A,Manchester City,Sevilla,2,2,E,Gazon natural,Frig,9,44452
+M0254,2020-21,2020-11-18,UEFA Europa League,Inter Miami,LA Galaxy,3,0,V,Gazon natural,Frig,16,18664
+M0255,2020-21,2021-05-01,Cupa Nationala,Bayer Leverkusen,FC Barcelona,2,2,E,Gazon hibrid,Vant puternic,12,23623
+M0256,2020-21,2021-02-05,Ligue 1,Tottenham,Galatasaray,3,1,V,Gazon sintetic,Ploaie,15,52546
+M0257,2020-21,2021-03-10,Cupa Nationala,Al Ittihad,Juventus,4,2,V,Gazon sintetic,Vant puternic,33,11371
+M0258,2020-21,2020-11-08,La Liga,Tottenham,West Ham,2,0,V,Gazon hibrid,Caldura,28,49752
+M0259,2020-21,2021-03-16,UEFA Europa League,Al Ahli,Real Madrid,2,0,V,Gazon sintetic,Vant puternic,28,29680
+M0260,2020-21,2020-08-02,La Liga,AC Milan,Al Nassr,0,4,I,Gazon hibrid,Vant puternic,11,62583
+M0261,2020-21,2021-02-05,La Liga,Manchester United,Bayer Leverkusen,1,2,I,Gazon natural,Soare,11,68418
+M0262,2020-21,2020-09-03,Serie A,Juventus,Bayern München,1,1,E,Gazon natural,Frig,3,84195
+M0263,2020-21,2021-05-21,Serie A,LA Galaxy,AFC Bournemouth,2,0,V,Gazon sintetic,Caldura,7,69798
+M0264,2020-21,2020-11-10,UEFA Champions League,AS Roma,FC Barcelona,0,1,I,Gazon sintetic,Ploaie,35,56218
+M0265,2020-21,2020-11-04,Cupa Nationala,Juventus,Bayer Leverkusen,2,2,E,Gazon natural,Vant puternic,10,53959
+M0266,2020-21,2020-11-29,Cupa Nationala,Besiktas,Atletico Madrid,0,0,E,Gazon natural,Caldura,14,73447
+M0267,2020-21,2020-12-26,Serie A,Juventus,Lille,1,1,E,Gazon sintetic,Ploaie,10,34705
+M0268,2020-21,2020-09-14,Cupa Nationala,Borussia Dortmund,Brentford,2,5,I,Gazon sintetic,Soare,5,77250
+M0269,2020-21,2021-04-19,Premier League,Liverpool,FC Barcelona,1,2,I,Gazon hibrid,Ploaie,14,54955
+M0270,2020-21,2020-08-08,Premier League,FC Barcelona,Tottenham,2,0,V,Gazon sintetic,Caldura,16,78174
+M0271,2020-21,2021-04-10,UEFA Europa League,Juventus,Galatasaray,2,3,I,Gazon hibrid,Vant puternic,18,57761
+M0272,2020-21,2021-01-14,Bundesliga,Al Nassr,AC Milan,1,1,E,Gazon natural,Ploaie,11,23564
+M0273,2020-21,2020-08-09,Ligue 1,AS Roma,Rayo Vallecano,2,3,I,Gazon sintetic,Ploaie,24,78428
+M0274,2020-21,2020-10-31,La Liga,Al Ahli,AC Milan,3,1,V,Gazon sintetic,Ploaie,23,32664
+M0275,2020-21,2021-02-16,Cupa Nationala,Paris Saint-Germain,Sevilla,1,4,I,Gazon natural,Soare,9,74674
+M0276,2020-21,2021-02-20,Premier League,Sevilla,Manchester City,2,1,V,Gazon natural,Soare,33,46321
+M0277,2020-21,2020-10-02,La Liga,AFC Bournemouth,Inter Miami,2,1,V,Gazon hibrid,Soare,16,55510
+M0278,2020-21,2020-08-30,UEFA Europa League,Juventus,Nacional,2,1,V,Gazon natural,Caldura,32,52890
+M0279,2020-21,2021-01-08,La Liga,Aston Villa,Manchester United,3,3,E,Gazon sintetic,Vant puternic,18,79537
+M0280,2020-21,2020-09-04,Ligue 1,Manchester United,AC Milan,1,1,E,Gazon natural,Soare,23,48246
+M0281,2020-21,2020-08-09,UEFA Europa League,Borussia Dortmund,Al Ittihad,2,2,E,Gazon hibrid,Ploaie,22,64095
+M0282,2020-21,2020-11-03,Bundesliga,Retired,Besiktas,0,3,I,Gazon natural,Vant puternic,12,61963
+M0283,2020-21,2020-09-06,Premier League,AS Roma,Lille,2,2,E,Gazon natural,Soare,11,45302
+M0284,2020-21,2021-05-20,UEFA Europa League,Manchester United,Atletico Madrid,1,2,I,Gazon sintetic,Caldura,31,58213
+M0285,2020-21,2020-11-19,Cupa Nationala,FC Barcelona,Retired,0,1,I,Gazon natural,Soare,13,22282
+M0286,2020-21,2020-08-15,Cupa Nationala,Brentford,Aston Villa,2,1,V,Gazon hibrid,Caldura,28,51191
+M0287,2020-21,2021-05-20,Ligue 1,Real Madrid,Atletico Madrid,4,2,V,Gazon natural,Soare,7,87570
+M0288,2020-21,2021-01-06,UEFA Champions League,Aston Villa,Al Hilal,1,4,I,Gazon natural,Ploaie,9,23970
+M0289,2020-21,2020-10-01,La Liga,FC Barcelona,Juventus,2,1,V,Gazon sintetic,Frig,26,40689
+M0290,2020-21,2020-12-24,La Liga,Manchester City,Al Nassr,2,2,E,Gazon natural,Frig,31,56857
+M0291,2020-21,2021-05-06,UEFA Europa League,LA Galaxy,Inter Miami,2,1,V,Gazon sintetic,Caldura,30,82736
+M0292,2020-21,2020-09-15,UEFA Champions League,Brentford,LA Galaxy,1,1,E,Gazon sintetic,Soare,18,48335
+M0293,2020-21,2021-02-25,Serie A,FC Barcelona,Bayer Leverkusen,1,1,E,Gazon sintetic,Ploaie,4,82183
+M0294,2020-21,2021-05-17,Cupa Nationala,Aston Villa,Al Ittihad,1,0,V,Gazon sintetic,Soare,9,88229
+M0295,2020-21,2021-05-19,Serie A,Besiktas,Bayern München,2,1,V,Gazon natural,Vant puternic,31,6042
+M0296,2020-21,2021-01-27,Cupa Nationala,Juventus,Aston Villa,0,2,I,Gazon sintetic,Ploaie,29,44283
+M0297,2020-21,2021-01-08,UEFA Champions League,Real Madrid,Galatasaray,2,4,I,Gazon hibrid,Frig,24,41922
+M0298,2020-21,2020-12-05,Ligue 1,Nacional,Brentford,1,1,E,Gazon sintetic,Ploaie,21,38737
+M0299,2020-21,2020-10-02,Serie A,Manchester United,Inter Miami,1,4,I,Gazon hibrid,Ploaie,18,41148
+M0300,2020-21,2020-11-24,UEFA Europa League,Brentford,Manchester City,2,1,V,Gazon sintetic,Soare,35,78578
+M0301,2020-21,2020-11-23,UEFA Europa League,AS Roma,Al Ahli,0,1,I,Gazon natural,Caldura,32,33642
+M0302,2020-21,2020-09-21,La Liga,Rayo Vallecano,Al Ittihad,1,0,V,Gazon hibrid,Frig,10,13022
+M0303,2020-21,2021-04-03,Ligue 1,Juventus,Tottenham,3,1,V,Gazon hibrid,Vant puternic,14,42626
+M0304,2020-21,2021-01-20,Bundesliga,Nacional,Paris Saint-Germain,2,2,E,Gazon natural,Ploaie,2,10624
+M0305,2020-21,2021-05-18,Premier League,LA Galaxy,Al Ittihad,1,1,E,Gazon natural,Caldura,16,79261
+M0306,2020-21,2020-10-12,Premier League,Sevilla,Bayer Leverkusen,4,3,V,Gazon natural,Soare,15,65485
+M0307,2020-21,2021-01-30,Serie A,Al Hilal,Nacional,2,2,E,Gazon sintetic,Caldura,23,87313
+M0308,2020-21,2021-05-12,Premier League,Al Nassr,Lille,5,5,E,Gazon hibrid,Caldura,15,14015
+M0309,2020-21,2021-05-10,UEFA Champions League,Chelsea,Aston Villa,1,1,E,Gazon sintetic,Frig,16,16094
+M0310,2020-21,2021-05-05,Serie A,Manchester United,Real Madrid,2,0,V,Gazon sintetic,Ploaie,14,58398
+M0311,2020-21,2020-08-18,Cupa Nationala,AS Roma,Bayern München,4,0,V,Gazon sintetic,Ploaie,18,58290
+M0312,2020-21,2020-08-10,UEFA Europa League,Atletico Madrid,Inter Milan,1,2,I,Gazon hibrid,Frig,3,9282
+M0313,2020-21,2021-05-19,La Liga,Inter Miami,Al Ahli,4,1,V,Gazon natural,Soare,33,62429
+M0314,2020-21,2021-03-27,Ligue 1,Manchester City,Manchester United,1,6,I,Gazon natural,Vant puternic,5,25337
+M0315,2020-21,2020-08-25,Ligue 1,AFC Bournemouth,Aston Villa,1,3,I,Gazon sintetic,Frig,23,28746
+M0316,2020-21,2020-10-21,Bundesliga,Brentford,Al Hilal,1,0,V,Gazon hibrid,Ploaie,2,22864
+M0317,2020-21,2021-01-17,Serie A,Bayer Leverkusen,Al Ahli,1,6,I,Gazon natural,Soare,16,7879
+M0318,2020-21,2020-12-08,Premier League,AFC Bournemouth,AC Milan,1,1,E,Gazon hibrid,Frig,31,52867
+M0319,2020-21,2021-03-07,UEFA Champions League,Lille,Liverpool,0,1,I,Gazon sintetic,Ploaie,5,27748
+M0320,2020-21,2020-11-16,Bundesliga,Al Ittihad,Aston Villa,0,4,I,Gazon natural,Caldura,18,68915
+M0321,2020-21,2020-08-15,Bundesliga,AS Roma,Chelsea,1,2,I,Gazon natural,Ploaie,20,65090
+M0322,2020-21,2020-09-16,Bundesliga,Manchester United,Bayer Leverkusen,2,0,V,Gazon hibrid,Ploaie,20,11831
+M0323,2020-21,2021-03-13,Ligue 1,Paris Saint-Germain,Sevilla,3,2,V,Gazon hibrid,Caldura,31,18315
+M0324,2020-21,2021-01-12,Bundesliga,Al Nassr,West Ham,3,1,V,Gazon sintetic,Soare,26,52154
+M0325,2020-21,2020-10-18,Bundesliga,AFC Bournemouth,Liverpool,3,1,V,Gazon sintetic,Caldura,6,28577
+M0326,2020-21,2020-08-21,UEFA Champions League,Al Ahli,Al Hilal,3,2,V,Gazon sintetic,Frig,20,38386
+M0327,2020-21,2020-12-05,Cupa Nationala,West Ham,Al Ahli,2,2,E,Gazon hibrid,Soare,13,18071
+M0328,2020-21,2020-09-14,Cupa Nationala,Bayern München,Galatasaray,6,0,V,Gazon hibrid,Soare,17,50436
+M0329,2020-21,2020-09-07,Cupa Nationala,Nacional,Sevilla,2,0,V,Gazon sintetic,Soare,16,83415
+M0330,2020-21,2020-09-23,Ligue 1,Al Ahli,Paris Saint-Germain,2,2,E,Gazon hibrid,Vant puternic,13,83404
+M0331,2020-21,2021-04-10,Cupa Nationala,Inter Miami,Tottenham,0,0,E,Gazon sintetic,Vant puternic,17,33876
+M0332,2020-21,2020-10-23,Bundesliga,Liverpool,Juventus,0,3,I,Gazon natural,Soare,26,28088
+M0333,2020-21,2020-12-12,Serie A,Aston Villa,Inter Miami,2,2,E,Gazon natural,Soare,14,31523
+M0334,2020-21,2021-01-02,La Liga,Manchester City,LA Galaxy,1,4,I,Gazon sintetic,Caldura,35,70417
+M0335,2020-21,2020-08-07,Bundesliga,West Ham,Al Hilal,1,0,V,Gazon natural,Vant puternic,26,71517
+M0336,2020-21,2021-01-08,Cupa Nationala,Besiktas,Manchester United,1,2,I,Gazon sintetic,Caldura,13,57069
+M0337,2020-21,2020-10-21,UEFA Champions League,Borussia Dortmund,Atletico Madrid,5,2,V,Gazon sintetic,Ploaie,19,29246
+M0338,2020-21,2021-03-31,UEFA Champions League,Brentford,West Ham,1,0,V,Gazon hibrid,Ploaie,3,59835
+M0339,2020-21,2021-01-26,Bundesliga,Galatasaray,Nacional,2,0,V,Gazon natural,Vant puternic,12,24779
+M0340,2020-21,2020-09-06,UEFA Europa League,Manchester City,Tottenham,1,3,I,Gazon natural,Soare,11,82517
+M0341,2020-21,2021-05-25,Cupa Nationala,Inter Miami,Al Hilal,1,1,E,Gazon hibrid,Ploaie,28,27591
+M0342,2020-21,2020-08-22,Ligue 1,Manchester City,Juventus,1,0,V,Gazon hibrid,Caldura,3,89712
+M0343,2020-21,2020-11-08,La Liga,Al Hilal,Inter Milan,1,0,V,Gazon natural,Vant puternic,16,25582
+M0344,2020-21,2020-10-30,Bundesliga,Manchester United,Inter Milan,4,0,V,Gazon natural,Vant puternic,20,72025
+M0345,2020-21,2021-05-03,UEFA Europa League,Tottenham,Aston Villa,1,1,E,Gazon hibrid,Frig,27,44053
+M0346,2020-21,2021-05-26,La Liga,Lille,Tottenham,0,1,I,Gazon sintetic,Vant puternic,21,22506
+M0347,2020-21,2021-02-15,Cupa Nationala,Lille,Sevilla,1,4,I,Gazon sintetic,Caldura,32,37053
+M0348,2020-21,2021-02-15,UEFA Europa League,Inter Miami,Al Hilal,2,1,V,Gazon hibrid,Vant puternic,9,83091
+M0349,2020-21,2020-11-20,Bundesliga,Borussia Dortmund,Bayern München,1,0,V,Gazon hibrid,Frig,11,28467
+M0350,2020-21,2020-11-02,La Liga,Manchester United,Atletico Madrid,0,2,I,Gazon sintetic,Ploaie,18,74716
+M0351,2020-21,2020-12-23,Premier League,Atletico Madrid,Tottenham,3,4,I,Gazon natural,Frig,30,25109
+M0352,2020-21,2021-05-22,Bundesliga,Nacional,Al Ittihad,2,0,V,Gazon hibrid,Ploaie,9,77030
+M0353,2020-21,2020-11-21,La Liga,Bayer Leverkusen,Manchester United,4,1,V,Gazon hibrid,Ploaie,2,13177
+M0354,2020-21,2020-11-09,Serie A,Lille,Paris Saint-Germain,3,2,V,Gazon hibrid,Frig,14,17630
+M0355,2020-21,2020-08-24,Serie A,Lille,Al Hilal,1,0,V,Gazon hibrid,Ploaie,2,51567
+M0356,2020-21,2020-10-27,La Liga,AS Roma,Borussia Dortmund,2,2,E,Gazon natural,Frig,27,74990
+M0357,2020-21,2021-03-23,Serie A,Borussia Dortmund,AS Roma,3,4,I,Gazon natural,Caldura,15,70745
+M0358,2020-21,2020-11-18,Premier League,Aston Villa,Atletico Madrid,3,1,V,Gazon hibrid,Vant puternic,9,87720
+M0359,2020-21,2021-02-20,Ligue 1,Arsenal,Juventus,2,1,V,Gazon natural,Soare,6,29886
+M0360,2020-21,2020-10-20,Bundesliga,Al Ahli,Rayo Vallecano,1,1,E,Gazon natural,Caldura,34,34334
+M0361,2021-22,2022-03-25,Premier League,Besiktas,Juventus,3,2,V,Gazon hibrid,Frig,22,7593
+M0362,2021-22,2022-04-10,UEFA Europa League,Arsenal,Retired,1,2,I,Gazon hibrid,Vant puternic,12,5822
+M0363,2021-22,2021-12-15,Bundesliga,Rayo Vallecano,Inter Milan,1,0,V,Gazon sintetic,Caldura,30,58706
+M0364,2021-22,2022-04-15,UEFA Europa League,Tottenham,Al Nassr,2,1,V,Gazon hibrid,Caldura,17,75912
+M0365,2021-22,2022-04-12,Bundesliga,LA Galaxy,Paris Saint-Germain,1,2,I,Gazon hibrid,Frig,26,53318
+M0366,2021-22,2021-10-27,Premier League,Arsenal,Aston Villa,2,1,V,Gazon natural,Vant puternic,30,31757
+M0367,2021-22,2022-05-17,UEFA Champions League,LA Galaxy,Rayo Vallecano,4,0,V,Gazon natural,Caldura,19,62036
+M0368,2021-22,2021-12-31,La Liga,Lille,Liverpool,4,2,V,Gazon sintetic,Vant puternic,32,23706
+M0369,2021-22,2022-05-30,Cupa Nationala,Nacional,Brentford,6,1,V,Gazon hibrid,Caldura,27,68495
+M0370,2021-22,2022-05-11,Cupa Nationala,Bayer Leverkusen,Lille,3,1,V,Gazon sintetic,Caldura,24,85977
+M0371,2021-22,2021-12-20,Ligue 1,Manchester City,Nacional,0,2,I,Gazon natural,Frig,31,36789
+M0372,2021-22,2022-04-23,UEFA Europa League,Manchester City,Al Nassr,5,1,V,Gazon hibrid,Caldura,8,54914
+M0373,2021-22,2021-12-14,Bundesliga,Manchester City,Bayer Leverkusen,1,0,V,Gazon hibrid,Caldura,27,6299
+M0374,2021-22,2021-09-30,Bundesliga,Inter Miami,AS Roma,3,5,I,Gazon sintetic,Ploaie,31,10122
+M0375,2021-22,2021-12-27,La Liga,Arsenal,Nacional,2,4,I,Gazon hibrid,Ploaie,19,75076
+M0376,2021-22,2022-04-24,Serie A,Chelsea,Paris Saint-Germain,0,1,I,Gazon hibrid,Soare,23,68237
+M0377,2021-22,2022-03-31,Premier League,LA Galaxy,Real Madrid,1,3,I,Gazon hibrid,Vant puternic,28,36006
+M0378,2021-22,2022-03-17,La Liga,Lille,AS Roma,3,4,I,Gazon natural,Ploaie,4,50208
+M0379,2021-22,2021-09-22,UEFA Champions League,Aston Villa,Nacional,2,3,I,Gazon hibrid,Ploaie,3,51849
+M0380,2021-22,2021-09-19,Serie A,Aston Villa,Manchester City,2,3,I,Gazon sintetic,Caldura,20,61622
+M0381,2021-22,2022-04-15,La Liga,Brentford,Sevilla,3,4,I,Gazon hibrid,Soare,35,66879
+M0382,2021-22,2021-08-18,Serie A,AS Roma,Borussia Dortmund,0,2,I,Gazon sintetic,Vant puternic,9,11239
+M0383,2021-22,2021-12-30,Bundesliga,AFC Bournemouth,Manchester City,1,5,I,Gazon hibrid,Caldura,4,56563
+M0384,2021-22,2022-01-23,UEFA Europa League,Al Nassr,Al Ittihad,5,2,V,Gazon sintetic,Ploaie,21,10061
+M0385,2021-22,2021-10-04,UEFA Europa League,Aston Villa,Al Ahli,0,4,I,Gazon sintetic,Ploaie,22,60767
+M0386,2021-22,2021-11-01,Serie A,Juventus,AC Milan,0,0,E,Gazon natural,Vant puternic,30,8853
+M0387,2021-22,2022-01-05,Ligue 1,Chelsea,West Ham,2,1,V,Gazon hibrid,Vant puternic,25,83287
+M0388,2021-22,2022-01-15,Serie A,AFC Bournemouth,Brentford,1,3,I,Gazon hibrid,Ploaie,22,5800
+M0389,2021-22,2021-10-10,Serie A,Retired,Galatasaray,1,2,I,Gazon natural,Ploaie,5,5435
+M0390,2021-22,2021-10-05,Premier League,Real Madrid,Nacional,2,4,I,Gazon hibrid,Frig,17,88898
+M0391,2021-22,2022-04-11,Serie A,Al Ahli,Al Nassr,1,3,I,Gazon hibrid,Vant puternic,22,47104
+M0392,2021-22,2021-11-01,UEFA Champions League,Inter Miami,AS Roma,2,1,V,Gazon natural,Vant puternic,8,58225
+M0393,2021-22,2022-01-15,Cupa Nationala,Tottenham,Rayo Vallecano,2,2,E,Gazon natural,Soare,23,11845
+M0394,2021-22,2022-02-02,Cupa Nationala,Rayo Vallecano,Sevilla,1,0,V,Gazon sintetic,Vant puternic,19,66815
+M0395,2021-22,2021-11-18,Cupa Nationala,AFC Bournemouth,Aston Villa,1,0,V,Gazon hibrid,Vant puternic,9,65456
+M0396,2021-22,2022-05-25,Cupa Nationala,Tottenham,Paris Saint-Germain,1,3,I,Gazon natural,Vant puternic,20,84040
+M0397,2021-22,2022-01-18,La Liga,Atletico Madrid,FC Barcelona,1,2,I,Gazon natural,Ploaie,9,74448
+M0398,2021-22,2021-09-12,Serie A,Atletico Madrid,Borussia Dortmund,4,0,V,Gazon natural,Caldura,13,60983
+M0399,2021-22,2022-03-31,Premier League,FC Barcelona,Rayo Vallecano,2,3,I,Gazon sintetic,Ploaie,32,76212
+M0400,2021-22,2021-08-05,Bundesliga,Al Nassr,AC Milan,1,2,I,Gazon sintetic,Soare,22,28794
+M0401,2021-22,2022-01-04,Serie A,Tottenham,Liverpool,1,3,I,Gazon sintetic,Ploaie,32,72090
+M0402,2021-22,2022-04-20,UEFA Europa League,Sevilla,Tottenham,2,0,V,Gazon hibrid,Frig,14,43343
+M0403,2021-22,2022-04-12,UEFA Europa League,Al Ittihad,Arsenal,0,1,I,Gazon natural,Caldura,27,82181
+M0404,2021-22,2021-11-23,Ligue 1,Manchester United,Inter Miami,1,1,E,Gazon sintetic,Frig,18,49755
+M0405,2021-22,2021-08-19,UEFA Champions League,Sevilla,Bayer Leverkusen,0,2,I,Gazon sintetic,Ploaie,3,74637
+M0406,2021-22,2021-10-23,UEFA Europa League,AFC Bournemouth,Besiktas,0,0,E,Gazon hibrid,Caldura,20,42681
+M0407,2021-22,2022-02-16,Ligue 1,AS Roma,LA Galaxy,1,4,I,Gazon hibrid,Caldura,31,81393
+M0408,2021-22,2021-10-27,Cupa Nationala,Paris Saint-Germain,Liverpool,2,3,I,Gazon sintetic,Caldura,24,73144
+M0409,2021-22,2021-08-27,Cupa Nationala,Bayern München,Tottenham,1,0,V,Gazon hibrid,Caldura,6,23043
+M0410,2021-22,2022-03-20,UEFA Champions League,LA Galaxy,AC Milan,4,1,V,Gazon hibrid,Caldura,21,39431
+M0411,2021-22,2021-12-15,Cupa Nationala,Al Hilal,Inter Milan,3,1,V,Gazon natural,Caldura,27,73599
+M0412,2021-22,2021-11-02,Serie A,Inter Milan,Galatasaray,3,2,V,Gazon hibrid,Caldura,23,61939
+M0413,2021-22,2022-05-23,Cupa Nationala,Tottenham,Galatasaray,1,5,I,Gazon hibrid,Soare,19,49113
+M0414,2021-22,2022-05-21,Premier League,Lille,FC Barcelona,2,0,V,Gazon sintetic,Frig,5,53549
+M0415,2021-22,2022-05-14,Serie A,Inter Miami,Al Ahli,4,4,E,Gazon natural,Vant puternic,7,87313
+M0416,2021-22,2022-05-03,Cupa Nationala,Inter Miami,Rayo Vallecano,3,3,E,Gazon hibrid,Soare,22,30579
+M0417,2021-22,2021-08-11,Serie A,Bayern München,Nacional,3,0,V,Gazon hibrid,Soare,2,37587
+M0418,2021-22,2022-01-05,UEFA Champions League,Bayern München,Retired,0,3,I,Gazon natural,Ploaie,29,10539
+M0419,2021-22,2022-05-01,Premier League,Sevilla,Al Hilal,3,3,E,Gazon natural,Vant puternic,22,12994
+M0420,2021-22,2021-11-17,Premier League,Bayern München,Inter Miami,3,1,V,Gazon sintetic,Caldura,33,31953
+M0421,2021-22,2021-10-11,UEFA Champions League,Aston Villa,Nacional,4,0,V,Gazon hibrid,Caldura,27,79494
+M0422,2021-22,2022-01-28,La Liga,Real Madrid,Atletico Madrid,1,2,I,Gazon hibrid,Vant puternic,22,61387
+M0423,2021-22,2021-12-28,UEFA Champions League,Galatasaray,Aston Villa,2,1,V,Gazon sintetic,Frig,17,81648
+M0424,2021-22,2022-01-30,Premier League,Retired,Juventus,1,3,I,Gazon sintetic,Vant puternic,17,56496
+M0425,2021-22,2022-04-18,Bundesliga,FC Barcelona,Al Ahli,4,1,V,Gazon sintetic,Soare,12,76395
+M0426,2021-22,2022-02-26,Ligue 1,Nacional,Aston Villa,0,4,I,Gazon natural,Caldura,7,54507
+M0427,2021-22,2021-09-05,Premier League,Chelsea,Al Ittihad,3,2,V,Gazon natural,Soare,31,47379
+M0428,2021-22,2022-05-02,Ligue 1,Atletico Madrid,Besiktas,4,2,V,Gazon sintetic,Vant puternic,4,53929
+M0429,2021-22,2021-11-05,Bundesliga,Tottenham,FC Barcelona,2,2,E,Gazon sintetic,Ploaie,2,39610
+M0430,2021-22,2022-03-03,Premier League,Al Ahli,West Ham,1,0,V,Gazon sintetic,Vant puternic,19,64413
+M0431,2021-22,2022-01-10,UEFA Europa League,Tottenham,Real Madrid,3,4,I,Gazon hibrid,Soare,28,69919
+M0432,2021-22,2021-08-02,Ligue 1,Arsenal,Chelsea,2,0,V,Gazon hibrid,Caldura,31,40339
+M0433,2021-22,2021-09-27,UEFA Champions League,Inter Miami,Paris Saint-Germain,4,1,V,Gazon hibrid,Frig,10,69351
+M0434,2021-22,2021-12-15,UEFA Europa League,Tottenham,Al Nassr,4,0,V,Gazon hibrid,Caldura,9,18848
+M0435,2021-22,2021-08-18,Premier League,Aston Villa,Al Ittihad,1,4,I,Gazon hibrid,Frig,15,76876
+M0436,2021-22,2022-01-31,Serie A,Al Nassr,Brentford,5,1,V,Gazon natural,Frig,20,67245
+M0437,2021-22,2021-12-07,La Liga,Brentford,Lille,0,2,I,Gazon hibrid,Soare,24,30297
+M0438,2021-22,2021-08-12,Bundesliga,West Ham,Nacional,1,0,V,Gazon sintetic,Vant puternic,12,10179
+M0439,2021-22,2021-10-27,Premier League,Chelsea,Manchester United,4,1,V,Gazon hibrid,Soare,24,64009
+M0440,2021-22,2021-08-04,La Liga,Liverpool,Bayern München,1,1,E,Gazon natural,Frig,19,18068
+M0441,2021-22,2021-12-17,Premier League,Atletico Madrid,AS Roma,1,3,I,Gazon natural,Caldura,32,85756
+M0442,2021-22,2021-10-13,Cupa Nationala,LA Galaxy,Inter Milan,0,1,I,Gazon natural,Caldura,32,24794
+M0443,2021-22,2022-05-22,UEFA Champions League,Aston Villa,Chelsea,1,0,V,Gazon natural,Frig,21,23894
+M0444,2021-22,2021-08-08,Serie A,Juventus,LA Galaxy,1,4,I,Gazon natural,Frig,8,19140
+M0445,2021-22,2021-11-07,Premier League,Sevilla,FC Barcelona,1,2,I,Gazon hibrid,Frig,15,11587
+M0446,2021-22,2021-10-16,Bundesliga,Al Nassr,Lille,2,1,V,Gazon natural,Ploaie,4,9167
+M0447,2021-22,2022-02-17,Bundesliga,Al Hilal,Real Madrid,4,1,V,Gazon natural,Caldura,25,30767
+M0448,2021-22,2021-08-06,UEFA Champions League,Nacional,Bayer Leverkusen,1,1,E,Gazon natural,Soare,8,69871
+M0449,2021-22,2022-01-18,La Liga,Real Madrid,Bayern München,5,2,V,Gazon natural,Frig,15,85653
+M0450,2021-22,2021-11-06,Cupa Nationala,Liverpool,Galatasaray,3,0,V,Gazon natural,Ploaie,7,19307
+M0451,2021-22,2022-05-17,Premier League,Atletico Madrid,Arsenal,0,2,I,Gazon hibrid,Frig,33,23682
+M0452,2021-22,2021-08-13,Ligue 1,Juventus,Tottenham,3,1,V,Gazon hibrid,Frig,9,70008
+M0453,2021-22,2022-05-08,Cupa Nationala,Tottenham,Juventus,3,5,I,Gazon natural,Frig,18,45159
+M0454,2021-22,2021-08-28,Serie A,Real Madrid,Borussia Dortmund,6,0,V,Gazon sintetic,Vant puternic,10,29073
+M0455,2021-22,2021-09-17,UEFA Champions League,Paris Saint-Germain,Al Ahli,2,0,V,Gazon natural,Ploaie,19,15784
+M0456,2021-22,2022-05-26,Cupa Nationala,Al Ahli,Bayer Leverkusen,1,2,I,Gazon sintetic,Ploaie,26,85874
+M0457,2021-22,2021-11-02,UEFA Champions League,Bayer Leverkusen,AFC Bournemouth,1,2,I,Gazon natural,Ploaie,10,66646
+M0458,2021-22,2022-03-27,La Liga,Nacional,Galatasaray,2,1,V,Gazon hibrid,Ploaie,19,50212
+M0459,2021-22,2021-09-27,Premier League,Besiktas,Paris Saint-Germain,1,0,V,Gazon hibrid,Soare,22,75388
+M0460,2021-22,2022-03-09,Ligue 1,Galatasaray,Juventus,2,1,V,Gazon hibrid,Caldura,28,38462
+M0461,2021-22,2022-04-21,Cupa Nationala,Al Nassr,Borussia Dortmund,2,0,V,Gazon sintetic,Soare,2,70562
+M0462,2021-22,2022-01-07,Serie A,Rayo Vallecano,Al Ittihad,2,0,V,Gazon sintetic,Caldura,7,78997
+M0463,2021-22,2022-04-09,Bundesliga,Tottenham,FC Barcelona,1,3,I,Gazon natural,Frig,21,10716
+M0464,2021-22,2022-05-20,Serie A,Sevilla,Nacional,3,3,E,Gazon sintetic,Caldura,10,30871
+M0465,2021-22,2021-12-21,Ligue 1,Inter Miami,AFC Bournemouth,2,2,E,Gazon sintetic,Soare,34,25672
+M0466,2021-22,2022-05-21,Ligue 1,Tottenham,Real Madrid,5,1,V,Gazon sintetic,Ploaie,11,6275
+M0467,2021-22,2021-10-25,Bundesliga,AS Roma,Manchester United,1,2,I,Gazon natural,Vant puternic,23,5195
+M0468,2021-22,2021-08-02,UEFA Europa League,Atletico Madrid,AFC Bournemouth,0,0,E,Gazon natural,Vant puternic,27,64432
+M0469,2021-22,2021-08-03,Premier League,Real Madrid,Tottenham,0,2,I,Gazon natural,Vant puternic,9,58240
+M0470,2021-22,2022-05-24,UEFA Europa League,Lille,FC Barcelona,5,3,V,Gazon hibrid,Ploaie,17,23201
+M0471,2021-22,2022-03-22,Cupa Nationala,Retired,AC Milan,3,2,V,Gazon hibrid,Caldura,4,55882
+M0472,2021-22,2022-01-01,Premier League,Lille,Besiktas,2,3,I,Gazon hibrid,Frig,32,38818
+M0473,2021-22,2021-08-21,Ligue 1,Aston Villa,Real Madrid,0,4,I,Gazon hibrid,Ploaie,17,61958
+M0474,2021-22,2021-12-04,Premier League,Tottenham,Inter Milan,5,0,V,Gazon hibrid,Soare,22,17119
+M0475,2021-22,2022-01-16,Ligue 1,Paris Saint-Germain,Chelsea,2,3,I,Gazon natural,Soare,14,88351
+M0476,2021-22,2021-09-05,Serie A,Chelsea,Lille,1,1,E,Gazon sintetic,Frig,28,8928
+M0477,2021-22,2022-02-09,Ligue 1,Brentford,Inter Miami,5,2,V,Gazon sintetic,Caldura,19,58008
+M0478,2021-22,2021-10-15,Bundesliga,Borussia Dortmund,Liverpool,3,0,V,Gazon sintetic,Soare,10,75657
+M0479,2021-22,2021-10-17,Cupa Nationala,Galatasaray,Rayo Vallecano,4,2,V,Gazon hibrid,Vant puternic,2,24567
+M0480,2021-22,2021-08-18,Premier League,Arsenal,Al Ahli,2,2,E,Gazon sintetic,Vant puternic,22,22818
+M0481,2021-22,2022-01-31,Ligue 1,Liverpool,AFC Bournemouth,2,0,V,Gazon natural,Ploaie,24,64563
+M0482,2021-22,2021-12-29,Bundesliga,Bayer Leverkusen,Lille,0,2,I,Gazon hibrid,Vant puternic,8,76952
+M0483,2021-22,2021-09-05,UEFA Champions League,Tottenham,Borussia Dortmund,2,3,I,Gazon sintetic,Caldura,3,42599
+M0484,2021-22,2021-08-17,Serie A,Arsenal,Tottenham,0,2,I,Gazon natural,Vant puternic,29,58529
+M0485,2021-22,2021-09-13,Bundesliga,Bayer Leverkusen,Manchester United,0,1,I,Gazon sintetic,Soare,3,16761
+M0486,2021-22,2021-10-05,UEFA Europa League,Juventus,Atletico Madrid,2,6,I,Gazon natural,Vant puternic,7,21396
+M0487,2021-22,2022-04-30,UEFA Europa League,Bayer Leverkusen,Al Ittihad,3,0,V,Gazon sintetic,Vant puternic,16,38888
+M0488,2021-22,2021-08-24,Bundesliga,LA Galaxy,Arsenal,6,1,V,Gazon natural,Frig,28,33673
+M0489,2021-22,2021-08-13,Serie A,LA Galaxy,Arsenal,0,0,E,Gazon natural,Vant puternic,33,87040
+M0490,2021-22,2022-04-09,UEFA Champions League,Atletico Madrid,Inter Miami,3,1,V,Gazon hibrid,Frig,7,69378
+M0491,2021-22,2021-10-23,Bundesliga,Nacional,AS Roma,5,3,V,Gazon sintetic,Ploaie,27,64383
+M0492,2021-22,2022-02-17,UEFA Europa League,Lille,Rayo Vallecano,3,2,V,Gazon sintetic,Frig,11,22042
+M0493,2021-22,2022-03-15,Cupa Nationala,Al Ittihad,Manchester United,4,1,V,Gazon hibrid,Vant puternic,20,67037
+M0494,2021-22,2021-10-21,UEFA Champions League,Liverpool,Galatasaray,2,2,E,Gazon natural,Soare,28,19267
+M0495,2021-22,2022-04-14,Bundesliga,West Ham,LA Galaxy,2,6,I,Gazon natural,Ploaie,22,40635
+M0496,2021-22,2021-08-28,UEFA Europa League,Atletico Madrid,Inter Miami,1,1,E,Gazon hibrid,Ploaie,9,24767
+M0497,2021-22,2022-03-10,UEFA Champions League,Galatasaray,Besiktas,3,2,V,Gazon natural,Vant puternic,18,80344
+M0498,2021-22,2022-02-21,Ligue 1,Juventus,Bayer Leverkusen,2,1,V,Gazon hibrid,Soare,9,18248
+M0499,2021-22,2022-05-07,Cupa Nationala,Retired,AC Milan,2,2,E,Gazon natural,Soare,29,35605
+M0500,2021-22,2022-01-20,Bundesliga,LA Galaxy,AFC Bournemouth,2,3,I,Gazon hibrid,Soare,35,72740
+M0501,2021-22,2022-05-02,Ligue 1,Al Ittihad,Borussia Dortmund,0,1,I,Gazon natural,Vant puternic,8,18206
+M0502,2021-22,2021-09-16,Ligue 1,FC Barcelona,AC Milan,1,3,I,Gazon natural,Vant puternic,7,29443
+M0503,2021-22,2021-09-30,UEFA Europa League,Real Madrid,Bayer Leverkusen,3,0,V,Gazon natural,Ploaie,33,23648
+M0504,2021-22,2022-02-14,Bundesliga,Inter Milan,Rayo Vallecano,0,0,E,Gazon natural,Ploaie,8,82945
+M0505,2021-22,2021-09-11,La Liga,Brentford,Sevilla,0,1,I,Gazon natural,Vant puternic,32,20306
+M0506,2021-22,2022-04-12,Cupa Nationala,Real Madrid,Inter Milan,3,2,V,Gazon hibrid,Caldura,28,10975
+M0507,2021-22,2021-10-19,La Liga,Inter Milan,Arsenal,3,4,I,Gazon hibrid,Caldura,18,17913
+M0508,2021-22,2022-04-26,La Liga,Manchester City,Al Nassr,1,1,E,Gazon hibrid,Soare,6,32005
+M0509,2021-22,2021-11-23,Premier League,Brentford,Al Hilal,1,0,V,Gazon natural,Frig,12,78152
+M0510,2021-22,2022-04-25,Cupa Nationala,Rayo Vallecano,Brentford,3,1,V,Gazon hibrid,Soare,16,66334
+M0511,2021-22,2021-09-24,Premier League,Tottenham,Borussia Dortmund,1,2,I,Gazon hibrid,Frig,11,22010
+M0512,2021-22,2021-12-07,Serie A,AC Milan,Arsenal,2,3,I,Gazon sintetic,Vant puternic,16,10284
+M0513,2021-22,2022-05-14,La Liga,Brentford,Nacional,4,4,E,Gazon natural,Vant puternic,2,76963
+M0514,2021-22,2022-03-27,La Liga,Paris Saint-Germain,Besiktas,4,2,V,Gazon natural,Vant puternic,20,30448
+M0515,2021-22,2022-02-19,Premier League,Bayern München,AFC Bournemouth,5,0,V,Gazon sintetic,Caldura,4,55390
+M0516,2021-22,2022-03-22,La Liga,Aston Villa,Besiktas,1,2,I,Gazon sintetic,Frig,24,13689
+M0517,2021-22,2021-12-04,UEFA Champions League,Borussia Dortmund,Tottenham,2,5,I,Gazon hibrid,Ploaie,7,47186
+M0518,2021-22,2022-02-25,UEFA Europa League,Sevilla,Bayern München,4,3,V,Gazon natural,Soare,32,6264
+M0519,2021-22,2022-02-03,Ligue 1,Atletico Madrid,AC Milan,0,4,I,Gazon natural,Vant puternic,15,19746
+M0520,2021-22,2021-12-26,Premier League,AFC Bournemouth,Bayern München,2,1,V,Gazon natural,Soare,2,44508
+M0521,2021-22,2021-09-08,Serie A,Inter Milan,Brentford,3,1,V,Gazon natural,Ploaie,8,53273
+M0522,2021-22,2022-04-01,UEFA Europa League,Manchester United,Arsenal,3,3,E,Gazon hibrid,Vant puternic,27,37121
+M0523,2021-22,2021-11-28,La Liga,AFC Bournemouth,Besiktas,1,0,V,Gazon sintetic,Soare,9,41193
+M0524,2021-22,2021-12-11,UEFA Europa League,Retired,Nacional,3,0,V,Gazon natural,Vant puternic,32,37346
+M0525,2021-22,2021-09-26,Cupa Nationala,Al Hilal,Inter Miami,0,3,I,Gazon sintetic,Vant puternic,8,22561
+M0526,2021-22,2022-05-16,UEFA Champions League,AFC Bournemouth,Aston Villa,2,0,V,Gazon sintetic,Ploaie,26,88819
+M0527,2021-22,2021-10-22,Bundesliga,FC Barcelona,Al Nassr,1,1,E,Gazon sintetic,Vant puternic,29,53471
+M0528,2021-22,2022-03-25,Premier League,Al Ittihad,Brentford,2,0,V,Gazon sintetic,Soare,3,65383
+M0529,2021-22,2022-04-14,Ligue 1,Atletico Madrid,Sevilla,2,1,V,Gazon hibrid,Frig,16,68065
+M0530,2021-22,2021-09-20,Serie A,Sevilla,AFC Bournemouth,2,1,V,Gazon hibrid,Soare,13,62973
+M0531,2021-22,2022-01-02,Cupa Nationala,Manchester City,Manchester United,2,1,V,Gazon hibrid,Ploaie,26,11528
+M0532,2021-22,2022-01-18,UEFA Europa League,AS Roma,AC Milan,1,3,I,Gazon natural,Frig,13,77745
+M0533,2021-22,2021-08-24,Bundesliga,Rayo Vallecano,LA Galaxy,1,1,E,Gazon natural,Frig,26,32115
+M0534,2021-22,2021-09-04,UEFA Champions League,Al Ahli,Retired,4,2,V,Gazon natural,Caldura,27,67375
+M0535,2021-22,2022-01-31,UEFA Europa League,Nacional,Bayern München,2,1,V,Gazon hibrid,Caldura,32,84610
+M0536,2021-22,2021-08-16,UEFA Europa League,Sevilla,Borussia Dortmund,3,2,V,Gazon hibrid,Ploaie,13,12541
+M0537,2021-22,2021-11-29,La Liga,Al Hilal,Aston Villa,1,1,E,Gazon hibrid,Caldura,11,67162
+M0538,2021-22,2021-09-12,Cupa Nationala,AC Milan,Borussia Dortmund,5,1,V,Gazon sintetic,Vant puternic,2,46192
+M0539,2021-22,2022-02-27,Cupa Nationala,AC Milan,Al Hilal,2,2,E,Gazon sintetic,Vant puternic,24,38382
+M0540,2021-22,2021-09-09,Serie A,AS Roma,Brentford,2,3,I,Gazon hibrid,Vant puternic,11,28714
+M0541,2022-23,2023-02-23,Serie A,Al Nassr,Atletico Madrid,3,0,V,Gazon natural,Soare,13,27995
+M0542,2022-23,2022-09-22,Cupa Nationala,Al Ahli,Retired,0,0,E,Gazon sintetic,Frig,29,84527
+M0543,2022-23,2022-09-24,Ligue 1,Tottenham,West Ham,1,0,V,Gazon natural,Caldura,25,19944
+M0544,2022-23,2023-05-10,La Liga,Manchester City,Al Ittihad,1,2,I,Gazon sintetic,Ploaie,8,60683
+M0545,2022-23,2023-05-27,La Liga,Lille,AFC Bournemouth,4,0,V,Gazon natural,Frig,2,17537
+M0546,2022-23,2023-02-20,La Liga,Al Ittihad,Juventus,1,3,I,Gazon sintetic,Caldura,3,14365
+M0547,2022-23,2022-08-10,Premier League,Brentford,Al Nassr,4,3,V,Gazon sintetic,Ploaie,30,10156
+M0548,2022-23,2022-08-17,Bundesliga,Al Hilal,Lille,1,0,V,Gazon sintetic,Frig,13,38266
+M0549,2022-23,2023-05-23,Cupa Nationala,Al Ittihad,Arsenal,1,0,V,Gazon natural,Caldura,19,63143
+M0550,2022-23,2023-05-12,La Liga,Borussia Dortmund,Real Madrid,0,1,I,Gazon hibrid,Frig,22,39093
+M0551,2022-23,2023-01-27,UEFA Champions League,Sevilla,Juventus,2,2,E,Gazon natural,Caldura,16,84260
+M0552,2022-23,2023-03-25,Cupa Nationala,AFC Bournemouth,Bayern München,3,6,I,Gazon natural,Caldura,7,25980
+M0553,2022-23,2022-11-22,UEFA Europa League,Tottenham,Arsenal,1,0,V,Gazon natural,Ploaie,29,60021
+M0554,2022-23,2023-01-17,Bundesliga,Brentford,Arsenal,3,1,V,Gazon hibrid,Vant puternic,24,31923
+M0555,2022-23,2023-05-28,La Liga,Retired,Chelsea,1,1,E,Gazon hibrid,Caldura,29,44498
+M0556,2022-23,2023-04-11,La Liga,Lille,Borussia Dortmund,6,3,V,Gazon natural,Soare,2,18537
+M0557,2022-23,2022-10-24,UEFA Champions League,AS Roma,FC Barcelona,1,0,V,Gazon sintetic,Ploaie,4,41633
+M0558,2022-23,2023-05-27,UEFA Champions League,Chelsea,FC Barcelona,1,4,I,Gazon natural,Ploaie,15,27716
+M0559,2022-23,2022-12-04,UEFA Champions League,Lille,Juventus,1,0,V,Gazon hibrid,Vant puternic,24,12782
+M0560,2022-23,2023-01-20,La Liga,Tottenham,Real Madrid,1,3,I,Gazon natural,Frig,34,77664
+M0561,2022-23,2022-11-08,Bundesliga,Manchester City,Atletico Madrid,3,1,V,Gazon sintetic,Ploaie,27,26392
+M0562,2022-23,2022-08-04,Serie A,Borussia Dortmund,Bayern München,3,0,V,Gazon natural,Ploaie,19,40418
+M0563,2022-23,2023-05-24,UEFA Europa League,Galatasaray,Juventus,0,3,I,Gazon sintetic,Caldura,10,12397
+M0564,2022-23,2022-12-03,Premier League,Tottenham,AS Roma,5,1,V,Gazon sintetic,Frig,21,82070
+M0565,2022-23,2022-10-21,Bundesliga,Paris Saint-Germain,Al Ittihad,0,0,E,Gazon hibrid,Vant puternic,7,79233
+M0566,2022-23,2023-01-23,Bundesliga,Atletico Madrid,Liverpool,2,3,I,Gazon natural,Frig,30,14963
+M0567,2022-23,2023-04-04,Bundesliga,AFC Bournemouth,Inter Milan,1,2,I,Gazon sintetic,Vant puternic,32,46746
+M0568,2022-23,2023-02-21,Bundesliga,Al Ahli,Rayo Vallecano,1,0,V,Gazon hibrid,Soare,29,20789
+M0569,2022-23,2022-08-14,Ligue 1,Brentford,AFC Bournemouth,0,2,I,Gazon sintetic,Ploaie,19,13006
+M0570,2022-23,2022-09-24,UEFA Champions League,AC Milan,AS Roma,0,2,I,Gazon sintetic,Soare,22,17332
+M0571,2022-23,2022-10-11,Ligue 1,Al Ittihad,Atletico Madrid,0,2,I,Gazon natural,Soare,35,62883
+M0572,2022-23,2022-10-11,Bundesliga,Retired,Liverpool,1,2,I,Gazon sintetic,Vant puternic,10,25096
+M0573,2022-23,2023-05-07,UEFA Champions League,Galatasaray,Rayo Vallecano,1,3,I,Gazon hibrid,Caldura,9,82424
+M0574,2022-23,2023-01-02,La Liga,Juventus,Lille,3,1,V,Gazon sintetic,Frig,26,80311
+M0575,2022-23,2022-11-29,UEFA Europa League,AC Milan,AFC Bournemouth,3,2,V,Gazon sintetic,Soare,24,85938
+M0576,2022-23,2023-01-22,Ligue 1,Sevilla,Juventus,2,2,E,Gazon sintetic,Vant puternic,5,73126
+M0577,2022-23,2023-01-31,Bundesliga,Al Hilal,Rayo Vallecano,3,2,V,Gazon sintetic,Frig,32,22691
+M0578,2022-23,2022-08-10,Cupa Nationala,Arsenal,Juventus,3,1,V,Gazon natural,Caldura,12,52502
+M0579,2022-23,2023-01-11,UEFA Europa League,LA Galaxy,Atletico Madrid,3,0,V,Gazon natural,Caldura,12,27624
+M0580,2022-23,2022-08-05,UEFA Champions League,Juventus,Paris Saint-Germain,3,2,V,Gazon hibrid,Frig,12,44305
+M0581,2022-23,2023-05-10,Ligue 1,Brentford,Juventus,1,2,I,Gazon natural,Soare,7,27220
+M0582,2022-23,2022-12-19,Bundesliga,AS Roma,Chelsea,0,2,I,Gazon hibrid,Soare,2,84362
+M0583,2022-23,2022-10-27,Bundesliga,Nacional,Arsenal,3,1,V,Gazon sintetic,Frig,2,39377
+M0584,2022-23,2023-05-25,Premier League,Al Hilal,Sevilla,1,0,V,Gazon sintetic,Vant puternic,4,7459
+M0585,2022-23,2022-08-26,Serie A,AFC Bournemouth,Manchester United,3,0,V,Gazon natural,Vant puternic,14,75614
+M0586,2022-23,2022-10-22,Premier League,Juventus,Bayern München,1,1,E,Gazon hibrid,Ploaie,26,5758
+M0587,2022-23,2022-08-11,Cupa Nationala,FC Barcelona,Borussia Dortmund,5,0,V,Gazon hibrid,Soare,22,57425
+M0588,2022-23,2022-09-26,La Liga,Al Ittihad,Nacional,4,2,V,Gazon sintetic,Frig,10,56238
+M0589,2022-23,2023-04-27,La Liga,Manchester City,Atletico Madrid,3,1,V,Gazon hibrid,Vant puternic,16,65690
+M0590,2022-23,2022-12-17,UEFA Europa League,Juventus,Atletico Madrid,1,1,E,Gazon hibrid,Ploaie,16,19591
+M0591,2022-23,2023-02-27,Ligue 1,Atletico Madrid,AC Milan,0,2,I,Gazon sintetic,Soare,29,44278
+M0592,2022-23,2022-09-20,Ligue 1,Bayern München,Atletico Madrid,1,1,E,Gazon natural,Ploaie,31,28419
+M0593,2022-23,2023-02-15,UEFA Europa League,Liverpool,Retired,2,1,V,Gazon natural,Frig,15,37900
+M0594,2022-23,2022-08-24,Premier League,Manchester City,Juventus,3,3,E,Gazon sintetic,Vant puternic,23,18118
+M0595,2022-23,2022-08-11,Cupa Nationala,West Ham,Brentford,6,3,V,Gazon hibrid,Caldura,14,27601
+M0596,2022-23,2022-08-22,Serie A,LA Galaxy,Juventus,4,1,V,Gazon sintetic,Vant puternic,19,40038
+M0597,2022-23,2022-10-26,UEFA Champions League,Manchester United,West Ham,1,1,E,Gazon natural,Caldura,26,80051
+M0598,2022-23,2023-05-19,UEFA Champions League,Chelsea,Liverpool,3,0,V,Gazon sintetic,Caldura,25,34542
+M0599,2022-23,2023-03-03,Cupa Nationala,Aston Villa,Bayern München,2,0,V,Gazon natural,Ploaie,35,61868
+M0600,2022-23,2022-08-07,UEFA Champions League,Al Ittihad,Manchester United,6,0,V,Gazon natural,Caldura,23,87027
+M0601,2022-23,2022-12-16,Ligue 1,Inter Miami,Retired,1,1,E,Gazon natural,Vant puternic,3,9260
+M0602,2022-23,2023-05-01,La Liga,AFC Bournemouth,Retired,0,2,I,Gazon sintetic,Frig,28,17302
+M0603,2022-23,2023-03-22,Ligue 1,Manchester City,AFC Bournemouth,2,4,I,Gazon sintetic,Ploaie,31,11714
+M0604,2022-23,2022-09-12,UEFA Champions League,Arsenal,Aston Villa,2,1,V,Gazon sintetic,Vant puternic,28,66257
+M0605,2022-23,2022-11-28,Premier League,Bayern München,Arsenal,1,4,I,Gazon sintetic,Vant puternic,7,73087
+M0606,2022-23,2022-08-31,Bundesliga,Paris Saint-Germain,FC Barcelona,0,1,I,Gazon hibrid,Soare,2,72767
+M0607,2022-23,2022-08-21,UEFA Europa League,LA Galaxy,Besiktas,2,2,E,Gazon natural,Vant puternic,17,52623
+M0608,2022-23,2022-08-18,Serie A,Nacional,Brentford,1,0,V,Gazon sintetic,Vant puternic,29,82612
+M0609,2022-23,2022-11-17,Cupa Nationala,West Ham,Real Madrid,0,1,I,Gazon hibrid,Ploaie,3,58025
+M0610,2022-23,2023-05-08,Bundesliga,Al Nassr,Tottenham,5,0,V,Gazon sintetic,Frig,32,80318
+M0611,2022-23,2022-08-09,UEFA Europa League,Al Ittihad,Galatasaray,3,1,V,Gazon sintetic,Ploaie,34,48186
+M0612,2022-23,2023-03-30,Serie A,FC Barcelona,Arsenal,3,2,V,Gazon sintetic,Ploaie,34,85991
+M0613,2022-23,2023-02-21,UEFA Champions League,West Ham,Al Nassr,0,3,I,Gazon natural,Vant puternic,10,23218
+M0614,2022-23,2022-08-31,UEFA Europa League,Tottenham,Al Nassr,1,3,I,Gazon hibrid,Soare,27,63036
+M0615,2022-23,2023-02-17,Premier League,Bayer Leverkusen,Borussia Dortmund,1,3,I,Gazon sintetic,Ploaie,2,67202
+M0616,2022-23,2023-04-18,Bundesliga,AC Milan,Juventus,3,0,V,Gazon sintetic,Soare,11,59877
+M0617,2022-23,2022-11-28,La Liga,Inter Miami,Atletico Madrid,2,1,V,Gazon hibrid,Frig,21,85051
+M0618,2022-23,2023-02-24,Serie A,Chelsea,AS Roma,2,0,V,Gazon hibrid,Caldura,17,16416
+M0619,2022-23,2023-01-02,La Liga,Real Madrid,Al Hilal,2,2,E,Gazon natural,Vant puternic,24,79131
+M0620,2022-23,2022-08-14,Premier League,Nacional,Liverpool,6,2,V,Gazon hibrid,Vant puternic,30,29884
+M0621,2022-23,2022-12-11,Ligue 1,Lille,Aston Villa,6,2,V,Gazon natural,Caldura,34,41429
+M0622,2022-23,2022-10-15,Premier League,Real Madrid,Sevilla,3,2,V,Gazon sintetic,Caldura,9,59301
+M0623,2022-23,2022-08-03,Ligue 1,Al Nassr,Rayo Vallecano,1,1,E,Gazon hibrid,Ploaie,9,50054
+M0624,2022-23,2022-09-22,Bundesliga,Rayo Vallecano,Sevilla,1,3,I,Gazon hibrid,Caldura,7,48066
+M0625,2022-23,2023-03-18,La Liga,Lille,Atletico Madrid,3,0,V,Gazon hibrid,Ploaie,28,87681
+M0626,2022-23,2023-03-17,La Liga,LA Galaxy,FC Barcelona,4,1,V,Gazon hibrid,Soare,31,25884
+M0627,2022-23,2023-04-28,Bundesliga,Arsenal,Al Ahli,1,4,I,Gazon hibrid,Vant puternic,21,74019
+M0628,2022-23,2022-08-10,UEFA Champions League,Inter Miami,Bayer Leverkusen,2,2,E,Gazon hibrid,Ploaie,31,87751
+M0629,2022-23,2022-09-08,Premier League,Al Ittihad,Galatasaray,1,0,V,Gazon hibrid,Caldura,26,19441
+M0630,2022-23,2023-02-24,La Liga,AS Roma,Retired,1,0,V,Gazon hibrid,Ploaie,3,36471
+M0631,2022-23,2022-08-30,UEFA Europa League,Tottenham,Al Nassr,2,3,I,Gazon natural,Vant puternic,19,40300
+M0632,2022-23,2023-02-12,Ligue 1,Atletico Madrid,Al Hilal,2,0,V,Gazon sintetic,Caldura,33,5769
+M0633,2022-23,2022-08-06,Bundesliga,Galatasaray,AC Milan,3,1,V,Gazon sintetic,Ploaie,25,33173
+M0634,2022-23,2023-05-27,Serie A,Nacional,Bayer Leverkusen,0,4,I,Gazon sintetic,Vant puternic,17,6173
+M0635,2022-23,2023-05-19,La Liga,Juventus,Manchester City,2,3,I,Gazon natural,Caldura,26,63832
+M0636,2022-23,2022-12-29,Ligue 1,Lille,Al Ahli,1,1,E,Gazon natural,Vant puternic,24,34138
+M0637,2022-23,2023-04-14,Cupa Nationala,Borussia Dortmund,Chelsea,3,2,V,Gazon sintetic,Vant puternic,3,36859
+M0638,2022-23,2023-04-19,Cupa Nationala,Arsenal,Al Ittihad,2,0,V,Gazon sintetic,Ploaie,35,53423
+M0639,2022-23,2023-02-27,Bundesliga,Al Ittihad,Nacional,1,0,V,Gazon natural,Frig,4,54959
+M0640,2022-23,2023-04-28,Bundesliga,Arsenal,Al Nassr,1,2,I,Gazon sintetic,Caldura,21,79310
+M0641,2022-23,2022-10-09,Bundesliga,Retired,Juventus,3,4,I,Gazon hibrid,Caldura,26,29185
+M0642,2022-23,2023-05-16,UEFA Europa League,AS Roma,Borussia Dortmund,2,0,V,Gazon sintetic,Soare,31,79605
+M0643,2022-23,2022-11-05,Bundesliga,Nacional,Juventus,4,1,V,Gazon hibrid,Caldura,17,33224
+M0644,2022-23,2023-02-21,Cupa Nationala,Inter Miami,Retired,2,1,V,Gazon sintetic,Caldura,13,53780
+M0645,2022-23,2023-01-02,Bundesliga,Borussia Dortmund,Lille,0,1,I,Gazon natural,Caldura,18,84692
+M0646,2022-23,2023-01-15,Serie A,Real Madrid,Inter Milan,1,2,I,Gazon hibrid,Soare,11,21522
+M0647,2022-23,2022-08-16,Ligue 1,Arsenal,Lille,0,0,E,Gazon natural,Frig,27,24240
+M0648,2022-23,2022-11-25,Premier League,Manchester United,Inter Miami,4,3,V,Gazon natural,Vant puternic,9,7186
+M0649,2022-23,2023-01-12,Cupa Nationala,Atletico Madrid,West Ham,1,2,I,Gazon natural,Soare,29,89466
+M0650,2022-23,2022-12-31,Bundesliga,Inter Miami,Arsenal,1,3,I,Gazon sintetic,Soare,23,86406
+M0651,2022-23,2023-04-23,Serie A,Al Ahli,Sevilla,1,1,E,Gazon natural,Caldura,33,60918
+M0652,2022-23,2022-12-12,Bundesliga,Borussia Dortmund,Inter Milan,2,2,E,Gazon hibrid,Caldura,4,53499
+M0653,2022-23,2022-08-03,Serie A,Arsenal,Bayern München,0,2,I,Gazon hibrid,Soare,30,85699
+M0654,2022-23,2022-09-21,UEFA Champions League,Nacional,Borussia Dortmund,5,1,V,Gazon sintetic,Ploaie,20,5881
+M0655,2022-23,2023-01-05,Bundesliga,LA Galaxy,Real Madrid,2,0,V,Gazon sintetic,Ploaie,6,30450
+M0656,2022-23,2023-02-24,Cupa Nationala,Al Nassr,Inter Miami,0,0,E,Gazon sintetic,Ploaie,12,14604
+M0657,2022-23,2022-09-01,Bundesliga,Retired,Besiktas,1,0,V,Gazon natural,Ploaie,23,86528
+M0658,2022-23,2023-04-22,La Liga,Manchester United,Atletico Madrid,2,1,V,Gazon natural,Vant puternic,13,43525
+M0659,2022-23,2023-03-18,Ligue 1,LA Galaxy,Al Ittihad,1,2,I,Gazon sintetic,Frig,3,63186
+M0660,2022-23,2022-11-24,La Liga,Nacional,Bayern München,1,0,V,Gazon hibrid,Frig,28,47120
+M0661,2022-23,2023-03-30,UEFA Champions League,Manchester United,Galatasaray,2,5,I,Gazon natural,Frig,17,26818
+M0662,2022-23,2022-12-16,Ligue 1,Besiktas,Galatasaray,1,0,V,Gazon natural,Caldura,6,78183
+M0663,2022-23,2022-08-01,Premier League,Besiktas,Rayo Vallecano,1,2,I,Gazon hibrid,Soare,22,64230
+M0664,2022-23,2023-02-17,Premier League,Chelsea,Manchester City,2,1,V,Gazon sintetic,Soare,33,66970
+M0665,2022-23,2022-12-24,La Liga,Lille,Manchester United,0,1,I,Gazon hibrid,Vant puternic,22,45862
+M0666,2022-23,2022-08-10,Bundesliga,Tottenham,Manchester City,6,1,V,Gazon natural,Soare,3,32394
+M0667,2022-23,2022-10-22,La Liga,Aston Villa,Nacional,3,2,V,Gazon natural,Caldura,25,76301
+M0668,2022-23,2022-08-11,La Liga,Arsenal,Al Ittihad,2,2,E,Gazon natural,Frig,22,25637
+M0669,2022-23,2023-02-12,Serie A,Al Hilal,Galatasaray,1,1,E,Gazon natural,Ploaie,23,59725
+M0670,2022-23,2022-08-29,Cupa Nationala,Bayern München,Atletico Madrid,5,2,V,Gazon sintetic,Vant puternic,3,70947
+M0671,2022-23,2023-03-10,Cupa Nationala,West Ham,Sevilla,2,2,E,Gazon natural,Caldura,12,10377
+M0672,2022-23,2023-05-04,Ligue 1,Tottenham,Galatasaray,3,3,E,Gazon natural,Soare,7,31174
+M0673,2022-23,2023-02-10,Ligue 1,Al Ahli,Arsenal,0,1,I,Gazon hibrid,Vant puternic,5,49945
+M0674,2022-23,2022-12-02,UEFA Europa League,AS Roma,Nacional,1,0,V,Gazon natural,Vant puternic,31,25831
+M0675,2022-23,2023-01-08,La Liga,Al Ahli,Bayer Leverkusen,1,4,I,Gazon sintetic,Frig,19,52626
+M0676,2022-23,2023-04-03,La Liga,Al Ittihad,LA Galaxy,3,4,I,Gazon hibrid,Ploaie,14,15476
+M0677,2022-23,2022-12-27,UEFA Champions League,Brentford,Manchester United,1,0,V,Gazon hibrid,Ploaie,19,60210
+M0678,2022-23,2023-02-25,Serie A,Retired,Aston Villa,0,1,I,Gazon sintetic,Caldura,26,5363
+M0679,2022-23,2022-08-07,Ligue 1,Paris Saint-Germain,AFC Bournemouth,0,1,I,Gazon natural,Ploaie,25,68722
+M0680,2022-23,2022-11-19,La Liga,Brentford,Lille,4,2,V,Gazon sintetic,Soare,27,35999
+M0681,2022-23,2023-02-19,UEFA Champions League,FC Barcelona,Nacional,1,3,I,Gazon natural,Ploaie,35,89026
+M0682,2022-23,2022-12-15,Premier League,Galatasaray,Brentford,3,2,V,Gazon natural,Ploaie,4,82642
+M0683,2022-23,2022-08-31,La Liga,Tottenham,Juventus,3,1,V,Gazon natural,Vant puternic,10,8054
+M0684,2022-23,2022-10-20,Cupa Nationala,Chelsea,Besiktas,2,3,I,Gazon sintetic,Caldura,31,83309
+M0685,2022-23,2022-09-27,UEFA Europa League,Paris Saint-Germain,AFC Bournemouth,2,3,I,Gazon natural,Soare,29,10635
+M0686,2022-23,2023-01-26,Ligue 1,Bayern München,Al Nassr,4,4,E,Gazon hibrid,Vant puternic,18,40829
+M0687,2022-23,2023-01-11,Ligue 1,Bayern München,FC Barcelona,1,2,I,Gazon hibrid,Vant puternic,23,34508
+M0688,2022-23,2022-10-03,Premier League,West Ham,Galatasaray,2,2,E,Gazon hibrid,Caldura,26,50594
+M0689,2022-23,2022-12-24,UEFA Champions League,Besiktas,Atletico Madrid,4,3,V,Gazon sintetic,Frig,12,27003
+M0690,2022-23,2022-10-03,UEFA Champions League,Paris Saint-Germain,Al Ahli,2,1,V,Gazon hibrid,Frig,26,6582
+M0691,2022-23,2022-09-22,Ligue 1,Real Madrid,Borussia Dortmund,3,3,E,Gazon hibrid,Frig,3,63673
+M0692,2022-23,2023-03-18,UEFA Europa League,Lille,LA Galaxy,4,0,V,Gazon sintetic,Soare,10,30787
+M0693,2022-23,2023-02-04,UEFA Champions League,Besiktas,Manchester United,2,0,V,Gazon natural,Soare,6,62831
+M0694,2022-23,2023-03-05,UEFA Europa League,AFC Bournemouth,Galatasaray,2,0,V,Gazon natural,Vant puternic,35,62676
+M0695,2022-23,2022-10-06,Serie A,Sevilla,Aston Villa,1,1,E,Gazon natural,Caldura,22,45316
+M0696,2022-23,2022-08-29,UEFA Champions League,Brentford,Chelsea,3,5,I,Gazon natural,Soare,22,66281
+M0697,2022-23,2023-03-24,Premier League,Sevilla,Al Hilal,0,4,I,Gazon hibrid,Caldura,27,61980
+M0698,2022-23,2023-05-25,Premier League,LA Galaxy,Nacional,1,1,E,Gazon hibrid,Ploaie,14,47240
+M0699,2022-23,2023-05-14,La Liga,Retired,Chelsea,2,2,E,Gazon sintetic,Frig,5,29344
+M0700,2022-23,2023-03-31,Ligue 1,Real Madrid,Retired,3,0,V,Gazon natural,Soare,8,78880
+M0701,2022-23,2022-08-14,Serie A,Juventus,AS Roma,2,1,V,Gazon natural,Ploaie,11,84128
+M0702,2022-23,2022-10-08,UEFA Europa League,Al Nassr,Atletico Madrid,1,6,I,Gazon sintetic,Vant puternic,4,29385
+M0703,2022-23,2022-12-01,Cupa Nationala,Bayern München,Al Hilal,3,3,E,Gazon sintetic,Caldura,13,38854
+M0704,2022-23,2023-03-31,Bundesliga,AS Roma,Liverpool,4,2,V,Gazon natural,Caldura,23,23440
+M0705,2022-23,2022-12-01,Premier League,FC Barcelona,Al Ahli,2,0,V,Gazon sintetic,Soare,6,60480
+M0706,2022-23,2022-10-29,Serie A,AC Milan,Real Madrid,2,1,V,Gazon sintetic,Frig,6,84252
+M0707,2022-23,2022-08-05,UEFA Champions League,Rayo Vallecano,Al Ahli,3,1,V,Gazon natural,Vant puternic,19,49839
+M0708,2022-23,2022-08-30,UEFA Europa League,Bayern München,Arsenal,4,1,V,Gazon hibrid,Caldura,6,31442
+M0709,2022-23,2022-08-16,Ligue 1,AFC Bournemouth,Tottenham,0,3,I,Gazon natural,Ploaie,11,29157
+M0710,2022-23,2022-10-05,Serie A,Borussia Dortmund,Al Ahli,2,1,V,Gazon natural,Soare,28,71352
+M0711,2022-23,2023-02-22,La Liga,FC Barcelona,Nacional,4,2,V,Gazon sintetic,Soare,15,78205
+M0712,2022-23,2022-11-30,UEFA Champions League,Paris Saint-Germain,Sevilla,1,0,V,Gazon natural,Caldura,34,44876
+M0713,2022-23,2022-09-13,Cupa Nationala,Bayern München,LA Galaxy,3,0,V,Gazon hibrid,Vant puternic,5,22337
+M0714,2022-23,2022-08-10,Cupa Nationala,Retired,Al Ittihad,2,3,I,Gazon sintetic,Caldura,12,61102
+M0715,2022-23,2022-10-10,UEFA Europa League,Liverpool,Nacional,1,4,I,Gazon natural,Soare,4,37127
+M0716,2022-23,2023-04-18,UEFA Europa League,Arsenal,AC Milan,2,1,V,Gazon sintetic,Frig,6,42057
+M0717,2022-23,2023-01-09,Serie A,Brentford,Al Ittihad,2,2,E,Gazon natural,Caldura,15,81949
+M0718,2022-23,2022-09-09,UEFA Europa League,Retired,Al Ittihad,1,4,I,Gazon natural,Caldura,22,46101
+M0719,2022-23,2022-11-15,UEFA Europa League,Lille,LA Galaxy,0,1,I,Gazon sintetic,Ploaie,10,22273
+M0720,2022-23,2023-02-12,Premier League,AFC Bournemouth,Al Ittihad,0,0,E,Gazon hibrid,Soare,23,85729
+M0721,2023-24,2023-11-25,Premier League,Manchester City,Besiktas,1,0,V,Gazon natural,Frig,29,26410
+M0722,2023-24,2024-05-29,Ligue 1,Bayern München,Atletico Madrid,6,2,V,Gazon sintetic,Vant puternic,13,88489
+M0723,2023-24,2024-02-20,Cupa Nationala,AS Roma,Besiktas,3,2,V,Gazon natural,Caldura,34,73990
+M0724,2023-24,2023-11-13,Cupa Nationala,Al Ahli,Bayern München,2,2,E,Gazon natural,Vant puternic,20,13833
+M0725,2023-24,2024-02-13,Serie A,Aston Villa,Sevilla,2,5,I,Gazon hibrid,Vant puternic,25,57535
+M0726,2023-24,2024-05-21,Ligue 1,LA Galaxy,Al Nassr,2,5,I,Gazon sintetic,Soare,22,72543
+M0727,2023-24,2023-12-16,Serie A,Borussia Dortmund,Liverpool,2,3,I,Gazon hibrid,Caldura,17,5485
+M0728,2023-24,2023-11-12,La Liga,Brentford,Al Ahli,1,0,V,Gazon hibrid,Ploaie,28,15967
+M0729,2023-24,2023-10-07,UEFA Champions League,Aston Villa,Nacional,0,1,I,Gazon sintetic,Frig,34,58261
+M0730,2023-24,2024-04-12,UEFA Europa League,Al Ittihad,Besiktas,2,2,E,Gazon sintetic,Vant puternic,24,69688
+M0731,2023-24,2023-10-28,La Liga,Besiktas,Inter Milan,1,1,E,Gazon natural,Soare,26,73652
+M0732,2023-24,2024-04-23,Bundesliga,Brentford,Al Hilal,3,1,V,Gazon sintetic,Soare,24,14344
+M0733,2023-24,2024-01-28,Bundesliga,Nacional,Aston Villa,1,0,V,Gazon sintetic,Vant puternic,18,14006
+M0734,2023-24,2023-12-30,Serie A,West Ham,Al Nassr,0,3,I,Gazon natural,Caldura,28,75046
+M0735,2023-24,2024-04-19,Cupa Nationala,Borussia Dortmund,Bayer Leverkusen,3,3,E,Gazon natural,Soare,30,7605
+M0736,2023-24,2023-11-08,Ligue 1,Real Madrid,Borussia Dortmund,0,2,I,Gazon natural,Ploaie,34,89277
+M0737,2023-24,2023-10-28,La Liga,Nacional,Sevilla,0,2,I,Gazon hibrid,Caldura,16,8984
+M0738,2023-24,2023-11-17,UEFA Europa League,Al Ittihad,Manchester United,1,2,I,Gazon hibrid,Soare,32,83168
+M0739,2023-24,2023-10-09,Bundesliga,Retired,West Ham,3,1,V,Gazon hibrid,Vant puternic,9,32491
+M0740,2023-24,2023-12-17,La Liga,Paris Saint-Germain,Arsenal,2,1,V,Gazon sintetic,Ploaie,24,54498
+M0741,2023-24,2024-04-17,UEFA Champions League,Retired,LA Galaxy,6,0,V,Gazon sintetic,Ploaie,18,7469
+M0742,2023-24,2023-10-11,Bundesliga,Al Hilal,FC Barcelona,2,1,V,Gazon hibrid,Caldura,18,40424
+M0743,2023-24,2023-11-28,Bundesliga,Al Ahli,FC Barcelona,5,1,V,Gazon sintetic,Caldura,19,85022
+M0744,2023-24,2023-11-06,Serie A,Bayer Leverkusen,Al Nassr,3,0,V,Gazon natural,Caldura,30,65271
+M0745,2023-24,2024-04-29,UEFA Champions League,Al Nassr,Manchester City,1,1,E,Gazon natural,Vant puternic,6,72303
+M0746,2023-24,2024-04-24,Bundesliga,Borussia Dortmund,Al Ittihad,3,1,V,Gazon hibrid,Vant puternic,35,56961
+M0747,2023-24,2023-09-24,Serie A,West Ham,Al Ittihad,2,0,V,Gazon natural,Frig,3,89256
+M0748,2023-24,2023-12-22,Cupa Nationala,Paris Saint-Germain,Arsenal,1,1,E,Gazon sintetic,Caldura,15,17931
+M0749,2023-24,2023-08-02,Serie A,Brentford,AC Milan,1,0,V,Gazon hibrid,Soare,25,17094
+M0750,2023-24,2024-03-27,Bundesliga,Rayo Vallecano,Galatasaray,2,0,V,Gazon sintetic,Vant puternic,23,78810
+M0751,2023-24,2024-05-07,UEFA Europa League,LA Galaxy,Borussia Dortmund,2,0,V,Gazon natural,Ploaie,10,65315
+M0752,2023-24,2024-03-30,La Liga,Al Ahli,Real Madrid,0,2,I,Gazon natural,Ploaie,16,66803
+M0753,2023-24,2024-03-07,Cupa Nationala,Sevilla,FC Barcelona,1,1,E,Gazon natural,Caldura,19,66081
+M0754,2023-24,2023-12-11,UEFA Europa League,Brentford,Inter Miami,0,3,I,Gazon sintetic,Vant puternic,22,31545
+M0755,2023-24,2024-05-05,Cupa Nationala,Rayo Vallecano,Manchester United,2,2,E,Gazon hibrid,Ploaie,31,72395
+M0756,2023-24,2024-05-25,La Liga,Manchester United,Paris Saint-Germain,0,1,I,Gazon hibrid,Caldura,21,53443
+M0757,2023-24,2023-10-25,Ligue 1,West Ham,Aston Villa,1,2,I,Gazon hibrid,Caldura,30,58873
+M0758,2023-24,2023-10-19,UEFA Europa League,Atletico Madrid,Bayer Leverkusen,5,2,V,Gazon natural,Ploaie,17,82814
+M0759,2023-24,2023-11-01,La Liga,Arsenal,Inter Milan,0,2,I,Gazon hibrid,Vant puternic,7,76720
+M0760,2023-24,2024-05-17,UEFA Europa League,Inter Milan,AS Roma,2,2,E,Gazon hibrid,Soare,34,22539
+M0761,2023-24,2023-08-04,La Liga,Bayer Leverkusen,West Ham,4,1,V,Gazon natural,Soare,31,81826
+M0762,2023-24,2024-04-03,Bundesliga,Bayern München,Real Madrid,3,2,V,Gazon sintetic,Caldura,16,34347
+M0763,2023-24,2024-03-11,Cupa Nationala,Al Ittihad,Rayo Vallecano,2,2,E,Gazon natural,Ploaie,22,10798
+M0764,2023-24,2024-01-15,Serie A,Nacional,West Ham,2,2,E,Gazon natural,Vant puternic,24,63470
+M0765,2023-24,2024-03-14,Bundesliga,Lille,West Ham,1,0,V,Gazon hibrid,Ploaie,8,47323
+M0766,2023-24,2023-08-22,Cupa Nationala,Al Hilal,Besiktas,2,3,I,Gazon hibrid,Soare,24,21643
+M0767,2023-24,2023-11-22,Ligue 1,Galatasaray,Retired,2,2,E,Gazon sintetic,Soare,21,53187
+M0768,2023-24,2023-09-23,Ligue 1,West Ham,Atletico Madrid,6,1,V,Gazon sintetic,Soare,8,24973
+M0769,2023-24,2023-08-26,Cupa Nationala,AFC Bournemouth,Al Hilal,1,2,I,Gazon natural,Vant puternic,27,74968
+M0770,2023-24,2024-05-25,Cupa Nationala,Manchester United,FC Barcelona,2,3,I,Gazon hibrid,Frig,5,23628
+M0771,2023-24,2023-12-15,Ligue 1,AFC Bournemouth,Inter Miami,1,2,I,Gazon sintetic,Frig,20,8242
+M0772,2023-24,2024-03-06,Premier League,AFC Bournemouth,Brentford,5,3,V,Gazon sintetic,Ploaie,10,85367
+M0773,2023-24,2023-11-20,Serie A,Inter Miami,Retired,3,2,V,Gazon natural,Vant puternic,33,52979
+M0774,2023-24,2023-10-15,UEFA Europa League,Brentford,AS Roma,2,1,V,Gazon hibrid,Ploaie,4,22918
+M0775,2023-24,2024-05-13,Ligue 1,Galatasaray,Besiktas,1,2,I,Gazon hibrid,Ploaie,16,34706
+M0776,2023-24,2023-09-16,UEFA Champions League,Juventus,Inter Miami,1,6,I,Gazon natural,Caldura,24,87159
+M0777,2023-24,2024-05-25,Cupa Nationala,Chelsea,Real Madrid,1,1,E,Gazon natural,Vant puternic,20,55371
+M0778,2023-24,2024-02-16,UEFA Champions League,Al Nassr,Chelsea,1,0,V,Gazon hibrid,Vant puternic,7,87196
+M0779,2023-24,2023-09-28,UEFA Champions League,Retired,Al Ittihad,1,1,E,Gazon natural,Ploaie,12,15082
+M0780,2023-24,2024-02-24,Ligue 1,West Ham,Inter Milan,2,0,V,Gazon natural,Ploaie,21,40842
+M0781,2023-24,2023-08-30,Serie A,Al Nassr,Aston Villa,3,1,V,Gazon hibrid,Frig,30,42722
+M0782,2023-24,2024-05-29,UEFA Europa League,Bayer Leverkusen,Al Ahli,3,3,E,Gazon sintetic,Ploaie,14,8758
+M0783,2023-24,2024-01-26,UEFA Europa League,Al Ahli,Brentford,5,2,V,Gazon hibrid,Ploaie,9,78115
+M0784,2023-24,2024-02-10,UEFA Europa League,AC Milan,Borussia Dortmund,2,0,V,Gazon sintetic,Frig,29,15218
+M0785,2023-24,2024-01-08,Ligue 1,Lille,Al Ahli,3,4,I,Gazon natural,Soare,10,21777
+M0786,2023-24,2023-12-16,Premier League,Bayern München,Real Madrid,2,2,E,Gazon natural,Frig,29,77578
+M0787,2023-24,2024-04-06,Premier League,AFC Bournemouth,Borussia Dortmund,1,2,I,Gazon sintetic,Frig,6,47912
+M0788,2023-24,2023-12-20,Ligue 1,Al Ahli,Inter Miami,3,0,V,Gazon natural,Caldura,12,32694
+M0789,2023-24,2023-09-02,UEFA Champions League,Real Madrid,Paris Saint-Germain,2,3,I,Gazon sintetic,Vant puternic,10,54400
+M0790,2023-24,2024-05-08,Bundesliga,Sevilla,Bayern München,1,1,E,Gazon sintetic,Ploaie,6,79397
+M0791,2023-24,2024-01-19,Bundesliga,Besiktas,Arsenal,1,3,I,Gazon sintetic,Frig,26,39433
+M0792,2023-24,2023-08-24,UEFA Champions League,Galatasaray,Inter Miami,0,4,I,Gazon natural,Ploaie,23,49993
+M0793,2023-24,2023-12-17,Ligue 1,Manchester United,AFC Bournemouth,3,4,I,Gazon hibrid,Frig,32,23439
+M0794,2023-24,2024-05-20,Serie A,Juventus,Real Madrid,0,1,I,Gazon natural,Soare,18,52342
+M0795,2023-24,2023-09-12,Serie A,Al Ittihad,Arsenal,1,1,E,Gazon natural,Vant puternic,7,20002
+M0796,2023-24,2024-04-26,UEFA Champions League,Chelsea,Al Nassr,2,2,E,Gazon natural,Soare,10,6058
+M0797,2023-24,2024-05-25,Cupa Nationala,Manchester City,Lille,1,1,E,Gazon hibrid,Frig,29,17420
+M0798,2023-24,2023-08-27,La Liga,West Ham,AC Milan,2,3,I,Gazon natural,Soare,32,36877
+M0799,2023-24,2023-11-14,Premier League,Galatasaray,Inter Miami,2,1,V,Gazon sintetic,Ploaie,29,68095
+M0800,2023-24,2023-09-23,Premier League,Nacional,AS Roma,5,0,V,Gazon hibrid,Frig,8,10942
+M0801,2023-24,2024-03-04,Cupa Nationala,Arsenal,Inter Miami,1,1,E,Gazon natural,Frig,2,23715
+M0802,2023-24,2023-12-04,UEFA Champions League,Borussia Dortmund,AC Milan,4,2,V,Gazon sintetic,Ploaie,14,6603
+M0803,2023-24,2023-08-28,UEFA Europa League,Arsenal,FC Barcelona,1,0,V,Gazon sintetic,Vant puternic,3,47787
+M0804,2023-24,2023-12-26,Bundesliga,Bayern München,Juventus,3,0,V,Gazon natural,Frig,28,67966
+M0805,2023-24,2024-01-09,Bundesliga,FC Barcelona,Tottenham,0,1,I,Gazon natural,Soare,27,60628
+M0806,2023-24,2024-04-22,Bundesliga,Real Madrid,Atletico Madrid,0,0,E,Gazon sintetic,Soare,4,46879
+M0807,2023-24,2023-11-03,UEFA Europa League,AFC Bournemouth,Bayern München,2,0,V,Gazon natural,Soare,8,85471
+M0808,2023-24,2023-09-28,Ligue 1,FC Barcelona,Galatasaray,3,1,V,Gazon natural,Ploaie,8,30223
+M0809,2023-24,2024-02-03,Premier League,AFC Bournemouth,Juventus,1,1,E,Gazon natural,Ploaie,17,83342
+M0810,2023-24,2024-02-27,Serie A,Chelsea,Besiktas,2,1,V,Gazon sintetic,Ploaie,34,57393
+M0811,2023-24,2024-03-14,Ligue 1,LA Galaxy,Inter Miami,1,0,V,Gazon hibrid,Caldura,29,61282
+M0812,2023-24,2023-10-29,UEFA Champions League,AC Milan,Manchester City,3,2,V,Gazon natural,Frig,31,88447
+M0813,2023-24,2023-12-20,UEFA Champions League,Al Nassr,Real Madrid,2,2,E,Gazon natural,Caldura,32,35415
+M0814,2023-24,2023-09-17,UEFA Europa League,Besiktas,Nacional,1,0,V,Gazon sintetic,Vant puternic,23,78756
+M0815,2023-24,2024-04-06,Bundesliga,Manchester United,Manchester City,3,1,V,Gazon sintetic,Ploaie,34,12940
+M0816,2023-24,2024-01-01,UEFA Champions League,Nacional,Borussia Dortmund,0,1,I,Gazon natural,Ploaie,27,81232
+M0817,2023-24,2023-12-26,Ligue 1,Paris Saint-Germain,AS Roma,4,3,V,Gazon sintetic,Frig,22,35582
+M0818,2023-24,2024-05-14,UEFA Europa League,Al Hilal,Atletico Madrid,2,2,E,Gazon natural,Caldura,23,37747
+M0819,2023-24,2023-11-12,UEFA Europa League,Al Ahli,LA Galaxy,4,2,V,Gazon sintetic,Caldura,11,44034
+M0820,2023-24,2024-03-31,UEFA Europa League,Inter Milan,Besiktas,0,2,I,Gazon natural,Caldura,16,47464
+M0821,2023-24,2023-12-25,UEFA Europa League,Al Ittihad,Atletico Madrid,1,1,E,Gazon natural,Caldura,3,59127
+M0822,2023-24,2024-05-02,Serie A,Inter Milan,Nacional,0,2,I,Gazon hibrid,Caldura,6,59431
+M0823,2023-24,2023-11-23,Premier League,Inter Milan,Paris Saint-Germain,2,2,E,Gazon sintetic,Caldura,14,65542
+M0824,2023-24,2023-12-04,Cupa Nationala,Galatasaray,Bayer Leverkusen,0,3,I,Gazon natural,Frig,5,66804
+M0825,2023-24,2023-09-18,Cupa Nationala,AS Roma,Lille,1,2,I,Gazon hibrid,Soare,10,55672
+M0826,2023-24,2023-09-30,Ligue 1,Al Ittihad,Atletico Madrid,0,0,E,Gazon sintetic,Ploaie,21,62936
+M0827,2023-24,2024-01-13,Bundesliga,Arsenal,Juventus,2,3,I,Gazon sintetic,Vant puternic,24,58144
+M0828,2023-24,2023-09-25,Ligue 1,Atletico Madrid,AC Milan,2,2,E,Gazon natural,Ploaie,27,80059
+M0829,2023-24,2023-09-10,UEFA Europa League,Chelsea,Rayo Vallecano,6,0,V,Gazon hibrid,Frig,20,79338
+M0830,2023-24,2024-02-26,UEFA Europa League,Liverpool,Galatasaray,2,2,E,Gazon hibrid,Caldura,16,33632
+M0831,2023-24,2023-09-26,Premier League,Al Hilal,AFC Bournemouth,0,4,I,Gazon natural,Vant puternic,3,19888
+M0832,2023-24,2024-05-17,La Liga,Arsenal,Real Madrid,2,2,E,Gazon natural,Ploaie,16,35359
+M0833,2023-24,2023-11-19,Cupa Nationala,Al Ittihad,Manchester City,2,2,E,Gazon hibrid,Ploaie,19,74924
+M0834,2023-24,2023-08-24,Ligue 1,Inter Milan,LA Galaxy,3,2,V,Gazon natural,Soare,6,61906
+M0835,2023-24,2023-08-20,Premier League,Retired,Atletico Madrid,0,1,I,Gazon natural,Frig,2,42083
+M0836,2023-24,2023-08-25,Bundesliga,Galatasaray,Bayer Leverkusen,3,2,V,Gazon natural,Ploaie,35,78639
+M0837,2023-24,2023-09-30,La Liga,Nacional,Borussia Dortmund,1,2,I,Gazon hibrid,Soare,4,37302
+M0838,2023-24,2023-10-02,Ligue 1,Manchester City,Al Ahli,5,3,V,Gazon hibrid,Vant puternic,21,77550
+M0839,2023-24,2023-08-31,UEFA Europa League,Chelsea,Al Ahli,1,0,V,Gazon natural,Frig,8,68656
+M0840,2023-24,2024-05-05,Cupa Nationala,Inter Milan,AFC Bournemouth,1,0,V,Gazon natural,Soare,33,20205
+M0841,2023-24,2023-09-20,La Liga,Atletico Madrid,Bayern München,2,1,V,Gazon natural,Vant puternic,31,5564
+M0842,2023-24,2023-12-27,Cupa Nationala,AS Roma,Galatasaray,0,0,E,Gazon hibrid,Vant puternic,22,22919
+M0843,2023-24,2023-11-18,UEFA Champions League,Retired,Manchester United,5,1,V,Gazon sintetic,Frig,20,61190
+M0844,2023-24,2023-12-01,La Liga,AC Milan,Manchester United,2,5,I,Gazon hibrid,Frig,21,85565
+M0845,2023-24,2023-10-02,Bundesliga,Tottenham,Arsenal,3,6,I,Gazon natural,Ploaie,9,50659
+M0846,2023-24,2023-09-08,UEFA Champions League,Manchester City,Sevilla,3,0,V,Gazon natural,Vant puternic,5,58865
+M0847,2023-24,2024-02-15,UEFA Champions League,Borussia Dortmund,Juventus,0,2,I,Gazon sintetic,Ploaie,22,28003
+M0848,2023-24,2023-09-08,Ligue 1,Retired,LA Galaxy,0,2,I,Gazon sintetic,Soare,31,81513
+M0849,2023-24,2024-03-06,Serie A,Al Ittihad,Paris Saint-Germain,1,1,E,Gazon natural,Soare,25,18889
+M0850,2023-24,2024-03-19,UEFA Europa League,Al Hilal,Brentford,1,2,I,Gazon natural,Vant puternic,25,71173
+M0851,2023-24,2023-11-03,Cupa Nationala,Manchester City,Al Ahli,1,2,I,Gazon natural,Frig,27,22467
+M0852,2023-24,2024-02-04,La Liga,Paris Saint-Germain,Nacional,0,1,I,Gazon sintetic,Soare,4,15879
+M0853,2023-24,2023-09-26,UEFA Europa League,Manchester City,Al Ittihad,3,0,V,Gazon hibrid,Frig,13,39167
+M0854,2023-24,2024-03-15,La Liga,FC Barcelona,Rayo Vallecano,3,0,V,Gazon natural,Frig,28,75974
+M0855,2023-24,2023-09-21,La Liga,Sevilla,Manchester City,2,2,E,Gazon sintetic,Frig,12,30188
+M0856,2023-24,2023-10-02,Bundesliga,West Ham,Tottenham,1,3,I,Gazon natural,Ploaie,11,77379
+M0857,2023-24,2023-10-29,Ligue 1,Al Ahli,AC Milan,2,1,V,Gazon sintetic,Vant puternic,11,73945
+M0858,2023-24,2024-05-29,Ligue 1,AC Milan,Paris Saint-Germain,2,0,V,Gazon natural,Soare,19,64293
+M0859,2023-24,2024-02-07,Premier League,Tottenham,Real Madrid,4,0,V,Gazon natural,Vant puternic,3,46211
+M0860,2023-24,2024-03-14,Bundesliga,AC Milan,Al Hilal,4,0,V,Gazon natural,Frig,20,20421
+M0861,2023-24,2024-05-11,Cupa Nationala,Paris Saint-Germain,West Ham,6,2,V,Gazon hibrid,Ploaie,3,21728
+M0862,2023-24,2023-08-13,Ligue 1,Bayer Leverkusen,Galatasaray,4,0,V,Gazon hibrid,Vant puternic,17,44489
+M0863,2023-24,2023-10-04,Premier League,Manchester United,Besiktas,3,2,V,Gazon hibrid,Vant puternic,20,66542
+M0864,2023-24,2023-12-26,La Liga,Nacional,Al Nassr,3,2,V,Gazon natural,Soare,34,77805
+M0865,2023-24,2024-02-14,La Liga,AFC Bournemouth,Bayer Leverkusen,1,1,E,Gazon hibrid,Ploaie,31,78178
+M0866,2023-24,2023-09-19,Cupa Nationala,Tottenham,AS Roma,1,2,I,Gazon sintetic,Ploaie,27,83153
+M0867,2023-24,2024-01-17,Cupa Nationala,Lille,Al Hilal,2,4,I,Gazon sintetic,Caldura,21,7733
+M0868,2023-24,2024-05-21,UEFA Europa League,Al Ittihad,Juventus,4,0,V,Gazon hibrid,Frig,5,44064
+M0869,2023-24,2024-04-23,La Liga,Besiktas,Al Ahli,2,2,E,Gazon sintetic,Soare,5,55922
+M0870,2023-24,2024-03-23,Ligue 1,Al Hilal,Borussia Dortmund,1,1,E,Gazon sintetic,Frig,4,15878
+M0871,2023-24,2023-10-13,Serie A,Arsenal,Inter Miami,1,0,V,Gazon sintetic,Caldura,6,44169
+M0872,2023-24,2024-01-31,Ligue 1,Sevilla,Al Ahli,1,0,V,Gazon natural,Frig,27,85735
+M0873,2023-24,2023-12-30,Cupa Nationala,AS Roma,Nacional,1,1,E,Gazon natural,Vant puternic,2,74665
+M0874,2023-24,2023-12-02,Bundesliga,Manchester City,Juventus,3,4,I,Gazon natural,Vant puternic,34,5624
+M0875,2023-24,2023-09-10,Premier League,FC Barcelona,Manchester City,2,0,V,Gazon hibrid,Vant puternic,23,37322
+M0876,2023-24,2024-01-15,Ligue 1,Arsenal,Inter Milan,2,1,V,Gazon hibrid,Soare,26,27821
+M0877,2023-24,2023-08-08,Cupa Nationala,Retired,Aston Villa,1,0,V,Gazon natural,Ploaie,15,34048
+M0878,2023-24,2023-12-28,Premier League,Al Ahli,Besiktas,1,4,I,Gazon sintetic,Caldura,10,73860
+M0879,2023-24,2023-08-24,Bundesliga,Aston Villa,AFC Bournemouth,1,4,I,Gazon hibrid,Frig,27,29093
+M0880,2023-24,2023-10-20,Bundesliga,Galatasaray,Liverpool,0,1,I,Gazon hibrid,Ploaie,10,8465
+M0881,2023-24,2024-02-25,Bundesliga,LA Galaxy,Galatasaray,2,4,I,Gazon natural,Vant puternic,17,82377
+M0882,2023-24,2024-02-12,La Liga,Juventus,Nacional,2,1,V,Gazon sintetic,Ploaie,10,51524
+M0883,2023-24,2023-10-02,La Liga,FC Barcelona,AFC Bournemouth,3,2,V,Gazon sintetic,Caldura,24,5994
+M0884,2023-24,2023-08-24,La Liga,Juventus,Al Ahli,1,2,I,Gazon natural,Caldura,17,89277
+M0885,2023-24,2024-02-08,Cupa Nationala,Real Madrid,Atletico Madrid,2,1,V,Gazon natural,Caldura,5,5270
+M0886,2023-24,2023-11-03,UEFA Europa League,Sevilla,Bayer Leverkusen,3,2,V,Gazon natural,Frig,11,29144
+M0887,2023-24,2023-12-22,UEFA Champions League,Al Hilal,Arsenal,3,0,V,Gazon sintetic,Caldura,21,5322
+M0888,2023-24,2023-11-25,UEFA Champions League,Brentford,Al Ahli,0,3,I,Gazon hibrid,Ploaie,10,35714
+M0889,2023-24,2024-03-27,Premier League,Galatasaray,Arsenal,2,3,I,Gazon sintetic,Vant puternic,26,42961
+M0890,2023-24,2023-12-04,Premier League,Brentford,Manchester City,1,3,I,Gazon hibrid,Vant puternic,24,30665
+M0891,2023-24,2024-03-19,UEFA Europa League,Inter Milan,Galatasaray,6,1,V,Gazon hibrid,Frig,23,12656
+M0892,2023-24,2024-03-29,Premier League,Besiktas,Juventus,2,3,I,Gazon natural,Soare,12,77584
+M0893,2023-24,2024-04-01,Premier League,Galatasaray,Al Hilal,2,1,V,Gazon hibrid,Caldura,5,25431
+M0894,2023-24,2023-09-05,Cupa Nationala,Bayern München,Chelsea,2,1,V,Gazon natural,Frig,32,87917
+M0895,2023-24,2024-01-19,Cupa Nationala,Borussia Dortmund,Atletico Madrid,1,0,V,Gazon natural,Caldura,24,81778
+M0896,2023-24,2023-10-10,Ligue 1,Al Ahli,Manchester United,1,2,I,Gazon hibrid,Caldura,25,59274
+M0897,2023-24,2023-09-12,Ligue 1,AFC Bournemouth,West Ham,0,3,I,Gazon natural,Soare,4,8790
+M0898,2023-24,2024-01-20,Bundesliga,Real Madrid,Al Nassr,3,1,V,Gazon natural,Soare,15,23769
+M0899,2023-24,2024-01-24,UEFA Europa League,Chelsea,Brentford,2,2,E,Gazon sintetic,Caldura,15,21621
+M0900,2023-24,2023-09-22,Cupa Nationala,Al Nassr,Chelsea,2,2,E,Gazon sintetic,Vant puternic,6,49672

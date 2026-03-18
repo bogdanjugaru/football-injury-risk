@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+venv/
+env/
+.venv/
+.env
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# ML Models (large files)
+backend/app/ml/saved_models/
+
+# Node
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Backup
+_backup_old/
+
+# Claude worktree
+.claude/
+
+# Old scripts
+scrape_transfermarkt.py
+combina_date.py
+transfermarkt_*.csv
