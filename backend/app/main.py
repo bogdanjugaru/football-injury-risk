@@ -12,7 +12,8 @@ from app.config import CORS_ORIGINS, FRONTEND_DIST
 from app.database import engine, Base
 from app.models import Player, Injury, SeasonStat, Match, ModelResult, PredictionLog
 from app.ml.predictor import predictor
-from app.routers import dashboard, players, predictions, statistics, model_info
+from app.ml.recovery_predictor import recovery_predictor
+from app.routers import dashboard, players, predictions, statistics, model_info, export
 
 
 @asynccontextmanager
@@ -20,6 +21,7 @@ async def lifespan(app: FastAPI):
     # Startup: create tables and load models
     Base.metadata.create_all(bind=engine)
     predictor.load()
+    recovery_predictor.load()
     yield
     # Shutdown
 
@@ -45,6 +47,7 @@ app.include_router(players.router)
 app.include_router(predictions.router)
 app.include_router(statistics.router)
 app.include_router(model_info.router)
+app.include_router(export.router)
 
 # Serve React frontend (production build)
 if os.path.exists(FRONTEND_DIST):

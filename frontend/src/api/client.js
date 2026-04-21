@@ -21,10 +21,19 @@ export const api = {
   searchPlayersForPrediction: (q) => fetchApi(`/players/search?q=${encodeURIComponent(q || '')}`),
   predictPlayer: (id) => fetchApi(`/players/${id}/predict`),
   getPredictionHistory: (params) => fetchApi(`/predictions/history?${new URLSearchParams(params || {})}`),
+  comparePlayers: (ids) => fetchApi(`/players/compare?ids=${ids.join(',')}`),
+  getBenchmark: (playerId) => fetchApi(`/players/benchmark/${playerId}`),
+  getSquad: (club) => fetchApi(`/players/squad?club=${encodeURIComponent(club)}`),
   getStatistics: () => fetchApi('/statistics'),
   getModelInfo: () => fetchApi('/model/info'),
   getModelComparison: () => fetchApi('/model/comparison'),
   getROCCurves: () => fetchApi('/model/roc-curves'),
   getConfusionMatrices: () => fetchApi('/model/confusion'),
   getGlobalShap: () => fetchApi('/model/shap/global'),
+  getPlayerTimeline: (id) => fetchApi(`/players/timeline/${id}`),
+  predictRecovery: (data) => fetchApi('/prediction/recovery', { method: 'POST', body: JSON.stringify(data) }),
+  trainRecoveryModel: () => fetchApi('/prediction/recovery/train', { method: 'POST' }),
+  exportPlayerPDF: (playerId) => {
+    window.open(`/api/export/player/${playerId}/pdf`, '_blank')
+  },
 }

@@ -1,6 +1,6 @@
-import { useState, useEffect } from 'react'
-import { Target, AlertTriangle, CheckCircle, Clock, Activity, Scale, RefreshCw, Calendar, Search, User } from 'lucide-react'
-import { PieChart, Pie, Cell, ResponsiveContainer, BarChart, Bar, XAxis, YAxis, Tooltip, ReferenceLine } from 'recharts'
+import { useState, useEffect, useRef } from 'react'
+import { Target, AlertTriangle, CheckCircle, Clock, Activity, Scale, RefreshCw, Calendar, Search, User, TrendingUp, Sliders, FileDown, BarChart2, ArrowUpRight, ArrowDownRight, Minus } from 'lucide-react'
+import { PieChart, Pie, Cell, ResponsiveContainer, BarChart, Bar, XAxis, YAxis, Tooltip, ReferenceLine, LineChart, Line, CartesianGrid, Area, AreaChart } from 'recharts'
 import { api } from '../api/client'
 import RiskBadge from '../components/common/RiskBadge'
 import { riskColor } from '../utils/formatters'
@@ -8,6 +8,349 @@ import { riskColor } from '../utils/formatters'
 const ICON_MAP = {
   warning: AlertTriangle, check: CheckCircle, clock: Clock,
   activity: Activity, scale: Scale, refresh: RefreshCw, calendar: Calendar,
+}
+
+const HORIZON_COLORS = { Scazut: '#10b981', Moderat: '#f59e0b', Ridicat: '#ef4444', 'Foarte Ridicat': '#7c3aed' }
+
+function HorizonTimeline({ horizons }) {
+  const [selected, setSelected] = useState(2) // default: 30 days (index 2)
+  if (!horizons?.length) return null
+
+  const chartData = horizons.map(h => ({
+    name: h.label,
+    risc: h.risk_score,
+    color: HORIZON_COLORS[h.risk_level] || '#58a6ff',
+  }))
+
+  const sel = horizons[selected]
+
+  const CustomDot = (props) => {
+    const { cx, cy, index } = props
+    const isSelected = index === selected
+    const color = HORIZON_COLORS[horizons[index].risk_level] || '#58a6ff'
+    return (
+      <circle
+        cx={cx} cy={cy} r={isSelected ? 8 : 5}
+        fill={color} stroke={isSelected ? '#fff' : color}
+        strokeWidth={isSelected ? 2 : 0}
+        style={{ cursor: 'pointer' }}
+        onClick={() => setSelected(index)}
+      />
+    )
+  }
+
+  return (
+    <div className="bg-bg2 border border-border rounded-xl p-5">
+      <div className="flex items-center gap-2 mb-1">
+        <TrendingUp size={15} className="text-primary" />
+        <span className="text-sm font-semibold">Risc cumulativ pe orizont de timp</span>
+      </div>
+      <p className="text-[11px] text-text-muted mb-4">
+        Probabilitatea de a suferi <span className="text-text font-semibold">cel puțin o accidentare</span> în perioada selectată.
+        Crește natural cu timpul — mai multe zile = mai multe oportunități de accidentare.
+      </p>
+
+      {/* Chart */}
+      <ResponsiveContainer width="100%" height={160}>
+        <AreaChart data={chartData} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
+          <defs>
+            <linearGradient id="riskGrad" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="5%" stopColor="#58a6ff" stopOpacity={0.3} />
+              <stop offset="95%" stopColor="#58a6ff" stopOpacity={0.0} />
+            </linearGradient>
+          </defs>
+          <CartesianGrid strokeDasharray="3 3" stroke="#21262d" />
+          <XAxis dataKey="name" tick={{ fill: '#8b949e', fontSize: 11 }} />
+          <YAxis domain={[0, 100]} tick={{ fill: '#8b949e', fontSize: 10 }} tickFormatter={v => `${v}%`} />
+          <Tooltip
+            content={({ active, payload }) => active && payload?.length ? (
+              <div className="bg-bg3 border border-border rounded px-3 py-2 text-xs">
+                <div className="font-semibold text-text">{payload[0].payload.name}</div>
+                <div style={{ color: payload[0].payload.color }}>Risc: {payload[0].value}%</div>
+              </div>
+            ) : null}
+          />
+          <Area type="monotone" dataKey="risc" stroke="#58a6ff" strokeWidth={2}
+            fill="url(#riskGrad)" dot={<CustomDot />} activeDot={false} />
+          {/* Reference lines for risk zones */}
+          <ReferenceLine y={25} stroke="#10b981" strokeDasharray="4 4" label={{ value: 'Scazut', fill: '#10b981', fontSize: 9, position: 'right' }} />
+          <ReferenceLine y={50} stroke="#f59e0b" strokeDasharray="4 4" label={{ value: 'Moderat', fill: '#f59e0b', fontSize: 9, position: 'right' }} />
+          <ReferenceLine y={75} stroke="#ef4444" strokeDasharray="4 4" label={{ value: 'Ridicat', fill: '#ef4444', fontSize: 9, position: 'right' }} />
+        </AreaChart>
+      </ResponsiveContainer>
+
+      {/* Horizon pills */}
+      <div className="flex gap-2 mt-3 flex-wrap">
+        {horizons.map((h, i) => (
+          <button key={h.days} onClick={() => setSelected(i)}
+            className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all border ${i === selected
+              ? 'border-transparent text-white'
+              : 'bg-bg3 border-border text-text-muted hover:text-text'}`}
+            style={i === selected ? { backgroundColor: HORIZON_COLORS[h.risk_level] || '#58a6ff', borderColor: 'transparent' } : {}}>
+            {h.label}
+          </button>
+        ))}
+      </div>
+
+      {/* Selected horizon detail */}
+      {sel && (
+        <div className="mt-3 flex items-center justify-between bg-bg3 rounded-lg px-4 py-3">
+          <div>
+            <div className="text-xs text-text-muted">Risc in urmatoarele {sel.days} zile</div>
+            <div className="text-2xl font-extrabold mt-0.5" style={{ color: HORIZON_COLORS[sel.risk_level] || '#58a6ff' }}>
+              {sel.risk_score}%
+            </div>
+          </div>
+          <div className="text-right">
+            <span className="inline-block px-3 py-1 rounded-full text-xs font-bold text-white"
+              style={{ backgroundColor: HORIZON_COLORS[sel.risk_level] || '#58a6ff' }}>
+              {sel.risk_level}
+            </span>
+            <div className="text-[10px] text-text-muted mt-1">
+              {sel.days <= 7 && 'Bazat pe sarcina acuta curenta'}
+              {sel.days === 14 && 'Sarcina acuta + cronica combinata'}
+              {sel.days === 30 && 'Predictie sezoniera standard'}
+              {sel.days === 60 && 'Tendinta pe termen mediu'}
+              {sel.days === 90 && 'Risc acumulat pe termen lung'}
+            </div>
+          </div>
+        </div>
+      )}
+    </div>
+  )
+}
+
+const WHATIF_PARAMS = [
+  { key: 'scor_fitness', label: 'Scor Fitness', min: 0, max: 100, step: 1, unit: '', icon: Activity,
+    hint: 'Un fitness mai bun reduce semnificativ riscul de accidentare' },
+  { key: 'indice_incarcare', label: 'Indice Incarcare', min: 0, max: 100, step: 1, unit: '', icon: Scale,
+    hint: 'Suprasolicitarea cronica creste riscul de accidentare' },
+  { key: 'total_prev_injuries', label: 'Accidentari Anterioare', min: 0, max: 20, step: 1, unit: '', icon: AlertTriangle,
+    hint: 'Istoricul de accidentari este cel mai puternic predictor' },
+  { key: 'varsta', label: 'Varsta', min: 15, max: 45, step: 1, unit: ' ani', icon: User,
+    hint: 'Riscul creste odata cu varsta dupa 30 de ani' },
+  { key: 'meciuri_jucate', label: 'Meciuri jucate', min: 0, max: 60, step: 1, unit: '', icon: Calendar,
+    hint: 'Numarul mare de meciuri indica o expunere mai mare' },
+  { key: 'minute_jucate', label: 'Minute jucate', min: 0, max: 5000, step: 100, unit: ' min', icon: Clock,
+    hint: 'Minutele exprima volumul total de efort al sezonului' },
+]
+
+function WhatIfPanel({ baseResult, baseForm }) {
+  const [values, setValues] = useState(() => {
+    const init = {}
+    WHATIF_PARAMS.forEach(p => { init[p.key] = baseForm[p.key] ?? 0 })
+    return init
+  })
+  const [whatIfResult, setWhatIfResult] = useState(null)
+  const [calculating, setCalculating] = useState(false)
+  const debounceRef = useRef(null)
+
+  const runPrediction = (newValues) => {
+    if (debounceRef.current) clearTimeout(debounceRef.current)
+    debounceRef.current = setTimeout(async () => {
+      setCalculating(true)
+      try {
+        const payload = { ...baseForm, ...newValues }
+        const res = await api.predictRisk(payload)
+        setWhatIfResult(res)
+      } catch (e) {}
+      setCalculating(false)
+    }, 450)
+  }
+
+  const changeValue = (key, val) => {
+    const newValues = { ...values, [key]: val }
+    setValues(newValues)
+    runPrediction(newValues)
+  }
+
+  const resetAll = () => {
+    const reset = {}
+    WHATIF_PARAMS.forEach(p => { reset[p.key] = baseForm[p.key] ?? 0 })
+    setValues(reset)
+    setWhatIfResult(null)
+  }
+
+  const compareScore = whatIfResult?.risk_score ?? baseResult.risk_score
+  const delta = whatIfResult ? compareScore - baseResult.risk_score : 0
+  const deltaColor = delta > 0 ? '#ef4444' : delta < 0 ? '#10b981' : '#8b949e'
+
+  return (
+    <div className="bg-bg2 border border-border rounded-xl p-5 space-y-4">
+      <div className="flex items-center justify-between">
+        <div>
+          <div className="flex items-center gap-2 mb-0.5">
+            <Sliders size={15} className="text-primary" />
+            <span className="text-sm font-semibold">Analiză What-If</span>
+          </div>
+          <p className="text-[11px] text-text-muted">
+            Modifica parametrii cu slider-ele de mai jos si vezi cum se schimba riscul in timp real.
+          </p>
+        </div>
+        <button onClick={resetAll} className="text-xs text-text-muted hover:text-text flex items-center gap-1 bg-bg3 border border-border px-2.5 py-1.5 rounded-lg transition-colors">
+          <RefreshCw size={12} /> Reset
+        </button>
+      </div>
+
+      {/* Score comparison bar */}
+      <div className="flex items-center gap-4 bg-bg3 rounded-xl px-4 py-3">
+        <div className="text-center flex-1">
+          <div className="text-[10px] text-text-muted mb-0.5">Scor Initial</div>
+          <div className="text-2xl font-extrabold" style={{ color: riskColor(baseResult.risk_score) }}>
+            {baseResult.risk_score}%
+          </div>
+        </div>
+        <div className="text-center flex-1">
+          <div className="text-[10px] text-text-muted mb-0.5">Scor What-If</div>
+          <div className="text-2xl font-extrabold" style={{ color: riskColor(compareScore) }}>
+            {calculating ? <span className="text-base animate-pulse text-text-muted">...</span> : `${compareScore}%`}
+          </div>
+        </div>
+        <div className="text-center flex-1">
+          <div className="text-[10px] text-text-muted mb-0.5">Diferenta</div>
+          <div className="text-2xl font-extrabold" style={{ color: deltaColor }}>
+            {delta === 0 ? '—' : `${delta > 0 ? '+' : ''}${delta}%`}
+          </div>
+        </div>
+      </div>
+
+      {/* Sliders */}
+      <div className="space-y-3">
+        {WHATIF_PARAMS.map(param => {
+          const val = values[param.key]
+          const baseVal = baseForm[param.key] ?? 0
+          const changed = val !== baseVal
+          const IconComp = param.icon
+          return (
+            <div key={param.key} className={`rounded-lg p-3 transition-colors ${changed ? 'bg-primary/5 border border-primary/20' : 'bg-bg3/50'}`}>
+              <div className="flex items-center justify-between mb-2">
+                <div className="flex items-center gap-2">
+                  <IconComp size={13} className={changed ? 'text-primary' : 'text-text-muted'} />
+                  <span className={`text-xs font-semibold ${changed ? 'text-text' : 'text-text-muted'}`}>{param.label}</span>
+                  {changed && <span className="text-[9px] text-text-muted">(era {baseVal}{param.unit})</span>}
+                </div>
+                <span className={`text-sm font-extrabold ${changed ? 'text-primary' : 'text-text'}`}>
+                  {val}{param.unit}
+                </span>
+              </div>
+              <input
+                type="range"
+                min={param.min} max={param.max} step={param.step}
+                value={val}
+                onChange={e => changeValue(param.key, parseFloat(e.target.value))}
+                className="w-full h-1.5 rounded-full appearance-none cursor-pointer accent-primary bg-bg3"
+                style={{
+                  background: `linear-gradient(to right, var(--color-primary) 0%, var(--color-primary) ${((val - param.min) / (param.max - param.min)) * 100}%, var(--color-bg3) ${((val - param.min) / (param.max - param.min)) * 100}%, var(--color-bg3) 100%)`
+                }}
+              />
+              <div className="flex justify-between text-[9px] text-text-muted mt-1">
+                <span>{param.min}</span>
+                <span className="italic opacity-70">{param.hint}</span>
+                <span>{param.max}</span>
+              </div>
+            </div>
+          )
+        })}
+      </div>
+
+      {/* What-if recommendations */}
+      {whatIfResult && delta !== 0 && (
+        <div className={`rounded-lg px-4 py-3 text-xs border ${delta < 0 ? 'bg-success/5 border-success/20 text-success' : 'bg-danger/5 border-danger/20 text-danger'}`}>
+          {delta < 0
+            ? `Modificarile aplicate ar reduce riscul cu ${Math.abs(delta)}%, de la ${baseResult.risk_score}% la ${compareScore}%.`
+            : `Acesti parametri ar creste riscul cu ${delta}%, de la ${baseResult.risk_score}% la ${compareScore}%.`
+          }
+        </div>
+      )}
+    </div>
+  )
+}
+
+function BenchmarkPanel({ playerId }) {
+  const [data, setData] = useState(null)
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    if (!playerId) return
+    setLoading(true)
+    api.getBenchmark(playerId).then(setData).catch(() => {}).finally(() => setLoading(false))
+  }, [playerId])
+
+  if (loading) return (
+    <div className="bg-bg2 border border-border rounded-xl p-5 text-center">
+      <div className="animate-spin w-6 h-6 border-2 border-primary border-t-transparent rounded-full mx-auto mb-2" />
+      <span className="text-xs text-text-muted">Se încarcă benchmark...</span>
+    </div>
+  )
+  if (!data) return null
+
+  const metrics = [
+    { key: 'risk_score', label: 'Scor Risc', unit: '%', higherIsBad: true },
+    { key: 'fitness', label: 'Fitness', unit: '', higherIsBad: false },
+    { key: 'total_injuries', label: 'Total Accidentări', unit: '', higherIsBad: true },
+    { key: 'total_days_absent', label: 'Zile Absență', unit: '', higherIsBad: true },
+    { key: 'workload', label: 'Încărcare', unit: '', higherIsBad: true },
+    { key: 'matches_played', label: 'Meciuri', unit: '', higherIsBad: false },
+  ]
+
+  return (
+    <div className="bg-bg2 border border-border rounded-xl p-5">
+      <div className="flex items-center gap-2 mb-1">
+        <BarChart2 size={15} className="text-primary" />
+        <span className="text-sm font-semibold">Benchmark vs. Poziție ({data.position})</span>
+      </div>
+      <p className="text-[11px] text-text-muted mb-4">
+        Comparație cu media celor {data.position_players_count} jucători pe poziția <strong>{data.position}</strong> din baza de date.
+      </p>
+
+      <div className="space-y-2.5">
+        {metrics.map(m => {
+          const pVal = data.player?.[m.key] ?? 0
+          const aVal = data.position_avg?.[m.key] ?? 0
+          const delta = parseFloat(data.delta?.[m.key] || '0')
+          const pct = data.percentile?.[m.key] ?? 50
+          const isWorse = m.higherIsBad ? delta > 0 : delta < 0
+          const isBetter = m.higherIsBad ? delta < 0 : delta > 0
+          const DeltaIcon = delta > 0 ? ArrowUpRight : delta < 0 ? ArrowDownRight : Minus
+          const deltaColor = isWorse ? '#ef4444' : isBetter ? '#10b981' : '#8b949e'
+
+          return (
+            <div key={m.key} className="bg-bg3/50 rounded-lg px-3 py-2.5">
+              <div className="flex items-center justify-between mb-1.5">
+                <span className="text-xs font-semibold text-text-muted">{m.label}</span>
+                <div className="flex items-center gap-2">
+                  <span className="text-[10px] text-text-muted">Percentila: <strong className="text-text">{pct}%</strong></span>
+                </div>
+              </div>
+              <div className="flex items-center gap-3">
+                <div className="flex-1">
+                  <div className="flex justify-between text-[10px] text-text-muted mb-1">
+                    <span>Jucător: <strong className="text-text">{pVal}{m.unit}</strong></span>
+                    <span>Media {data.position}: <strong className="text-text">{aVal}{m.unit}</strong></span>
+                  </div>
+                  <div className="h-2 bg-bg3 rounded-full overflow-hidden relative">
+                    <div className="absolute h-full rounded-full" style={{
+                      width: `${Math.min(pct, 100)}%`,
+                      backgroundColor: deltaColor,
+                      opacity: 0.7,
+                    }} />
+                    {/* Average marker */}
+                    <div className="absolute top-0 h-full w-0.5 bg-text-muted" style={{ left: '50%' }} />
+                  </div>
+                </div>
+                <div className="flex items-center gap-1 min-w-[60px] justify-end">
+                  <DeltaIcon size={12} style={{ color: deltaColor }} />
+                  <span className="text-xs font-bold" style={{ color: deltaColor }}>
+                    {delta > 0 ? '+' : ''}{delta}{m.unit}
+                  </span>
+                </div>
+              </div>
+            </div>
+          )
+        })}
+      </div>
+    </div>
+  )
 }
 
 const defaultForm = {
@@ -307,7 +650,13 @@ export default function Prediction() {
                   <RiskBadge level={result.risk_level} color={result.risk_color} />
                   <div className="text-xs text-text-muted mt-1">Model: {result.model_used} | Confidence: {result.model_confidence}%</div>
                 </div>
-                {/* Interpretation */}
+                {/* PDF Export + Interpretation */}
+                {selectedPlayer && (
+                  <button onClick={() => api.exportPlayerPDF(selectedPlayer.player_id)}
+                    className="mt-2 flex items-center gap-2 px-4 py-2 bg-primary/10 hover:bg-primary/20 text-primary text-xs font-semibold rounded-lg transition-colors mx-auto">
+                    <FileDown size={14} /> Descarcă Raport PDF
+                  </button>
+                )}
                 <div className="mt-3 text-xs text-text-muted text-center max-w-xs leading-relaxed">
                   {result.risk_score < 25 && 'Riscul de accidentare este scazut. Jucatorul prezinta un profil favorabil cu parametri fizici si de incarcare in limite normale.'}
                   {result.risk_score >= 25 && result.risk_score < 50 && 'Riscul de accidentare este moderat. Se recomanda monitorizare periodica a indicatorilor de incarcare si recuperare adecvata intre meciuri.'}
@@ -315,6 +664,9 @@ export default function Prediction() {
                   {result.risk_score >= 75 && 'Riscul de accidentare este foarte ridicat. Jucatorul necesita atentie imediata, monitorizare zilnica si un program de preventie individualizat.'}
                 </div>
               </div>
+
+              {/* Horizon Timeline */}
+              {result.horizons?.length > 0 && <HorizonTimeline horizons={result.horizons} />}
 
               {/* SHAP Waterfall */}
               {shapData.length > 0 && (
@@ -384,6 +736,12 @@ export default function Prediction() {
                   })}
                 </div>
               </div>
+
+              {/* Position Benchmark */}
+              {selectedPlayer && <BenchmarkPanel playerId={selectedPlayer.player_id} />}
+
+              {/* What-If Analysis */}
+              <WhatIfPanel baseResult={result} baseForm={mode === 'player' ? (result.input_used || form) : form} />
             </>
           )}
         </div>

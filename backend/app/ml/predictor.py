@@ -86,6 +86,60 @@ class RiskPredictor:
         raw = self.risk_scores.get(player_id, 50.0)
         return self.calibrate_score(raw)
 
+    def predict_horizons(self, input_data: dict) -> list[dict]:
+        """
+        Predict injury risk for multiple time horizons: 7, 14, 30, 60, 90 days.
+
+        Method: epidemiological time-scaling.
+          P(T) = 1 - (1 - P_season)^(T / SEASON_DAYS)
+        For short horizons (<= 14d), an acute load modifier is applied
+        based on fitness score and workload index.
+        """
+        SEASON_DAYS = 180  # avg football season length
+        HORIZONS = [7, 14, 30, 60, 90]
+
+        feat_values = self._build_features(input_data)
+        if self.best_model_name in ("logistic_regression", "mlp"):
+            feat_scaled = self.scaler.transform(feat_values)
+        else:
+            feat_scaled = feat_values
+
+        p_base = float(self.model.predict_proba(feat_scaled)[0][1])  # seasonal probability
+
+        # Acute load modifier — only affects 7/14-day horizons
+        fitness = input_data.get("scor_fitness", 75) or 75
+        incarcare = input_data.get("indice_incarcare", 60) or 60
+        workload_ch = input_data.get("workload_change", 0) or 0
+
+        # Higher workload index + lower fitness = acute risk spike
+        fitness_mod = 1 + max(0, (75 - fitness) / 150)       # 0.875 → 1.17
+        load_mod = 1 + max(0, (incarcare - 60) / 200)        # 0 → 1.2
+        workload_spike = 1 + max(0, workload_ch / 100)       # positive spikes
+        acute_mod = fitness_mod * load_mod * workload_spike
+
+        results = []
+        for t in HORIZONS:
+            p_t = 1 - (1 - p_base) ** (t / SEASON_DAYS)
+
+            # Apply acute modifier only for short horizons
+            if t <= 7:
+                p_t = p_t * acute_mod
+            elif t <= 14:
+                p_t = p_t * ((acute_mod + 1.0) / 2)  # blend
+
+            p_t = min(p_t, 0.98)
+            score = self.calibrate_score(p_t * 100)
+            rc = risk_category(score)
+            results.append({
+                "days": t,
+                "label": f"{t} zile",
+                "risk_score": score,
+                "risk_level": rc["level"],
+                "risk_color": rc["color"],
+            })
+
+        return results
+
     def predict(self, input_data: dict) -> dict:
         """Make a risk prediction for custom input."""
         # Build feature vector
@@ -142,6 +196,8 @@ class RiskPredictor:
         # Recommendations
         recs = self._recommendations(input_data)
 
+        horizons = self.predict_horizons(input_data)
+
         return {
             "risk_score": score,
             "risk_level": rc["level"],
@@ -152,6 +208,7 @@ class RiskPredictor:
             "top_features": contributions[:8],
             "shap_values": shap_values_list,
             "recommendations": recs,
+            "horizons": horizons,
         }
 
     def get_player_shap(self, player_features: np.ndarray) -> list[dict] | None:

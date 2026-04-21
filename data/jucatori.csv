@@ -1,177 +1,177 @@
 ﻿player_id,nume,data_nastere,varsta,nationalitate,club,pozitie,picior_dominant,inaltime_cm,greutate_kg,bmi,ani_experienta_pro,scor_fitness,valoare_piata_eur
-P001,Lionel Messi,1987-06-24,36,Argentine,Inter Miami,CAM,Stang,170,72,24.91,19,72.1,25000000
-P002,Cristiano Ronaldo,1985-02-05,39,Portuguese,Al Nassr,ST,Drept,187,83,23.74,22,67.5,15000000
-P003,Kylian Mbappé,1998-12-20,25,French,Real Madrid,ST,Drept,178,73,23.04,8,84.3,180000000
-P004,Erling Haaland,2000-07-21,23,Norwegian,Manchester City,ST,Drept,194,88,23.38,6,89.2,180000000
-P005,Pedri,2002-11-25,21,Spanish,FC Barcelona,CM,Drept,174,60,19.82,4,84.2,120000000
-P006,Vinicius Jr,2000-07-12,23,Brazilian,Real Madrid,LW,Drept,176,73,23.57,6,76.0,150000000
-P007,Rodri,1996-06-22,27,Spanish,Manchester City,CDM,Drept,191,82,22.48,10,87.0,90000000
-P008,Jude Bellingham,2003-06-29,20,English,Real Madrid,CM,Drept,186,75,21.68,3,83.4,180000000
-P009,Phil Foden,2000-05-28,24,English,Manchester City,CAM,Drept,171,69,23.6,7,83.7,150000000
-P010,Bukayo Saka,2001-09-05,22,English,Arsenal,RW,Stang,178,72,22.72,5,85.7,150000000
-P011,Lamine Yamal,2007-07-13,16,Spanish,FC Barcelona,RW,Stang,180,65,20.06,0,86.4,120000000
-P012,Florian Wirtz,2003-05-03,21,German,Bayer Leverkusen,CAM,Drept,176,70,22.6,4,92.0,130000000
-P013,Gavi,2004-08-05,19,Spanish,FC Barcelona,CM,Stang,173,60,20.05,2,88.9,80000000
-P014,Jamal Musiala,2003-02-26,21,German,Bayern München,CAM,Drept,183,70,20.9,4,85.7,130000000
-P015,Federico Valverde,1998-07-22,25,Uruguayan,Real Madrid,CM,Drept,182,78,23.55,8,80.6,90000000
-P016,Aitana Bonmati,1998-01-18,26,Spanish,FC Barcelona,CM,Drept,163,57,21.45,9,78.9,40000000
-P017,Harry Kane,1993-07-28,30,English,Bayern München,ST,Drept,188,86,24.33,13,83.5,80000000
-P018,Mohamed Salah,1992-06-15,31,Egyptian,Liverpool,RW,Stang,175,71,23.18,14,88.4,50000000
-P019,Kevin De Bruyne,1991-06-28,32,Belgian,Manchester City,CAM,Drept,181,68,20.76,15,79.2,40000000
-P020,Virgil van Dijk,1991-07-08,32,Dutch,Liverpool,CB,Drept,193,92,24.7,15,78.4,45000000
-P021,Trent Alexander-Arnold,1998-10-07,25,English,Real Madrid,RB,Drept,175,69,22.53,8,88.2,80000000
-P022,Ruben Dias,1997-05-14,27,Portuguese,Manchester City,CB,Drept,187,76,21.73,10,76.3,80000000
-P023,William Saliba,2001-03-24,23,French,Arsenal,CB,Drept,192,82,22.24,6,83.1,90000000
-P024,Alisson Becker,1992-10-02,31,Brazilian,Liverpool,GK,Drept,191,91,24.94,14,83.4,50000000
-P025,Thibaut Courtois,1992-05-11,32,Belgian,Real Madrid,GK,Drept,199,96,24.24,15,84.2,40000000
-P026,Manuel Neuer,1986-03-27,38,German,Bayern München,GK,Drept,193,93,24.97,21,68.6,10000000
-P027,Marc-André ter Stegen,1992-04-30,32,German,FC Barcelona,GK,Drept,187,85,24.31,15,81.3,30000000
-P028,Antoine Griezmann,1991-03-21,33,French,Atletico Madrid,CAM,Stang,176,73,23.57,16,79.0,25000000
-P029,Lautaro Martinez,1997-08-22,26,Argentine,Inter Milan,ST,Drept,174,72,23.78,9,89.7,90000000
-P030,Dusan Vlahovic,2000-01-28,24,Serbian,Juventus,ST,Stang,190,88,24.38,7,78.3,70000000
-P031,Raphinha,1996-12-14,27,Brazilian,FC Barcelona,RW,Stang,176,70,22.6,10,88.4,55000000
-P032,Bernardo Silva,1994-08-10,29,Portuguese,Manchester City,CM,Drept,173,64,21.38,12,74.4,70000000
-P033,Bruno Fernandes,1994-09-08,29,Portuguese,Manchester United,CAM,Drept,179,69,21.53,12,67.8,60000000
-P034,Marcus Rashford,1997-10-31,26,English,Manchester United,LW,Drept,180,70,21.6,9,81.4,60000000
-P035,Declan Rice,1999-01-14,25,English,Arsenal,CDM,Drept,185,82,23.96,8,79.5,100000000
-P036,Leandro Trossard,1994-12-04,29,Belgian,Arsenal,LW,Drept,173,68,22.72,12,88.8,40000000
-P037,Martin Odegaard,1998-12-17,25,Norwegian,Arsenal,CAM,Drept,178,68,21.46,8,89.0,90000000
-P038,Gabriel Magalhaes,1997-12-19,26,Brazilian,Arsenal,CB,Stang,190,78,21.61,9,77.7,70000000
-P039,Theo Hernandez,1997-10-06,26,French,AC Milan,LB,Stang,184,79,23.33,9,90.1,60000000
-P040,Rafael Leao,1999-06-10,24,Portuguese,AC Milan,LW,Drept,188,78,22.07,7,79.0,80000000
-P041,Olivier Giroud,1986-09-30,37,French,LA Galaxy,ST,Drept,192,91,24.69,20,71.0,5000000
-P042,Thomas Müller,1989-09-13,34,German,Bayern München,CAM,Drept,186,75,21.68,17,74.2,8000000
-P043,Joshua Kimmich,1995-02-08,29,German,Bayern München,RB,Drept,177,73,23.3,12,84.2,65000000
-P044,Alphonso Davies,2000-11-02,23,Canadian,Bayern München,LB,Stang,183,73,21.8,6,89.9,65000000
-P045,Jadon Sancho,2000-03-25,24,English,Chelsea,RW,Drept,180,76,23.46,7,88.8,35000000
-P046,Enzo Fernandez,2001-01-17,23,Argentine,Chelsea,CM,Drept,178,73,23.04,6,87.1,80000000
-P047,Cole Palmer,2002-05-06,22,English,Chelsea,CAM,Drept,185,74,21.62,5,88.9,100000000
-P048,Nicolas Jackson,2001-06-20,22,Senegalese,Chelsea,ST,Drept,184,77,22.74,5,87.9,55000000
-P049,Reece James,1999-12-08,24,English,Chelsea,RB,Drept,180,80,24.69,7,81.2,60000000
-P050,Moises Caicedo,2001-11-02,22,Ecuadorian,Chelsea,CDM,Drept,180,73,22.53,5,80.7,80000000
-P051,Robert Lewandowski,1988-08-21,35,Polish,FC Barcelona,ST,Drept,185,81,23.67,18,71.7,20000000
-P052,Ferran Torres,2000-02-29,24,Spanish,FC Barcelona,LW,Drept,184,72,21.27,7,88.0,40000000
-P053,Frenkie de Jong,1997-05-12,27,Dutch,FC Barcelona,CM,Drept,180,74,22.84,10,83.5,50000000
-P054,Ansu Fati,2002-10-31,21,Spanish,FC Barcelona,LW,Stang,178,73,23.04,4,99.0,40000000
-P055,Niclas Fullkrug,1993-02-09,31,German,West Ham,ST,Drept,189,88,24.64,14,75.6,20000000
-P056,Xavi Simons,2003-04-21,21,Dutch,Paris Saint-Germain,CAM,Drept,176,65,20.98,4,78.4,80000000
-P057,Ousmane Dembele,1997-05-15,27,French,Paris Saint-Germain,RW,Stang,178,67,21.15,10,89.6,50000000
-P058,Bradley Barcola,2002-09-02,21,French,Paris Saint-Germain,LW,Drept,181,70,21.37,4,93.5,60000000
-P059,Achraf Hakimi,1998-11-04,25,Moroccan,Paris Saint-Germain,RB,Drept,181,73,22.28,8,88.0,70000000
-P060,Marquinhos,1994-05-14,30,Brazilian,Paris Saint-Germain,CB,Drept,183,75,22.4,13,87.0,30000000
-P061,Gianluigi Donnarumma,1999-02-25,25,Italian,Paris Saint-Germain,GK,Drept,196,90,23.43,8,93.6,60000000
-P062,Nicolo Barella,1997-02-07,27,Italian,Inter Milan,CM,Drept,172,68,22.99,10,84.4,70000000
-P063,Hakan Calhanoglu,1994-02-08,30,Turkish,Inter Milan,CDM,Stang,179,71,22.16,13,73.5,35000000
-P064,Alessandro Bastoni,1999-04-08,25,Italian,Inter Milan,CB,Stang,191,85,23.3,8,81.8,70000000
-P065,Marcus Thuram,1997-08-06,26,French,Inter Milan,ST,Drept,192,85,23.06,9,90.7,60000000
-P066,Khvicha Kvaratskhelia,2001-02-12,23,Georgian,Paris Saint-Germain,LW,Drept,183,77,22.99,6,76.3,80000000
-P067,Victor Osimhen,1998-12-29,25,Nigerian,Galatasaray,ST,Drept,185,78,22.79,8,85.2,80000000
-P068,Khephren Thuram,2001-03-26,23,French,Juventus,CM,Drept,188,84,23.77,6,86.5,40000000
-P069,Teun Koopmeiners,1998-02-28,26,Dutch,Juventus,CM,Drept,181,75,22.89,9,83.1,55000000
-P070,Gleison Bremer,1997-03-18,27,Brazilian,Juventus,CB,Drept,188,86,24.33,10,89.3,50000000
-P071,Adrien Rabiot,1995-04-03,29,French,Juventus,CM,Drept,188,82,23.2,12,87.0,25000000
-P072,Federico Chiesa,1997-10-25,26,Italian,Liverpool,RW,Stang,175,69,22.53,9,98.9,30000000
-P073,Kingsley Coman,1996-06-13,27,French,Bayern München,LW,Drept,181,72,21.98,10,88.7,40000000
-P074,Serge Gnabry,1995-07-14,28,German,Bayern München,RW,Drept,176,77,24.86,11,81.3,35000000
-P075,Leon Goretzka,1995-02-06,29,German,Bayern München,CM,Drept,189,83,23.24,12,80.1,40000000
-P076,Dayot Upamecano,1998-10-27,25,French,Bayern München,CB,Drept,186,83,23.99,8,80.0,60000000
-P077,Joao Cancelo,1994-05-27,30,Portuguese,FC Barcelona,RB,Drept,182,74,22.34,13,87.7,30000000
-P078,Rúben Neves,1997-03-13,27,Portuguese,Al Hilal,CDM,Drept,181,75,22.89,10,81.6,35000000
-P079,Joao Felix,2000-11-10,23,Portuguese,Chelsea,CAM,Drept,181,70,21.37,6,84.6,50000000
-P080,Pedro Neto,2000-03-09,24,Portuguese,Chelsea,LW,Drept,169,61,21.36,7,89.5,65000000
-P081,Ilkay Gundogan,1990-10-24,33,German,FC Barcelona,CM,Drept,180,80,24.69,16,73.2,10000000
-P082,Yaya Toure,1983-05-13,41,Ivorian,Retired,CM,Drept,191,84,23.03,24,63.7,1000000
-P083,David Beckham,1975-05-02,49,English,Retired,RB,Drept,183,74,22.1,32,50,1000000
-P084,Thierry Henry,1977-08-17,46,French,Retired,ST,Drept,188,83,23.48,29,51.5,1000000
-P085,Neymar Jr,1992-02-05,32,Brazilian,Al Hilal,LW,Drept,175,68,22.2,15,75.6,40000000
-P086,Luis Suarez,1987-01-24,37,Uruguayan,Nacional,ST,Drept,182,86,25.96,20,74.0,5000000
-P087,Sergio Aguero,1988-06-02,36,Argentine,Retired,ST,Drept,173,73,24.39,19,80.2,1000000
-P088,Andres Iniesta,1984-05-11,40,Spanish,Retired,CM,Stang,171,68,23.26,23,66.9,1000000
-P089,Xabi Alonso,1981-11-25,42,Spanish,Retired,CDM,Drept,183,78,23.29,25,65.6,1000000
-P090,Franck Ribery,1983-04-07,41,French,Retired,LW,Stang,170,72,24.91,24,66.5,1000000
-P091,Arjen Robben,1984-01-23,40,Dutch,Retired,RW,Stang,180,80,24.69,23,73.5,1000000
-P092,Zlatan Ibrahimovic,1981-10-03,42,Swedish,Retired,ST,Drept,195,95,24.98,25,69.4,1000000
-P093,Wayne Rooney,1985-10-24,38,English,Retired,ST,Drept,176,83,26.79,21,71.6,1000000
-P094,Frank Lampard,1978-06-20,45,English,Retired,CM,Drept,184,88,25.99,28,53.4,1000000
-P095,Steven Gerrard,1980-05-30,44,English,Retired,CM,Drept,183,83,24.78,27,66.4,1000000
-P096,Gareth Bale,1989-07-16,34,Welsh,Retired,RW,Stang,183,82,24.49,17,78.3,5000000
-P097,Eden Hazard,1991-01-07,33,Belgian,Retired,LW,Drept,173,74,24.73,16,84.9,5000000
-P098,Paul Pogba,1993-03-15,31,French,Juventus,CM,Drept,191,84,23.03,14,80.3,10000000
-P099,Antoine Semenyo,2000-01-08,24,Ghanaian,AFC Bournemouth,RW,Drept,180,76,23.46,7,96.7,30000000
-P100,Dominik Szoboszlai,2000-10-25,23,Hungarian,Liverpool,CM,Stang,186,78,22.55,6,82.8,70000000
-P101,Darwin Nunez,1999-06-24,24,Uruguayan,Liverpool,ST,Stang,187,81,23.16,7,94.6,70000000
-P102,Luis Diaz,1997-01-13,27,Colombian,Liverpool,LW,Drept,180,74,22.84,10,85.7,70000000
-P103,Alexis Mac Allister,1998-12-24,25,Argentine,Liverpool,CM,Drept,174,71,23.45,8,81.9,70000000
-P104,Ibrahima Konate,1999-05-25,25,French,Liverpool,CB,Drept,194,90,23.91,8,78.2,55000000
-P105,Andrew Robertson,1994-03-11,30,Scottish,Liverpool,LB,Stang,178,69,21.78,13,81.1,40000000
-P106,Cody Gakpo,1999-05-07,25,Dutch,Liverpool,LW,Drept,189,79,22.12,8,93.5,55000000
-P107,Dani Olmo,1998-05-07,26,Spanish,FC Barcelona,CAM,Drept,179,72,22.47,9,89.9,60000000
-P108,Marc Casado,2003-07-05,20,Spanish,FC Barcelona,CDM,Drept,182,71,21.43,3,89.1,25000000
-P109,Jules Kounde,1998-11-12,25,French,FC Barcelona,RB,Drept,178,71,22.41,8,70.7,65000000
-P110,Pau Cubarsi,2007-01-22,17,Spanish,FC Barcelona,CB,Stang,185,75,21.91,0,89.3,40000000
-P111,Granit Xhaka,1992-09-27,31,Swiss,Bayer Leverkusen,CDM,Stang,185,83,24.25,14,83.8,15000000
-P112,Victor Boniface,2000-12-23,23,Nigerian,Bayer Leverkusen,ST,Drept,189,85,23.8,6,81.7,40000000
-P113,Jonathan Tah,1996-02-11,28,German,Bayer Leverkusen,CB,Drept,195,92,24.19,11,81.2,35000000
-P114,Alejandro Grimaldo,1995-09-20,28,Spanish,Bayer Leverkusen,LB,Stang,172,65,21.97,11,85.0,40000000
-P115,Christopher Nkunku,1997-11-14,26,French,Chelsea,CAM,Drept,175,73,23.84,9,95.3,60000000
-P116,Goncalo Ramos,2001-06-20,22,Portuguese,Paris Saint-Germain,ST,Drept,187,80,22.88,5,78.7,50000000
-P117,Warren Zaire-Emery,2006-03-08,18,French,Paris Saint-Germain,CM,Drept,179,70,21.85,1,82.4,60000000
-P118,Rasmus Hojlund,2003-02-04,21,Danish,Manchester United,ST,Drept,191,83,22.75,4,93.2,60000000
-P119,Mason Mount,1999-01-10,25,English,Manchester United,CM,Drept,178,70,22.09,8,82.3,40000000
-P120,Kobbie Mainoo,2005-04-19,19,English,Manchester United,CM,Drept,180,72,22.22,2,82.8,50000000
-P121,Matthijs de Ligt,1999-08-12,24,Dutch,Manchester United,CB,Drept,189,85,23.8,7,85.6,38000000
-P122,Ivan Toney,1996-03-16,28,English,Al Ahli,ST,Drept,181,78,23.81,11,77.6,35000000
-P123,Ollie Watkins,1995-12-30,28,English,Aston Villa,ST,Drept,180,70,21.6,11,86.3,65000000
-P124,Douglas Luiz,1998-05-09,26,Brazilian,Juventus,CM,Drept,175,72,23.51,9,77.7,45000000
-P125,Leon Bailey,1997-08-09,26,Jamaican,Aston Villa,RW,Drept,178,76,23.99,9,90.3,30000000
-P126,Morgan Rogers,2002-07-26,21,English,Aston Villa,CAM,Drept,190,82,22.71,4,85.0,35000000
-P127,Bryan Mbeumo,1999-08-07,24,Cameroonian,Brentford,RW,Drept,170,69,23.88,7,98.7,40000000
-P128,Yoane Wissa,1996-09-03,27,Congolese,Brentford,ST,Drept,174,69,22.79,10,86.7,30000000
-P129,James Maddison,1996-11-23,27,English,Tottenham,CAM,Drept,178,71,22.41,10,93.2,45000000
-P130,Son Heung-min,1992-07-08,31,South Korean,Tottenham,LW,Stang,183,77,22.99,14,72.7,30000000
-P131,Brennan Johnson,2001-05-23,23,Welsh,Tottenham,RW,Drept,178,74,23.36,6,84.3,40000000
-P132,Pedro Porro,2000-09-13,23,Spanish,Tottenham,RB,Drept,177,73,23.3,6,86.9,40000000
-P133,Micky van de Ven,2001-04-19,23,Dutch,Tottenham,CB,Stang,193,85,22.82,6,95.5,55000000
-P134,Kai Havertz,1999-06-11,24,German,Arsenal,ST,Stang,189,83,23.24,7,74.9,65000000
-P135,Gabriel Martinelli,2001-06-18,22,Brazilian,Arsenal,LW,Stang,175,75,24.49,5,90.9,65000000
-P136,Ben White,1997-10-08,26,English,Arsenal,RB,Drept,186,74,21.39,9,88.5,55000000
-P137,David Raya,1995-09-15,28,Spanish,Arsenal,GK,Drept,183,82,24.49,11,94.2,30000000
-P138,Savinho,2004-04-10,20,Brazilian,Manchester City,RW,Drept,179,68,21.22,3,89.3,45000000
-P139,Matheus Nunes,2000-08-27,23,Portuguese,Manchester City,CM,Drept,182,77,23.25,6,85.3,55000000
-P140,Josko Gvardiol,2002-01-23,22,Croatian,Manchester City,LB,Stang,185,80,23.37,5,81.9,90000000
-P141,John Stones,1994-05-28,30,English,Manchester City,CB,Drept,188,70,19.81,13,74.5,45000000
-P142,Ederson,1993-08-17,30,Brazilian,Manchester City,GK,Drept,188,86,24.33,13,83.2,50000000
-P143,Luka Modric,1985-09-09,38,Croatian,Real Madrid,CM,Drept,172,66,22.31,21,68.8,8000000
-P144,Toni Kroos,1990-01-04,34,German,Real Madrid,CM,Drept,183,76,22.69,17,88.1,10000000
-P145,Eduardo Camavinga,2002-11-10,21,French,Real Madrid,CM,Stang,181,68,20.76,4,81.3,90000000
-P146,Aurelien Tchouameni,2000-01-27,24,French,Real Madrid,CDM,Drept,188,78,22.07,7,86.9,80000000
-P147,Dani Carvajal,1992-01-11,32,Spanish,Real Madrid,RB,Drept,173,73,24.39,15,69.6,25000000
-P148,Antonio Rudiger,1993-03-03,31,German,Real Madrid,CB,Drept,190,85,23.55,14,78.1,30000000
-P149,David Alaba,1992-06-24,31,Austrian,Real Madrid,CB,Stang,183,78,23.29,14,82.1,20000000
-P150,Jan Oblak,1993-01-07,31,Slovenian,Atletico Madrid,GK,Drept,188,87,24.62,14,85.4,30000000
-P151,Jose Maria Gimenez,1995-01-20,29,Uruguayan,Atletico Madrid,CB,Drept,187,82,23.45,12,92.2,35000000
-P152,Rodrigo De Paul,1994-05-24,30,Argentine,Atletico Madrid,CM,Drept,180,75,23.15,13,81.7,30000000
-P153,Paulo Dybala,1993-11-15,30,Argentine,AS Roma,CAM,Stang,177,74,23.62,13,75.3,20000000
-P154,Lorenzo Pellegrini,1996-06-19,27,Italian,AS Roma,CM,Drept,184,74,21.86,10,87.7,35000000
-P155,Mike Maignan,1995-07-03,28,French,AC Milan,GK,Drept,191,88,24.12,11,88.1,50000000
-P156,Tijjani Reijnders,1998-07-29,25,Dutch,AC Milan,CM,Drept,185,75,21.91,8,87.9,55000000
-P157,Christian Pulisic,1998-09-18,25,American,AC Milan,RW,Drept,177,70,22.34,8,80.8,35000000
-P158,Ruben Loftus-Cheek,1996-01-23,28,English,AC Milan,CM,Drept,191,83,22.75,11,91.8,25000000
-P159,Ciro Immobile,1990-02-20,34,Italian,Besiktas,ST,Drept,185,79,23.08,17,76.5,10000000
-P160,Jonathan David,2000-01-14,24,Canadian,Lille,ST,Drept,177,72,22.98,7,89.2,70000000
-P161,Loic Bade,2000-04-11,24,French,Sevilla,CB,Drept,190,85,23.55,7,92.6,25000000
-P162,Serhou Guirassy,1996-03-12,28,Guinean,Borussia Dortmund,ST,Drept,184,83,24.52,11,88.7,45000000
-P163,Gregor Kobel,1997-12-06,26,Swiss,Borussia Dortmund,GK,Drept,194,90,23.91,9,86.7,35000000
-P164,Nico Schlotterbeck,2000-01-01,24,German,Borussia Dortmund,CB,Stang,191,85,23.3,7,97.9,40000000
-P165,Felix Nmecha,2000-10-10,23,German,Borussia Dortmund,CM,Drept,182,77,23.25,6,86.5,30000000
-P166,Ramy Bensebaini,1995-04-16,29,Algerian,Borussia Dortmund,LB,Stang,185,82,23.96,12,81.7,20000000
-P167,Karim Benzema,1987-12-19,36,French,Al Ittihad,ST,Drept,185,81,23.67,19,73.7,20000000
-P168,N'Golo Kante,1991-03-29,33,French,Al Ittihad,CDM,Drept,168,70,24.8,16,86.4,20000000
-P169,Sadio Mane,1992-04-10,32,Senegalese,Al Nassr,LW,Drept,175,69,22.53,15,79.7,15000000
-P170,Roberto Firmino,1991-10-02,32,Brazilian,Al Ahli,ST,Drept,181,76,23.2,15,82.1,10000000
-P171,James Rodriguez,1991-07-12,32,Colombian,Rayo Vallecano,CAM,Stang,181,75,22.89,15,86.2,10000000
-P172,Casemiro,1992-02-23,32,Brazilian,Manchester United,CDM,Drept,185,84,24.54,15,75.9,20000000
-P173,Lisandro Martinez,1998-01-18,26,Argentine,Manchester United,CB,Stang,175,75,24.49,9,74.6,50000000
-P174,Luke Shaw,1995-07-12,28,English,Manchester United,LB,Stang,185,75,21.91,11,86.8,30000000
-P175,Andre Onana,1996-04-02,28,Cameroonian,Manchester United,GK,Drept,190,90,24.93,11,86.4,35000000
-P176,Amad Diallo,2002-07-11,21,Ivorian,Manchester United,RW,Drept,175,67,21.88,4,81.4,40000000
+P001,Lionel Messi,1987-06-24,38,Argentine,Inter Miami,CAM,Stang,170,72,24.91,19,72.1,25000000
+P002,Cristiano Ronaldo,1985-02-05,41,Portuguese,Al Nassr,ST,Drept,187,83,23.74,22,67.5,15000000
+P003,Kylian Mbappé,1998-12-20,27,French,Real Madrid,ST,Drept,178,73,23.04,8,84.3,180000000
+P004,Erling Haaland,2000-07-21,25,Norwegian,Manchester City,ST,Drept,194,88,23.38,6,89.2,180000000
+P005,Pedri,2002-11-25,23,Spanish,FC Barcelona,CM,Drept,174,60,19.82,4,84.2,120000000
+P006,Vinicius Jr,2000-07-12,25,Brazilian,Real Madrid,LW,Drept,176,73,23.57,6,76.0,150000000
+P007,Rodri,1996-06-22,29,Spanish,Manchester City,CDM,Drept,191,82,22.48,10,87.0,90000000
+P008,Jude Bellingham,2003-06-29,22,English,Real Madrid,CM,Drept,186,75,21.68,3,83.4,180000000
+P009,Phil Foden,2000-05-28,25,English,Manchester City,CAM,Drept,171,69,23.6,7,83.7,150000000
+P010,Bukayo Saka,2001-09-05,24,English,Arsenal,RW,Stang,178,72,22.72,5,85.7,150000000
+P011,Lamine Yamal,2007-07-13,18,Spanish,FC Barcelona,RW,Stang,180,65,20.06,0,86.4,120000000
+P012,Florian Wirtz,2003-05-03,22,German,Bayer Leverkusen,CAM,Drept,176,70,22.6,4,92.0,130000000
+P013,Gavi,2004-08-05,21,Spanish,FC Barcelona,CM,Stang,173,60,20.05,2,88.9,80000000
+P014,Jamal Musiala,2003-02-26,23,German,Bayern München,CAM,Drept,183,70,20.9,4,85.7,130000000
+P015,Federico Valverde,1998-07-22,27,Uruguayan,Real Madrid,CM,Drept,182,78,23.55,8,80.6,90000000
+P016,Aitana Bonmati,1998-01-18,28,Spanish,FC Barcelona,CM,Drept,163,57,21.45,9,78.9,40000000
+P017,Harry Kane,1993-07-28,32,English,Bayern München,ST,Drept,188,86,24.33,13,83.5,80000000
+P018,Mohamed Salah,1992-06-15,33,Egyptian,Liverpool,RW,Stang,175,71,23.18,14,88.4,50000000
+P019,Kevin De Bruyne,1991-06-28,34,Belgian,Manchester City,CAM,Drept,181,68,20.76,15,79.2,40000000
+P020,Virgil van Dijk,1991-07-08,34,Dutch,Liverpool,CB,Drept,193,92,24.7,15,78.4,45000000
+P021,Trent Alexander-Arnold,1998-10-07,27,English,Real Madrid,RB,Drept,175,69,22.53,8,88.2,80000000
+P022,Ruben Dias,1997-05-14,28,Portuguese,Manchester City,CB,Drept,187,76,21.73,10,76.3,80000000
+P023,William Saliba,2001-03-24,25,French,Arsenal,CB,Drept,192,82,22.24,6,83.1,90000000
+P024,Alisson Becker,1992-10-02,33,Brazilian,Liverpool,GK,Drept,191,91,24.94,14,83.4,50000000
+P025,Thibaut Courtois,1992-05-11,33,Belgian,Real Madrid,GK,Drept,199,96,24.24,15,84.2,40000000
+P026,Manuel Neuer,1986-03-27,40,German,Bayern München,GK,Drept,193,93,24.97,21,68.6,10000000
+P027,Marc-André ter Stegen,1992-04-30,33,German,FC Barcelona,GK,Drept,187,85,24.31,15,81.3,30000000
+P028,Antoine Griezmann,1991-03-21,35,French,Atletico Madrid,CAM,Stang,176,73,23.57,16,79.0,25000000
+P029,Lautaro Martinez,1997-08-22,28,Argentine,Inter Milan,ST,Drept,174,72,23.78,9,89.7,90000000
+P030,Dusan Vlahovic,2000-01-28,26,Serbian,Juventus,ST,Stang,190,88,24.38,7,78.3,70000000
+P031,Raphinha,1996-12-14,29,Brazilian,FC Barcelona,RW,Stang,176,70,22.6,10,88.4,55000000
+P032,Bernardo Silva,1994-08-10,31,Portuguese,Manchester City,CM,Drept,173,64,21.38,12,74.4,70000000
+P033,Bruno Fernandes,1994-09-08,31,Portuguese,Manchester United,CAM,Drept,179,69,21.53,12,67.8,60000000
+P034,Marcus Rashford,1997-10-31,28,English,Manchester United,LW,Drept,180,70,21.6,9,81.4,60000000
+P035,Declan Rice,1999-01-14,27,English,Arsenal,CDM,Drept,185,82,23.96,8,79.5,100000000
+P036,Leandro Trossard,1994-12-04,31,Belgian,Arsenal,LW,Drept,173,68,22.72,12,88.8,40000000
+P037,Martin Odegaard,1998-12-17,27,Norwegian,Arsenal,CAM,Drept,178,68,21.46,8,89.0,90000000
+P038,Gabriel Magalhaes,1997-12-19,28,Brazilian,Arsenal,CB,Stang,190,78,21.61,9,77.7,70000000
+P039,Theo Hernandez,1997-10-06,28,French,AC Milan,LB,Stang,184,79,23.33,9,90.1,60000000
+P040,Rafael Leao,1999-06-10,26,Portuguese,AC Milan,LW,Drept,188,78,22.07,7,79.0,80000000
+P041,Olivier Giroud,1986-09-30,39,French,LA Galaxy,ST,Drept,192,91,24.69,20,71.0,5000000
+P042,Thomas Müller,1989-09-13,36,German,Bayern München,CAM,Drept,186,75,21.68,17,74.2,8000000
+P043,Joshua Kimmich,1995-02-08,31,German,Bayern München,RB,Drept,177,73,23.3,12,84.2,65000000
+P044,Alphonso Davies,2000-11-02,25,Canadian,Bayern München,LB,Stang,183,73,21.8,6,89.9,65000000
+P045,Jadon Sancho,2000-03-25,26,English,Chelsea,RW,Drept,180,76,23.46,7,88.8,35000000
+P046,Enzo Fernandez,2001-01-17,25,Argentine,Chelsea,CM,Drept,178,73,23.04,6,87.1,80000000
+P047,Cole Palmer,2002-05-06,23,English,Chelsea,CAM,Drept,185,74,21.62,5,88.9,100000000
+P048,Nicolas Jackson,2001-06-20,24,Senegalese,Chelsea,ST,Drept,184,77,22.74,5,87.9,55000000
+P049,Reece James,1999-12-08,26,English,Chelsea,RB,Drept,180,80,24.69,7,81.2,60000000
+P050,Moises Caicedo,2001-11-02,24,Ecuadorian,Chelsea,CDM,Drept,180,73,22.53,5,80.7,80000000
+P051,Robert Lewandowski,1988-08-21,37,Polish,FC Barcelona,ST,Drept,185,81,23.67,18,71.7,20000000
+P052,Ferran Torres,2000-02-29,26,Spanish,FC Barcelona,LW,Drept,184,72,21.27,7,88.0,40000000
+P053,Frenkie de Jong,1997-05-12,28,Dutch,FC Barcelona,CM,Drept,180,74,22.84,10,83.5,50000000
+P054,Ansu Fati,2002-10-31,23,Spanish,FC Barcelona,LW,Stang,178,73,23.04,4,99.0,40000000
+P055,Niclas Fullkrug,1993-02-09,33,German,West Ham,ST,Drept,189,88,24.64,14,75.6,20000000
+P056,Xavi Simons,2003-04-21,22,Dutch,Paris Saint-Germain,CAM,Drept,176,65,20.98,4,78.4,80000000
+P057,Ousmane Dembele,1997-05-15,28,French,Paris Saint-Germain,RW,Stang,178,67,21.15,10,89.6,50000000
+P058,Bradley Barcola,2002-09-02,23,French,Paris Saint-Germain,LW,Drept,181,70,21.37,4,93.5,60000000
+P059,Achraf Hakimi,1998-11-04,27,Moroccan,Paris Saint-Germain,RB,Drept,181,73,22.28,8,88.0,70000000
+P060,Marquinhos,1994-05-14,31,Brazilian,Paris Saint-Germain,CB,Drept,183,75,22.4,13,87.0,30000000
+P061,Gianluigi Donnarumma,1999-02-25,27,Italian,Paris Saint-Germain,GK,Drept,196,90,23.43,8,93.6,60000000
+P062,Nicolo Barella,1997-02-07,29,Italian,Inter Milan,CM,Drept,172,68,22.99,10,84.4,70000000
+P063,Hakan Calhanoglu,1994-02-08,32,Turkish,Inter Milan,CDM,Stang,179,71,22.16,13,73.5,35000000
+P064,Alessandro Bastoni,1999-04-08,27,Italian,Inter Milan,CB,Stang,191,85,23.3,8,81.8,70000000
+P065,Marcus Thuram,1997-08-06,28,French,Inter Milan,ST,Drept,192,85,23.06,9,90.7,60000000
+P066,Khvicha Kvaratskhelia,2001-02-12,25,Georgian,Paris Saint-Germain,LW,Drept,183,77,22.99,6,76.3,80000000
+P067,Victor Osimhen,1998-12-29,27,Nigerian,Galatasaray,ST,Drept,185,78,22.79,8,85.2,80000000
+P068,Khephren Thuram,2001-03-26,25,French,Juventus,CM,Drept,188,84,23.77,6,86.5,40000000
+P069,Teun Koopmeiners,1998-02-28,28,Dutch,Juventus,CM,Drept,181,75,22.89,9,83.1,55000000
+P070,Gleison Bremer,1997-03-18,29,Brazilian,Juventus,CB,Drept,188,86,24.33,10,89.3,50000000
+P071,Adrien Rabiot,1995-04-03,31,French,Juventus,CM,Drept,188,82,23.2,12,87.0,25000000
+P072,Federico Chiesa,1997-10-25,28,Italian,Liverpool,RW,Stang,175,69,22.53,9,98.9,30000000
+P073,Kingsley Coman,1996-06-13,29,French,Bayern München,LW,Drept,181,72,21.98,10,88.7,40000000
+P074,Serge Gnabry,1995-07-14,30,German,Bayern München,RW,Drept,176,77,24.86,11,81.3,35000000
+P075,Leon Goretzka,1995-02-06,31,German,Bayern München,CM,Drept,189,83,23.24,12,80.1,40000000
+P076,Dayot Upamecano,1998-10-27,27,French,Bayern München,CB,Drept,186,83,23.99,8,80.0,60000000
+P077,Joao Cancelo,1994-05-27,31,Portuguese,FC Barcelona,RB,Drept,182,74,22.34,13,87.7,30000000
+P078,Rúben Neves,1997-03-13,29,Portuguese,Al Hilal,CDM,Drept,181,75,22.89,10,81.6,35000000
+P079,Joao Felix,2000-11-10,25,Portuguese,Chelsea,CAM,Drept,181,70,21.37,6,84.6,50000000
+P080,Pedro Neto,2000-03-09,26,Portuguese,Chelsea,LW,Drept,169,61,21.36,7,89.5,65000000
+P081,Ilkay Gundogan,1990-10-24,35,German,FC Barcelona,CM,Drept,180,80,24.69,16,73.2,10000000
+P082,Yaya Toure,1983-05-13,42,Ivorian,Retired,CM,Drept,191,84,23.03,24,63.7,1000000
+P083,David Beckham,1975-05-02,50,English,Retired,RB,Drept,183,74,22.1,32,50.0,1000000
+P084,Thierry Henry,1977-08-17,48,French,Retired,ST,Drept,188,83,23.48,29,51.5,1000000
+P085,Neymar Jr,1992-02-05,34,Brazilian,Al Hilal,LW,Drept,175,68,22.2,15,75.6,40000000
+P086,Luis Suarez,1987-01-24,39,Uruguayan,Nacional,ST,Drept,182,86,25.96,20,74.0,5000000
+P087,Sergio Aguero,1988-06-02,37,Argentine,Retired,ST,Drept,173,73,24.39,19,80.2,1000000
+P088,Andres Iniesta,1984-05-11,41,Spanish,Retired,CM,Stang,171,68,23.26,23,66.9,1000000
+P089,Xabi Alonso,1981-11-25,44,Spanish,Retired,CDM,Drept,183,78,23.29,25,65.6,1000000
+P090,Franck Ribery,1983-04-07,43,French,Retired,LW,Stang,170,72,24.91,24,66.5,1000000
+P091,Arjen Robben,1984-01-23,42,Dutch,Retired,RW,Stang,180,80,24.69,23,73.5,1000000
+P092,Zlatan Ibrahimovic,1981-10-03,44,Swedish,Retired,ST,Drept,195,95,24.98,25,69.4,1000000
+P093,Wayne Rooney,1985-10-24,40,English,Retired,ST,Drept,176,83,26.79,21,71.6,1000000
+P094,Frank Lampard,1978-06-20,47,English,Retired,CM,Drept,184,88,25.99,28,53.4,1000000
+P095,Steven Gerrard,1980-05-30,45,English,Retired,CM,Drept,183,83,24.78,27,66.4,1000000
+P096,Gareth Bale,1989-07-16,36,Welsh,Retired,RW,Stang,183,82,24.49,17,78.3,5000000
+P097,Eden Hazard,1991-01-07,35,Belgian,Retired,LW,Drept,173,74,24.73,16,84.9,5000000
+P098,Paul Pogba,1993-03-15,33,French,Juventus,CM,Drept,191,84,23.03,14,80.3,10000000
+P099,Antoine Semenyo,2000-01-08,26,Ghanaian,AFC Bournemouth,RW,Drept,180,76,23.46,7,96.7,30000000
+P100,Dominik Szoboszlai,2000-10-25,25,Hungarian,Liverpool,CM,Stang,186,78,22.55,6,82.8,70000000
+P101,Darwin Nunez,1999-06-24,26,Uruguayan,Liverpool,ST,Stang,187,81,23.16,7,94.6,70000000
+P102,Luis Diaz,1997-01-13,29,Colombian,Liverpool,LW,Drept,180,74,22.84,10,85.7,70000000
+P103,Alexis Mac Allister,1998-12-24,27,Argentine,Liverpool,CM,Drept,174,71,23.45,8,81.9,70000000
+P104,Ibrahima Konate,1999-05-25,26,French,Liverpool,CB,Drept,194,90,23.91,8,78.2,55000000
+P105,Andrew Robertson,1994-03-11,32,Scottish,Liverpool,LB,Stang,178,69,21.78,13,81.1,40000000
+P106,Cody Gakpo,1999-05-07,26,Dutch,Liverpool,LW,Drept,189,79,22.12,8,93.5,55000000
+P107,Dani Olmo,1998-05-07,27,Spanish,FC Barcelona,CAM,Drept,179,72,22.47,9,89.9,60000000
+P108,Marc Casado,2003-07-05,22,Spanish,FC Barcelona,CDM,Drept,182,71,21.43,3,89.1,25000000
+P109,Jules Kounde,1998-11-12,27,French,FC Barcelona,RB,Drept,178,71,22.41,8,70.7,65000000
+P110,Pau Cubarsi,2007-01-22,19,Spanish,FC Barcelona,CB,Stang,185,75,21.91,0,89.3,40000000
+P111,Granit Xhaka,1992-09-27,33,Swiss,Bayer Leverkusen,CDM,Stang,185,83,24.25,14,83.8,15000000
+P112,Victor Boniface,2000-12-23,25,Nigerian,Bayer Leverkusen,ST,Drept,189,85,23.8,6,81.7,40000000
+P113,Jonathan Tah,1996-02-11,30,German,Bayer Leverkusen,CB,Drept,195,92,24.19,11,81.2,35000000
+P114,Alejandro Grimaldo,1995-09-20,30,Spanish,Bayer Leverkusen,LB,Stang,172,65,21.97,11,85.0,40000000
+P115,Christopher Nkunku,1997-11-14,28,French,Chelsea,CAM,Drept,175,73,23.84,9,95.3,60000000
+P116,Goncalo Ramos,2001-06-20,24,Portuguese,Paris Saint-Germain,ST,Drept,187,80,22.88,5,78.7,50000000
+P117,Warren Zaire-Emery,2006-03-08,20,French,Paris Saint-Germain,CM,Drept,179,70,21.85,1,82.4,60000000
+P118,Rasmus Hojlund,2003-02-04,23,Danish,Manchester United,ST,Drept,191,83,22.75,4,93.2,60000000
+P119,Mason Mount,1999-01-10,27,English,Manchester United,CM,Drept,178,70,22.09,8,82.3,40000000
+P120,Kobbie Mainoo,2005-04-19,20,English,Manchester United,CM,Drept,180,72,22.22,2,82.8,50000000
+P121,Matthijs de Ligt,1999-08-12,26,Dutch,Manchester United,CB,Drept,189,85,23.8,7,85.6,38000000
+P122,Ivan Toney,1996-03-16,30,English,Al Ahli,ST,Drept,181,78,23.81,11,77.6,35000000
+P123,Ollie Watkins,1995-12-30,30,English,Aston Villa,ST,Drept,180,70,21.6,11,86.3,65000000
+P124,Douglas Luiz,1998-05-09,27,Brazilian,Juventus,CM,Drept,175,72,23.51,9,77.7,45000000
+P125,Leon Bailey,1997-08-09,28,Jamaican,Aston Villa,RW,Drept,178,76,23.99,9,90.3,30000000
+P126,Morgan Rogers,2002-07-26,23,English,Aston Villa,CAM,Drept,190,82,22.71,4,85.0,35000000
+P127,Bryan Mbeumo,1999-08-07,26,Cameroonian,Brentford,RW,Drept,170,69,23.88,7,98.7,40000000
+P128,Yoane Wissa,1996-09-03,29,Congolese,Brentford,ST,Drept,174,69,22.79,10,86.7,30000000
+P129,James Maddison,1996-11-23,29,English,Tottenham,CAM,Drept,178,71,22.41,10,93.2,45000000
+P130,Son Heung-min,1992-07-08,33,South Korean,Tottenham,LW,Stang,183,77,22.99,14,72.7,30000000
+P131,Brennan Johnson,2001-05-23,24,Welsh,Tottenham,RW,Drept,178,74,23.36,6,84.3,40000000
+P132,Pedro Porro,2000-09-13,25,Spanish,Tottenham,RB,Drept,177,73,23.3,6,86.9,40000000
+P133,Micky van de Ven,2001-04-19,24,Dutch,Tottenham,CB,Stang,193,85,22.82,6,95.5,55000000
+P134,Kai Havertz,1999-06-11,26,German,Arsenal,ST,Stang,189,83,23.24,7,74.9,65000000
+P135,Gabriel Martinelli,2001-06-18,24,Brazilian,Arsenal,LW,Stang,175,75,24.49,5,90.9,65000000
+P136,Ben White,1997-10-08,28,English,Arsenal,RB,Drept,186,74,21.39,9,88.5,55000000
+P137,David Raya,1995-09-15,30,Spanish,Arsenal,GK,Drept,183,82,24.49,11,94.2,30000000
+P138,Savinho,2004-04-10,22,Brazilian,Manchester City,RW,Drept,179,68,21.22,3,89.3,45000000
+P139,Matheus Nunes,2000-08-27,25,Portuguese,Manchester City,CM,Drept,182,77,23.25,6,85.3,55000000
+P140,Josko Gvardiol,2002-01-23,24,Croatian,Manchester City,LB,Stang,185,80,23.37,5,81.9,90000000
+P141,John Stones,1994-05-28,31,English,Manchester City,CB,Drept,188,70,19.81,13,74.5,45000000
+P142,Ederson,1993-08-17,32,Brazilian,Manchester City,GK,Drept,188,86,24.33,13,83.2,50000000
+P143,Luka Modric,1985-09-09,40,Croatian,Real Madrid,CM,Drept,172,66,22.31,21,68.8,8000000
+P144,Toni Kroos,1990-01-04,36,German,Real Madrid,CM,Drept,183,76,22.69,17,88.1,10000000
+P145,Eduardo Camavinga,2002-11-10,23,French,Real Madrid,CM,Stang,181,68,20.76,4,81.3,90000000
+P146,Aurelien Tchouameni,2000-01-27,26,French,Real Madrid,CDM,Drept,188,78,22.07,7,86.9,80000000
+P147,Dani Carvajal,1992-01-11,34,Spanish,Real Madrid,RB,Drept,173,73,24.39,15,69.6,25000000
+P148,Antonio Rudiger,1993-03-03,33,German,Real Madrid,CB,Drept,190,85,23.55,14,78.1,30000000
+P149,David Alaba,1992-06-24,33,Austrian,Real Madrid,CB,Stang,183,78,23.29,14,82.1,20000000
+P150,Jan Oblak,1993-01-07,33,Slovenian,Atletico Madrid,GK,Drept,188,87,24.62,14,85.4,30000000
+P151,Jose Maria Gimenez,1995-01-20,31,Uruguayan,Atletico Madrid,CB,Drept,187,82,23.45,12,92.2,35000000
+P152,Rodrigo De Paul,1994-05-24,31,Argentine,Atletico Madrid,CM,Drept,180,75,23.15,13,81.7,30000000
+P153,Paulo Dybala,1993-11-15,32,Argentine,AS Roma,CAM,Stang,177,74,23.62,13,75.3,20000000
+P154,Lorenzo Pellegrini,1996-06-19,29,Italian,AS Roma,CM,Drept,184,74,21.86,10,87.7,35000000
+P155,Mike Maignan,1995-07-03,30,French,AC Milan,GK,Drept,191,88,24.12,11,88.1,50000000
+P156,Tijjani Reijnders,1998-07-29,27,Dutch,AC Milan,CM,Drept,185,75,21.91,8,87.9,55000000
+P157,Christian Pulisic,1998-09-18,27,American,AC Milan,RW,Drept,177,70,22.34,8,80.8,35000000
+P158,Ruben Loftus-Cheek,1996-01-23,30,English,AC Milan,CM,Drept,191,83,22.75,11,91.8,25000000
+P159,Ciro Immobile,1990-02-20,36,Italian,Besiktas,ST,Drept,185,79,23.08,17,76.5,10000000
+P160,Jonathan David,2000-01-14,26,Canadian,Lille,ST,Drept,177,72,22.98,7,89.2,70000000
+P161,Loic Bade,2000-04-11,26,French,Sevilla,CB,Drept,190,85,23.55,7,92.6,25000000
+P162,Serhou Guirassy,1996-03-12,30,Guinean,Borussia Dortmund,ST,Drept,184,83,24.52,11,88.7,45000000
+P163,Gregor Kobel,1997-12-06,28,Swiss,Borussia Dortmund,GK,Drept,194,90,23.91,9,86.7,35000000
+P164,Nico Schlotterbeck,2000-01-01,26,German,Borussia Dortmund,CB,Stang,191,85,23.3,7,97.9,40000000
+P165,Felix Nmecha,2000-10-10,25,German,Borussia Dortmund,CM,Drept,182,77,23.25,6,86.5,30000000
+P166,Ramy Bensebaini,1995-04-16,30,Algerian,Borussia Dortmund,LB,Stang,185,82,23.96,12,81.7,20000000
+P167,Karim Benzema,1987-12-19,38,French,Al Ittihad,ST,Drept,185,81,23.67,19,73.7,20000000
+P168,N'Golo Kante,1991-03-29,35,French,Al Ittihad,CDM,Drept,168,70,24.8,16,86.4,20000000
+P169,Sadio Mane,1992-04-10,34,Senegalese,Al Nassr,LW,Drept,175,69,22.53,15,79.7,15000000
+P170,Roberto Firmino,1991-10-02,34,Brazilian,Al Ahli,ST,Drept,181,76,23.2,15,82.1,10000000
+P171,James Rodriguez,1991-07-12,34,Colombian,Rayo Vallecano,CAM,Stang,181,75,22.89,15,86.2,10000000
+P172,Casemiro,1992-02-23,34,Brazilian,Manchester United,CDM,Drept,185,84,24.54,15,75.9,20000000
+P173,Lisandro Martinez,1998-01-18,28,Argentine,Manchester United,CB,Stang,175,75,24.49,9,74.6,50000000
+P174,Luke Shaw,1995-07-12,30,English,Manchester United,LB,Stang,185,75,21.91,11,86.8,30000000
+P175,Andre Onana,1996-04-02,30,Cameroonian,Manchester United,GK,Drept,190,90,24.93,11,86.4,35000000
+P176,Amad Diallo,2002-07-11,23,Ivorian,Manchester United,RW,Drept,175,67,21.88,4,81.4,40000000

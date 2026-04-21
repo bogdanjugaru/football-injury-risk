@@ -9,6 +9,9 @@ const pageTitles = {
   '/players': 'Jucatori',
   '/prediction': 'Predictie Risc',
   '/statistics': 'Statistici & Analiza',
+  '/compare': 'Comparare Jucatori',
+  '/squad': 'Risc per Echipa',
+  '/injury-timeline': 'Istoric & Recuperare',
   '/model-comparison': 'Comparare Modele ML',
   '/model': 'Informatii Model ML',
 }

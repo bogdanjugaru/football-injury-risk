@@ -2,11 +2,30 @@ import json
 import traceback
 from fastapi import APIRouter, Depends, HTTPException
 from fastapi.responses import JSONResponse
+from pydantic import BaseModel
+from typing import Optional
 from sqlalchemy.orm import Session
 from app.database import get_db
 from app.schemas.prediction import PredictionInput
 from app.ml.predictor import predictor
+from app.ml.recovery_predictor import recovery_predictor
+from app.models import Injury
 from app.models.prediction import PredictionLog
+
+
+class RecoveryInput(BaseModel):
+    varsta: float = 25.0
+    bmi: float = 23.0
+    scor_fitness: float = 75.0
+    pozitie: str = "ST"
+    parte_corp: str = "Genunchi"
+    tip_accidentare: Optional[str] = None
+    severitate: str = "Moderată (8–28 zile)"
+    mecanism: str = "non-contact"
+    context: str = "antrenament"
+    recidiva: str = "Nu"
+    total_prev_injuries: float = 0
+    avg_days_absent: Optional[float] = None
 
 router = APIRouter(prefix="/api", tags=["Predictions"])
 
@@ -69,3 +88,53 @@ def get_prediction_history(
         "page": page,
         "per_page": per_page,
     }
+
+
+@router.post("/prediction/recovery")
+def predict_recovery(data: RecoveryInput, db: Session = Depends(get_db)):
+    """Predict expected recovery time for an injury."""
+    if not recovery_predictor.is_loaded:
+        raise HTTPException(
+            status_code=503,
+            detail="Modelul de recuperare nu este incarcat. Antreneaza-l mai intai via POST /api/prediction/recovery/train",
+        )
+
+    try:
+        input_dict = data.model_dump()
+        result = recovery_predictor.predict_recovery(input_dict)
+
+        # Compute similar_injuries_avg from DB
+        similar = (
+            db.query(Injury)
+            .filter(
+                Injury.parte_corp == data.parte_corp,
+                Injury.severitate == data.severitate,
+                Injury.zile_absenta.isnot(None),
+                Injury.zile_absenta > 0,
+            )
+            .all()
+        )
+        if similar:
+            similar_avg = round(
+                sum(inj.zile_absenta for inj in similar) / len(similar), 1
+            )
+        else:
+            similar_avg = None
+
+        result["similar_injuries_avg"] = similar_avg
+        return result
+
+    except Exception as e:
+        traceback.print_exc()
+        return JSONResponse(status_code=500, content={"detail": str(e)})
+
+
+@router.post("/prediction/recovery/train")
+def train_recovery_model(db: Session = Depends(get_db)):
+    """Train the recovery time prediction model from current DB data."""
+    try:
+        result = recovery_predictor.train(db)
+        return result
+    except Exception as e:
+        traceback.print_exc()
+        return JSONResponse(status_code=500, content={"detail": str(e)})

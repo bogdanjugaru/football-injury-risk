@@ -15,6 +15,38 @@
   --color-critical: #7c3aed;
 }
 
+/* ── Dark mode (default) ── */
+:root, [data-theme="dark"] {
+  --color-bg: #0d1117;
+  --color-bg2: #161b22;
+  --color-bg3: #21262d;
+  --color-border: #30363d;
+  --color-text: #e6edf3;
+  --color-text-muted: #8b949e;
+  --color-primary: #3b82f6;
+  --color-primary-d: #2563eb;
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+  --color-danger: #ef4444;
+  --color-critical: #7c3aed;
+}
+
+/* ── Light mode ── */
+[data-theme="light"] {
+  --color-bg: #f6f8fa;
+  --color-bg2: #ffffff;
+  --color-bg3: #eaeef2;
+  --color-border: #d0d7de;
+  --color-text: #1f2328;
+  --color-text-muted: #656d76;
+  --color-primary: #2563eb;
+  --color-primary-d: #1d4ed8;
+  --color-success: #059669;
+  --color-warning: #d97706;
+  --color-danger: #dc2626;
+  --color-critical: #6d28d9;
+}
+
 body {
   background: var(--color-bg);
   color: var(--color-text);
@@ -22,6 +54,7 @@ body {
   font-size: 14px;
   line-height: 1.6;
   margin: 0;
+  transition: background 0.2s ease, color 0.2s ease;
 }
 
 ::-webkit-scrollbar { width: 6px; height: 6px; }

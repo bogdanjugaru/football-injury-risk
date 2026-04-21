@@ -1,0 +1,647 @@
+﻿injury_id,player_id,sezon,data_accidentare,data_revenire,tip_accidentare,parte_corp,severitate,zile_absenta,mecanism,context,minut_accidentare,suprafata_teren,conditii_meteo,temperatura_c,recidiva,interventie_chirurgicala
+I0001,P001,2023-24,2023-10-21,2023-11-11,Muscular (adductor),Adductori,Ușoară (1–7 zile),21,Non-contact,Meci oficial,66,Gazon natural,Ploaie,14,Nu,Nu
+I0002,P085,2022-23,2023-01-22,2023-07-21,Ligament (ankle),Gleznă,Foarte severă (>90 zile),180,Contact direct,Meci oficial,78,Gazon natural,Frig,16,Nu,Nu
+I0003,P085,2023-24,2023-10-17,2024-07-13,Ligament (ACL),Genunchi,Foarte severă (>90 zile),270,Non-contact,Meci oficial,79,Gazon natural,Vant puternic,24,Nu,Da
+I0004,P054,2020-21,2020-11-07,2021-04-18,Meniscus,Genunchi,Foarte severă (>90 zile),162,Contact direct,Meci oficial,75,Gazon natural,Frig,19,Nu,Da
+I0005,P054,2022-23,2022-10-19,2022-12-16,Muscular (hamstring),Coapsă posterioară,Severă (29–90 zile),58,Non-contact,Meci oficial,74,Gazon natural,Soare,20,Nu,Nu
+I0006,P019,2023-24,2023-08-19,2023-12-09,Muscular (hamstring),Coapsă posterioară,Foarte severă (>90 zile),112,Non-contact,Meci oficial,57,Gazon natural,Ploaie,15,Nu,Nu
+I0007,P025,2023-24,2023-08-14,2024-04-10,Ligament (ACL),Genunchi,Foarte severă (>90 zile),240,Non-contact,Meci oficial,60,Gazon natural,Soare,19,Nu,Da
+I0008,P098,2023-24,2023-09-11,2024-06-07,Ligament (ACL),Genunchi,Foarte severă (>90 zile),270,Non-contact,Meci oficial,70,Gazon natural,Soare,12,Nu,Da
+I0009,P005,2022-23,2022-08-21,2022-11-09,Muscular (quadriceps),Coapsă anterioară,Severă (29–90 zile),80,Non-contact,Meci oficial,46,Gazon natural,Caldura,22,Nu,Nu
+I0010,P005,2023-24,2023-09-23,2023-10-14,Muscular (hamstring),Coapsă posterioară,Moderată (8–28 zile),21,Sprint,Meci oficial,73,Gazon natural,Ploaie,16,Nu,Nu
+I0011,P013,2023-24,2023-11-18,2024-08-14,Ligament (ACL),Genunchi,Foarte severă (>90 zile),270,Contact direct,Meci oficial,45,Gazon natural,Caldura,13,Nu,Da
+I0012,P049,2022-23,2022-10-09,2022-12-18,Ligament (MCL),Genunchi,Severă (29–90 zile),70,Contact direct,Meci oficial,30,Gazon natural,Soare,10,Nu,Nu
+I0013,P049,2023-24,2023-10-28,2023-11-25,Muscular (hamstring),Coapsă posterioară,Moderată (8–28 zile),28,Sprint,Meci oficial,71,Gazon natural,Frig,20,Nu,Nu
+I0014,P147,2023-24,2024-01-14,2024-02-05,Muscular (adductor),Adductori,Moderată (8–28 zile),22,Non-contact,Meci oficial,75,Gazon natural,Caldura,10,Nu,Nu
+I0015,P057,2019-20,2019-09-22,2019-12-21,Muscular (hamstring),Coapsă posterioară,Severă (29–90 zile),90,Sprint,Meci oficial,63,Gazon natural,Ploaie,21,Nu,Nu
+I0016,P057,2020-21,2021-02-06,2021-03-06,Muscular (hamstring),Coapsă posterioară,Moderată (8–28 zile),28,Sprint,Meci oficial,40,Gazon natural,Frig,16,Nu,Nu
+I0017,P072,2021-22,2022-01-09,2022-09-16,Ligament (ACL),Genunchi,Foarte severă (>90 zile),250,Non-contact,Meci oficial,74,Gazon natural,Vant puternic,24,Nu,Da
+I0018,P091,2019-20,2019-11-08,2020-01-07,Muscular (calf),Gambă,Severă (29–90 zile),60,Sprint,Meci oficial,64,Gazon natural,Frig,17,Nu,Nu
+I0019,P096,2019-20,2019-10-05,2019-10-26,Muscular (calf),Gambă,Moderată (8–28 zile),21,Sprint,Meci oficial,76,Gazon natural,Frig,10,Nu,Nu
+I0020,P174,2022-23,2023-08-26,2023-10-10,Muscular (hamstring),Coapsă posterioară,Severă (29–90 zile),45,Non-contact,Meci oficial,36,Gazon natural,Caldura,19,Nu,Nu
+I0021,P001,2019-20,2019-07-14,2019-07-31,Muscular (adductor),Adductori,Moderată (8–28 zile),17,Sprint,Meci amical,9,Gazon natural,Frig,2,Nu,Nu
+I0022,P001,2020-21,2020-08-09,2020-08-11,Muscular (calf),Gambă,Ușoară (1–7 zile),2,Sprint,Meci oficial,73,Gazon sintetic,Ploaie,11,Nu,Nu
+I0023,P001,2022-23,2023-01-04,2023-03-02,Ruptura musculara partiala,Coapsă posterioară,Severă (29–90 zile),57,Contact direct,Meci amical,82,Gazon sintetic,Ploaie,12,Nu,Nu
+I0024,P001,2021-22,2022-03-05,2022-03-07,Muscular (hamstring),Coapsă posterioară,Ușoară (1–7 zile),2,Sprint,Antrenament,,Gazon hibrid,Soare,28,Nu,Nu
+I0025,P001,2023-24,2023-10-07,2023-10-12,Entorsa glezna gr.III,Gleznă,Ușoară (1–7 zile),5,Non-contact,Meci oficial,44,Gazon sintetic,Caldura,33,Nu,Nu
+I0026,P001,2021-22,2021-09-24,2022-06-12,Elongatie musculara,Coapsă,Foarte severă (>90 zile),261,Contact direct,Meci oficial,46,Gazon hibrid,Vant puternic,5,Nu,Nu
+I0027,P002,2022-23,2022-11-14,2022-12-14,Entorsa glezna gr.III,Gleznă,Severă (29–90 zile),30,Non-contact,Meci oficial,90,Gazon sintetic,Ploaie,15,Nu,Nu
+I0028,P002,2022-23,2023-01-27,2023-02-04,Contuzie genunchi,Genunchi,Moderată (8–28 zile),8,Schimbare de directie,Meci amical,3,Gazon natural,Vant puternic,10,Nu,Nu
+I0029,P002,2023-24,2023-12-13,2024-01-09,Contuzie gleznă,Gleznă,Moderată (8–28 zile),27,Duel aerian,Meci oficial,61,Gazon hibrid,Soare,29,Da,Nu
+I0030,P003,2019-20,2019-09-04,2019-11-04,Contuzie gleznă,Gleznă,Severă (29–90 zile),61,Schimbare de directie,Meci oficial,39,Gazon sintetic,Caldura,29,Nu,Nu
+I0031,P003,2019-20,2020-06-14,2020-06-16,Tendinita rotuliana,Genunchi,Ușoară (1–7 zile),2,Suprasolicitare,Antrenament,,Gazon sintetic,Soare,19,Nu,Nu
+I0032,P003,2022-23,2023-03-25,2023-03-28,Entorsa glezna gr.I,Gleznă,Ușoară (1–7 zile),3,Contact direct,Meci amical,18,Gazon hibrid,Caldura,31,Nu,Nu
+I0033,P003,2020-21,2021-06-02,2021-06-30,Entorsa glezna gr.I,Gleznă,Moderată (8–28 zile),28,Schimbare de directie,Antrenament,,Gazon natural,Frig,4,Da,Nu
+I0034,P003,2019-20,2019-12-30,2019-12-31,Muscular (adductor),Adductori,Ușoară (1–7 zile),1,Sprint,Meci oficial,15,Gazon hibrid,Caldura,37,Nu,Nu
+I0035,P004,2020-21,2020-07-23,2020-07-28,Muscular (hamstring),Coapsă posterioară,Ușoară (1–7 zile),5,Sprint,Antrenament,,Gazon hibrid,Vant puternic,7,Nu,Nu
+I0036,P004,2022-23,2022-07-07,2022-07-08,Contuzie gleznă,Gleznă,Ușoară (1–7 zile),1,Non-contact,Antrenament,,Gazon natural,Vant puternic,12,Nu,Nu
+I0037,P004,2023-24,2024-04-04,2024-04-10,Contuzie gleznă,Gleznă,Ușoară (1–7 zile),6,Suprasolicitare,Antrenament,,Gazon hibrid,Vant puternic,9,Nu,Nu
+I0038,P004,2019-20,2019-10-29,2019-11-18,Entorsa glezna gr.III,Gleznă,Moderată (8–28 zile),20,Schimbare de directie,Meci oficial,27,Gazon sintetic,Ploaie,8,Nu,Nu
+I0039,P004,2019-20,2019-08-14,2019-08-27,Ruptura musculara partiala,Coapsă posterioară,Moderată (8–28 zile),13,Suprasolicitare,Meci oficial,45,Gazon hibrid,Frig,2,Nu,Nu
+I0040,P005,2023-24,2023-09-18,2023-09-21,Contuzie gleznă,Gleznă,Ușoară (1–7 zile),3,Sprint,Antrenament,,Gazon hibrid,Soare,31,Nu,Nu
+I0041,P005,2019-20,2020-04-22,2020-05-09,Muscular (calf),Gambă,Moderată (8–28 zile),17,Sprint,Meci oficial,84,Gazon sintetic,Soare,23,Nu,Nu
+I0042,P005,2019-20,2019-10-24,2019-11-06,Ruptura musculara partiala,Coapsă posterioară,Moderată (8–28 zile),13,Fault,Meci oficial,23,Gazon sintetic,Soare,19,Nu,Nu
+I0043,P005,2020-21,2020-11-13,2020-12-03,Ruptura musculara partiala,Coapsă posterioară,Moderată (8–28 zile),20,Non-contact,Meci oficial,89,Gazon natural,Caldura,38,Da,Nu
+I0044,P006,2021-22,2021-08-21,2021-10-30,Entorsa glezna gr.II,Gleznă,Severă (29–90 zile),70,Suprasolicitare,Meci oficial,48,Gazon hibrid,Soare,19,Nu,Nu
+I0045,P006,2022-23,2022-10-14,2022-10-22,Entorsa glezna gr.I,Gleznă,Moderată (8–28 zile),8,Non-contact,Antrenament,,Gazon hibrid,Soare,30,Nu,Nu
+I0046,P007,2023-24,2024-04-30,2024-05-06,Muscular (quadriceps),Coapsă anterioară,Ușoară (1–7 zile),6,Non-contact,Antrenament,,Gazon natural,Soare,24,Nu,Nu
+I0047,P007,2019-20,2020-03-11,2020-04-08,Contuzie genunchi,Genunchi,Moderată (8–28 zile),28,Contact direct,Antrenament,,Gazon sintetic,Soare,20,Nu,Nu
+I0048,P008,2022-23,2022-09-20,2022-09-22,Entorsa glezna gr.II,Gleznă,Ușoară (1–7 zile),2,Contact direct,Meci oficial,72,Gazon sintetic,Vant puternic,6,Nu,Nu
+I0049,P009,2020-21,2020-11-20,2021-02-19,Fractura metatarsian,Picior,Foarte severă (>90 zile),91,Duel aerian,Meci oficial,67,Gazon sintetic,Vant puternic,12,Nu,Da
+I0050,P009,2022-23,2022-11-23,2023-05-23,Contuzie gleznă,Gleznă,Foarte severă (>90 zile),181,Contact direct,Antrenament,,Gazon natural,Soare,28,Nu,Nu
+I0051,P010,2019-20,2020-03-31,2020-06-29,Ligament (ACL),Genunchi,Severă (29–90 zile),90,Non-contact,Antrenament,,Gazon sintetic,Ploaie,17,Nu,Da
+I0052,P010,2019-20,2019-12-18,2019-12-22,Tendinita rotuliana,Genunchi,Ușoară (1–7 zile),4,Duel aerian,Antrenament,,Gazon hibrid,Ploaie,11,Nu,Nu
+I0053,P010,2022-23,2022-08-28,2022-08-31,Entorsa glezna gr.I,Gleznă,Ușoară (1–7 zile),3,Schimbare de directie,Antrenament,,Gazon sintetic,Caldura,34,Nu,Nu
+I0054,P010,2020-21,2021-01-04,2021-01-14,Muscular (hamstring),Coapsă posterioară,Moderată (8–28 zile),10,Suprasolicitare,Meci oficial,9,Gazon natural,Vant puternic,10,Nu,Nu
+I0055,P010,2019-20,2020-01-17,2020-01-18,Elongatie musculara,Coapsă,Ușoară (1–7 zile),1,Duel aerian,Meci oficial,49,Gazon hibrid,Soare,30,Nu,Nu
+I0056,P011,2022-23,2022-08-03,2022-08-20,Contuzie gleznă,Gleznă,Moderată (8–28 zile),17,Contact direct,Meci oficial,7,Gazon hibrid,Ploaie,14,Nu,Nu
+I0057,P011,2021-22,2022-03-03,2022-04-26,Contuzie gleznă,Gleznă,Severă (29–90 zile),54,Suprasolicitare,Meci oficial,20,Gazon hibrid,Ploaie,14,Nu,Nu
+I0058,P011,2020-21,2020-11-22,2020-11-29,Tendinita rotuliana,Genunchi,Ușoară (1–7 zile),7,Non-contact,Antrenament,,Gazon sintetic,Frig,5,Nu,Nu
+I0059,P011,2020-21,2021-03-17,2021-04-01,Muscular (adductor),Adductori,Moderată (8–28 zile),15,Sprint,Antrenament,,Gazon hibrid,Vant puternic,15,Nu,Nu
+I0060,P012,2019-20,2019-10-26,2019-10-31,Muscular (adductor),Adductori,Ușoară (1–7 zile),5,Non-contact,Meci oficial,2,Gazon hibrid,Frig,5,Nu,Nu
+I0061,P013,2022-23,2022-12-14,2022-12-15,Contuzie gleznă,Gleznă,Ușoară (1–7 zile),1,Schimbare de directie,Meci oficial,1,Gazon hibrid,Frig,1,Nu,Nu
+I0062,P013,2019-20,2020-06-10,2020-06-14,Tendinita rotuliana,Genunchi,Ușoară (1–7 zile),4,Sprint,Antrenament,,Gazon natural,Caldura,33,Nu,Nu
+I0063,P016,2019-20,2020-02-17,2020-02-20,Meniscus,Genunchi,Ușoară (1–7 zile),3,Suprasolicitare,Meci oficial,70,Gazon hibrid,Soare,22,Nu,Da
+I0064,P016,2022-23,2023-02-06,2023-02-09,Tendinita Achilles,Tendon Achilles,Ușoară (1–7 zile),3,Sprint,Antrenament,,Gazon natural,Frig,-2,Nu,Nu
+I0065,P017,2020-21,2020-07-16,2020-07-22,Ligament (ankle),Gleznă,Ușoară (1–7 zile),6,Contact direct,Meci oficial,56,Gazon sintetic,Frig,6,Nu,Nu
+I0066,P017,2023-24,2023-10-23,2023-11-04,Muscular (quadriceps),Coapsă anterioară,Moderată (8–28 zile),12,Sprint,Antrenament,,Gazon natural,Vant puternic,7,Nu,Nu
+I0067,P018,2019-20,2020-05-27,2020-06-18,Ruptura musculara partiala,Coapsă posterioară,Moderată (8–28 zile),22,Schimbare de directie,Meci oficial,1,Gazon natural,Vant puternic,6,Nu,Nu
+I0068,P018,2019-20,2019-09-03,2019-09-21,Muscular (quadriceps),Coapsă anterioară,Moderată (8–28 zile),18,Suprasolicitare,Meci oficial,86,Gazon hibrid,Vant puternic,12,Nu,Nu
+I0069,P018,2023-24,2023-11-15,2023-11-22,Entorsa glezna gr.I,Gleznă,Ușoară (1–7 zile),7,Non-contact,Meci amical,50,Gazon sintetic,Ploaie,9,Nu,Nu
+I0070,P020,2021-22,2021-11-26,2021-12-14,Ligament (ACL),Genunchi,Moderată (8–28 zile),18,Non-contact,Meci amical,38,Gazon hibrid,Vant puternic,11,Nu,Da
+I0071,P020,2023-24,2024-05-04,2024-05-05,Ligament (ACL),Genunchi,Ușoară (1–7 zile),1,Non-contact,Antrenament,,Gazon hibrid,Frig,7,Da,Da
+I0072,P020,2019-20,2020-03-27,2020-03-28,Contuzie gleznă,Gleznă,Ușoară (1–7 zile),1,Non-contact,Meci oficial,25,Gazon natural,Ploaie,8,Nu,Nu
+I0073,P020,2020-21,2020-10-16,2020-11-13,Ligament (ankle),Gleznă,Moderată (8–28 zile),28,Contact direct,Meci oficial,55,Gazon sintetic,Soare,22,Da,Nu
+I0074,P021,2019-20,2019-10-15,2019-10-16,Elongatie musculara,Coapsă,Ușoară (1–7 zile),1,Non-contact,Antrenament,,Gazon natural,Vant puternic,14,Nu,Nu
+I0075,P021,2020-21,2021-03-15,2021-04-02,Ligament (ACL),Genunchi,Moderată (8–28 zile),18,Contact direct,Meci oficial,17,Gazon hibrid,Vant puternic,14,Nu,Da
+I0076,P021,2019-20,2020-02-03,2020-02-13,Ligament (MCL),Genunchi,Moderată (8–28 zile),10,Contact direct,Antrenament,,Gazon natural,Caldura,35,Da,Nu
+I0077,P022,2020-21,2021-03-09,2021-03-27,Muscular (quadriceps),Coapsă anterioară,Moderată (8–28 zile),18,Sprint,Antrenament,,Gazon hibrid,Ploaie,10,Nu,Nu
+I0078,P023,2021-22,2021-07-19,2021-09-08,Entorsa glezna gr.II,Gleznă,Severă (29–90 zile),51,Schimbare de directie,Meci oficial,56,Gazon natural,Soare,25,Nu,Nu
+I0079,P023,2020-21,2021-02-13,2021-02-25,Contuzie gleznă,Gleznă,Moderată (8–28 zile),12,Schimbare de directie,Antrenament,,Gazon hibrid,Ploaie,14,Da,Nu
+I0080,P023,2021-22,2022-05-09,2022-05-16,Ruptura musculara partiala,Coapsă posterioară,Ușoară (1–7 zile),7,Schimbare de directie,Meci oficial,52,Gazon hibrid,Caldura,30,Nu,Nu
+I0081,P024,2021-22,2022-01-18,2022-02-11,Ligament (MCL),Genunchi,Moderată (8–28 zile),24,Schimbare de directie,Antrenament,,Gazon natural,Vant puternic,9,Nu,Nu
+I0082,P024,2020-21,2021-02-17,2021-02-19,Ligament (ACL),Genunchi,Ușoară (1–7 zile),2,Schimbare de directie,Meci oficial,35,Gazon sintetic,Soare,28,Da,Da
+I0083,P024,2019-20,2019-12-18,2020-06-09,Tendinita Achilles,Tendon Achilles,Foarte severă (>90 zile),174,Sprint,Meci amical,34,Gazon hibrid,Ploaie,17,Nu,Nu
+I0084,P024,2023-24,2023-08-05,2023-09-17,Entorsa glezna gr.I,Gleznă,Severă (29–90 zile),43,Contact direct,Meci amical,3,Gazon sintetic,Caldura,38,Nu,Nu
+I0085,P025,2020-21,2021-04-25,2021-06-07,Contuzie gleznă,Gleznă,Severă (29–90 zile),43,Suprasolicitare,Meci oficial,51,Gazon sintetic,Ploaie,11,Nu,Nu
+I0086,P025,2023-24,2024-01-26,2024-01-28,Muscular (adductor),Adductori,Ușoară (1–7 zile),2,Suprasolicitare,Antrenament,,Gazon natural,Ploaie,12,Nu,Nu
+I0087,P025,2019-20,2019-11-20,2019-12-04,Entorsa glezna gr.I,Gleznă,Moderată (8–28 zile),14,Non-contact,Meci oficial,83,Gazon natural,Frig,-2,Da,Nu
+I0088,P025,2019-20,2019-07-28,2019-08-04,Meniscus,Genunchi,Ușoară (1–7 zile),7,Suprasolicitare,Antrenament,,Gazon hibrid,Soare,20,Nu,Nu
+I0089,P026,2022-23,2022-07-15,2022-11-10,Muscular (hamstring),Coapsă posterioară,Foarte severă (>90 zile),118,Suprasolicitare,Antrenament,,Gazon sintetic,Ploaie,15,Nu,Nu
+I0090,P027,2022-23,2022-07-18,2022-08-15,Muscular (calf),Gambă,Moderată (8–28 zile),28,Sprint,Meci oficial,38,Gazon natural,Soare,26,Nu,Nu
+I0091,P027,2022-23,2023-03-04,2023-03-07,Ligament (MCL),Genunchi,Ușoară (1–7 zile),3,Sprint,Meci oficial,88,Gazon natural,Frig,0,Nu,Nu
+I0092,P028,2019-20,2019-12-04,2020-06-03,Muscular (quadriceps),Coapsă anterioară,Foarte severă (>90 zile),182,Non-contact,Antrenament,,Gazon sintetic,Soare,32,Nu,Nu
+I0093,P028,2019-20,2020-05-03,2020-05-24,Contuzie gleznă,Gleznă,Moderată (8–28 zile),21,Suprasolicitare,Meci amical,80,Gazon sintetic,Vant puternic,9,Nu,Nu
+I0094,P028,2023-24,2023-12-22,2024-03-05,Ruptura musculara partiala,Coapsă posterioară,Severă (29–90 zile),74,Contact direct,Meci oficial,20,Gazon natural,Ploaie,10,Nu,Nu
+I0095,P028,2019-20,2020-04-22,2020-05-08,Muscular (quadriceps),Coapsă anterioară,Moderată (8–28 zile),16,Sprint,Meci amical,41,Gazon sintetic,Frig,7,Da,Nu
+I0096,P028,2021-22,2021-08-23,2022-01-23,Muscular (quadriceps),Coapsă anterioară,Foarte severă (>90 zile),153,Suprasolicitare,Meci oficial,30,Gazon hibrid,Frig,6,Da,Nu
+I0097,P028,2020-21,2020-10-24,2020-10-25,Entorsa glezna gr.III,Gleznă,Ușoară (1–7 zile),1,Sprint,Meci oficial,47,Gazon sintetic,Caldura,33,Da,Nu
+I0098,P028,2019-20,2020-04-11,2020-07-01,Elongatie musculara,Coapsă,Severă (29–90 zile),81,Contact direct,Meci oficial,71,Gazon natural,Frig,-2,Nu,Nu
+I0099,P029,2021-22,2021-07-31,2021-08-04,Ligament (ankle),Gleznă,Ușoară (1–7 zile),4,Contact direct,Meci oficial,75,Gazon sintetic,Soare,25,Nu,Nu
+I0100,P029,2022-23,2022-09-08,2022-09-09,Muscular (quadriceps),Coapsă anterioară,Ușoară (1–7 zile),1,Non-contact,Antrenament,,Gazon sintetic,Frig,2,Nu,Nu
+I0101,P029,2022-23,2023-05-24,2023-06-21,Luxatie umar,Umăr,Moderată (8–28 zile),28,Contact direct,Meci oficial,8,Gazon sintetic,Soare,27,Nu,Nu
+I0102,P029,2022-23,2022-08-08,2022-08-30,Entorsa glezna gr.III,Gleznă,Moderată (8–28 zile),22,Suprasolicitare,Meci oficial,40,Gazon sintetic,Ploaie,10,Nu,Nu
+I0103,P029,2021-22,2021-09-28,2021-09-30,Ruptura musculara partiala,Coapsă posterioară,Ușoară (1–7 zile),2,Contact direct,Antrenament,,Gazon sintetic,Ploaie,16,Nu,Nu
+I0104,P029,2019-20,2020-06-02,2020-06-22,Ligament (MCL),Genunchi,Moderată (8–28 zile),20,Non-contact,Meci oficial,55,Gazon hibrid,Ploaie,9,Nu,Nu
+I0105,P030,2020-21,2021-01-28,2021-01-30,Entorsa glezna gr.I,Gleznă,Ușoară (1–7 zile),2,Contact direct,Meci oficial,28,Gazon hibrid,Caldura,31,Nu,Nu
+I0106,P030,2022-23,2022-09-10,2022-09-11,Ruptura musculara partiala,Coapsă posterioară,Ușoară (1–7 zile),1,Suprasolicitare,Antrenament,,Gazon natural,Frig,-1,Nu,Nu
+I0107,P030,2021-22,2021-09-23,2021-12-22,Ruptura musculara partiala,Coapsă posterioară,Severă (29–90 zile),90,Non-contact,Meci oficial,46,Gazon hibrid,Ploaie,18,Nu,Nu
+I0108,P031,2021-22,2021-08-21,2021-08-28,Entorsa glezna gr.II,Gleznă,Ușoară (1–7 zile),7,Sprint,Meci oficial,5,Gazon hibrid,Vant puternic,15,Nu,Nu
+I0109,P032,2023-24,2024-01-09,2024-01-23,Muscular (quadriceps),Coapsă anterioară,Moderată (8–28 zile),14,Suprasolicitare,Antrenament,,Gazon sintetic,Caldura,33,Nu,Nu
+I0110,P032,2022-23,2022-12-28,2022-12-31,Entorsa glezna gr.II,Gleznă,Ușoară (1–7 zile),3,Non-contact,Antrenament,,Gazon natural,Frig,7,Nu,Nu
+I0111,P032,2023-24,2024-01-04,2024-04-28,Contuzie gleznă,Gleznă,Foarte severă (>90 zile),115,Non-contact,Antrenament,,Gazon sintetic,Soare,25,Da,Nu
+I0112,P032,2020-21,2021-06-23,2021-06-26,Muscular (calf),Gambă,Ușoară (1–7 zile),3,Non-contact,Meci oficial,34,Gazon hibrid,Frig,0,Nu,Nu
+I0113,P033,2022-23,2023-04-24,2023-05-21,Ligament (ACL),Genunchi,Moderată (8–28 zile),27,Schimbare de directie,Meci oficial,41,Gazon hibrid,Vant puternic,11,Nu,Da
+I0114,P033,2023-24,2023-08-26,2023-12-09,Muscular (hamstring),Coapsă posterioară,Foarte severă (>90 zile),105,Suprasolicitare,Antrenament,,Gazon hibrid,Ploaie,9,Nu,Nu
+I0115,P034,2021-22,2022-02-01,2022-02-05,Meniscus,Genunchi,Ușoară (1–7 zile),4,Non-contact,Antrenament,,Gazon natural,Frig,-1,Nu,Da
+I0116,P034,2021-22,2021-12-04,2022-02-20,Ruptura musculara partiala,Coapsă posterioară,Severă (29–90 zile),78,Non-contact,Meci oficial,41,Gazon sintetic,Vant puternic,8,Nu,Nu
+I0117,P034,2019-20,2020-04-24,2020-05-17,Fractura tibie,Gambă,Moderată (8–28 zile),23,Non-contact,Antrenament,,Gazon natural,Soare,27,Nu,Nu
+I0118,P034,2023-24,2023-10-01,2023-12-29,Muscular (hamstring),Coapsă posterioară,Severă (29–90 zile),89,Sprint,Meci oficial,9,Gazon hibrid,Vant puternic,9,Nu,Nu
+I0119,P035,2020-21,2021-05-31,2021-06-04,Muscular (adductor),Adductori,Ușoară (1–7 zile),4,Sprint,Meci amical,54,Gazon hibrid,Frig,4,Nu,Nu
+I0120,P035,2023-24,2023-11-20,2024-01-23,Contuzie gleznă,Gleznă,Severă (29–90 zile),64,Contact direct,Meci amical,86,Gazon natural,Caldura,33,Nu,Nu
+I0121,P035,2021-22,2022-04-18,2022-04-30,Muscular (calf),Gambă,Moderată (8–28 zile),12,Non-contact,Antrenament,,Gazon hibrid,Frig,5,Nu,Nu
+I0122,P035,2019-20,2019-09-13,2020-01-06,Fractura metatarsian,Picior,Foarte severă (>90 zile),115,Fault,Meci oficial,54,Gazon natural,Caldura,31,Nu,Da
+I0123,P036,2021-22,2021-07-28,2021-08-05,Ruptura musculara partiala,Coapsă posterioară,Moderată (8–28 zile),8,Contact direct,Antrenament,,Gazon sintetic,Vant puternic,12,Nu,Nu
+I0124,P036,2021-22,2021-11-19,2021-11-24,Fractura metatarsian,Picior,Ușoară (1–7 zile),5,Schimbare de directie,Antrenament,,Gazon hibrid,Soare,32,Nu,Da
+I0125,P036,2023-24,2024-03-26,2024-04-12,Muscular (calf),Gambă,Moderată (8–28 zile),17,Suprasolicitare,Antrenament,,Gazon hibrid,Caldura,29,Nu,Nu
+I0126,P036,2021-22,2022-04-12,2022-08-07,Muscular (hamstring),Coapsă posterioară,Foarte severă (>90 zile),117,Suprasolicitare,Antrenament,,Gazon natural,Caldura,34,Nu,Nu
+I0127,P036,2019-20,2020-02-20,2020-03-11,Muscular (adductor),Adductori,Moderată (8–28 zile),20,Sprint,Meci oficial,60,Gazon natural,Frig,-2,Nu,Nu
+I0128,P036,2020-21,2020-12-23,2020-12-29,Contuzie gleznă,Gleznă,Ușoară (1–7 zile),6,Sprint,Meci oficial,54,Gazon natural,Ploaie,14,Nu,Nu
+I0129,P036,2023-24,2024-02-04,2024-04-06,Entorsa glezna gr.III,Gleznă,Severă (29–90 zile),62,Contact direct,Meci oficial,74,Gazon hibrid,Frig,1,Nu,Nu
+I0130,P036,2021-22,2021-11-25,2021-11-30,Meniscus,Genunchi,Ușoară (1–7 zile),5,Suprasolicitare,Meci oficial,23,Gazon hibrid,Frig,0,Nu,Da
+I0131,P036,2022-23,2022-09-24,2022-10-22,Entorsa glezna gr.III,Gleznă,Moderată (8–28 zile),28,Suprasolicitare,Antrenament,,Gazon natural,Vant puternic,7,Nu,Nu
+I0132,P036,2023-24,2023-10-25,2023-11-22,Muscular (quadriceps),Coapsă anterioară,Moderată (8–28 zile),28,Suprasolicitare,Antrenament,,Gazon hibrid,Soare,27,Nu,Nu
+I0133,P037,2020-21,2020-07-31,2020-09-17,Muscular (adductor),Adductori,Severă (29–90 zile),48,Non-contact,Antrenament,,Gazon natural,Frig,-2,Nu,Nu
+I0134,P037,2022-23,2022-09-29,2022-10-27,Ruptura musculara partiala,Coapsă posterioară,Moderată (8–28 zile),28,Contact direct,Antrenament,,Gazon natural,Caldura,32,Nu,Nu
+I0135,P038,2023-24,2024-03-12,2024-03-31,Muscular (calf),Gambă,Moderată (8–28 zile),19,Non-contact,Meci oficial,53,Gazon sintetic,Soare,25,Nu,Nu
+I0136,P039,2020-21,2021-03-03,2021-04-12,Elongatie musculara,Coapsă,Severă (29–90 zile),40,Contact direct,Meci oficial,73,Gazon sintetic,Caldura,33,Nu,Nu
+I0137,P039,2019-20,2020-05-20,2020-05-28,Ruptura musculara partiala,Coapsă posterioară,Moderată (8–28 zile),8,Non-contact,Antrenament,,Gazon hibrid,Soare,21,Nu,Nu
+I0138,P040,2021-22,2021-07-17,2021-07-24,Contuzie gleznă,Gleznă,Ușoară (1–7 zile),7,Contact direct,Meci oficial,42,Gazon sintetic,Ploaie,9,Nu,Nu
+I0139,P040,2022-23,2022-08-03,2022-08-09,Muscular (calf),Gambă,Ușoară (1–7 zile),6,Non-contact,Antrenament,,Gazon natural,Frig,2,Nu,Nu
+I0140,P040,2021-22,2021-09-12,2021-10-28,Entorsa glezna gr.I,Gleznă,Severă (29–90 zile),46,Suprasolicitare,Antrenament,,Gazon sintetic,Ploaie,11,Da,Nu
+I0141,P040,2022-23,2022-12-27,2022-12-30,Tendinita Achilles,Tendon Achilles,Ușoară (1–7 zile),3,Non-contact,Meci oficial,26,Gazon natural,Caldura,35,Nu,Nu
+I0142,P040,2022-23,2022-10-14,2023-03-18,Elongatie musculara,Coapsă,Foarte severă (>90 zile),155,Suprasolicitare,Meci oficial,83,Gazon sintetic,Caldura,30,Nu,Nu
+I0143,P041,2021-22,2021-07-31,2021-08-03,Muscular (adductor),Adductori,Ușoară (1–7 zile),3,Sprint,Meci oficial,89,Gazon sintetic,Soare,29,Nu,Nu
+I0144,P041,2020-21,2021-01-31,2021-02-20,Elongatie musculara,Coapsă,Moderată (8–28 zile),20,Non-contact,Antrenament,,Gazon hibrid,Soare,26,Nu,Nu
+I0145,P041,2020-21,2021-04-11,2021-05-02,Elongatie musculara,Coapsă,Moderată (8–28 zile),21,Contact direct,Meci oficial,64,Gazon sintetic,Frig,-1,Nu,Nu
+I0146,P041,2020-21,2020-10-27,2020-10-31,Muscular (calf),Gambă,Ușoară (1–7 zile),4,Suprasolicitare,Antrenament,,Gazon natural,Caldura,34,Nu,Nu
+I0147,P042,2020-21,2021-05-21,2021-06-21,Elongatie musculara,Coapsă,Severă (29–90 zile),31,Contact direct,Antrenament,,Gazon sintetic,Soare,31,Nu,Nu
+I0148,P042,2021-22,2022-04-07,2022-04-25,Fractura metatarsian,Picior,Moderată (8–28 zile),18,Non-contact,Antrenament,,Gazon natural,Frig,3,Nu,Da
+I0149,P042,2020-21,2021-04-22,2021-04-23,Muscular (hamstring),Coapsă posterioară,Ușoară (1–7 zile),1,Sprint,Antrenament,,Gazon sintetic,Soare,21,Nu,Nu
+I0150,P042,2020-21,2021-03-15,2021-03-16,Elongatie musculara,Coapsă,Ușoară (1–7 zile),1,Suprasolicitare,Meci oficial,49,Gazon natural,Vant puternic,7,Da,Nu
+I0151,P042,2022-23,2022-10-09,2022-12-25,Muscular (quadriceps),Coapsă anterioară,Severă (29–90 zile),77,Suprasolicitare,Meci amical,58,Gazon hibrid,Soare,26,Nu,Nu
+I0152,P042,2023-24,2023-08-05,2023-08-12,Contuzie genunchi,Genunchi,Ușoară (1–7 zile),7,Contact direct,Meci oficial,38,Gazon hibrid,Soare,23,Nu,Nu
+I0153,P043,2019-20,2019-07-27,2019-08-10,Muscular (quadriceps),Coapsă anterioară,Moderată (8–28 zile),14,Sprint,Antrenament,,Gazon hibrid,Frig,7,Nu,Nu
+I0154,P043,2022-23,2023-06-21,2023-08-08,Entorsa glezna gr.III,Gleznă,Severă (29–90 zile),48,Contact direct,Meci oficial,65,Gazon sintetic,Soare,32,Nu,Nu
+I0155,P043,2020-21,2020-07-19,2020-08-08,Entorsa glezna gr.III,Gleznă,Moderată (8–28 zile),20,Suprasolicitare,Meci oficial,74,Gazon natural,Soare,20,Da,Nu
+I0156,P043,2021-22,2022-03-02,2022-03-03,Elongatie musculara,Coapsă,Ușoară (1–7 zile),1,Non-contact,Antrenament,,Gazon natural,Vant puternic,6,Nu,Nu
+I0157,P043,2020-21,2021-05-14,2021-06-07,Muscular (calf),Gambă,Moderată (8–28 zile),24,Sprint,Meci oficial,84,Gazon sintetic,Frig,2,Nu,Nu
+I0158,P043,2021-22,2022-04-06,2022-04-11,Muscular (adductor),Adductori,Ușoară (1–7 zile),5,Sprint,Antrenament,,Gazon hibrid,Ploaie,11,Nu,Nu
+I0159,P044,2020-21,2021-01-15,2021-01-16,Ligament (ACL),Genunchi,Ușoară (1–7 zile),1,Contact direct,Meci oficial,51,Gazon natural,Frig,5,Nu,Da
+I0160,P045,2020-21,2020-07-14,2020-07-25,Tendinita Achilles,Tendon Achilles,Moderată (8–28 zile),11,Schimbare de directie,Antrenament,,Gazon hibrid,Frig,0,Nu,Nu
+I0161,P045,2019-20,2020-04-16,2020-04-20,Muscular (hamstring),Coapsă posterioară,Ușoară (1–7 zile),4,Suprasolicitare,Meci amical,3,Gazon hibrid,Ploaie,9,Nu,Nu
+I0162,P046,2021-22,2022-03-27,2022-04-04,Ligament (ankle),Gleznă,Moderată (8–28 zile),8,Non-contact,Antrenament,,Gazon natural,Soare,31,Nu,Nu
+I0163,P046,2023-24,2023-11-04,2023-11-06,Contuzie genunchi,Genunchi,Ușoară (1–7 zile),2,Non-contact,Meci oficial,43,Gazon sintetic,Frig,2,Nu,Nu
+I0164,P046,2020-21,2021-03-08,2021-03-27,Ligament (ACL),Genunchi,Moderată (8–28 zile),19,Schimbare de directie,Meci amical,77,Gazon sintetic,Frig,6,Nu,Da
+I0165,P046,2021-22,2021-07-01,2021-07-13,Elongatie musculara,Coapsă,Moderată (8–28 zile),12,Contact direct,Meci oficial,90,Gazon hibrid,Frig,1,Nu,Nu
+I0166,P047,2021-22,2022-06-14,2022-07-06,Tendinita rotuliana,Genunchi,Moderată (8–28 zile),22,Sprint,Meci oficial,45,Gazon natural,Vant puternic,11,Nu,Nu
+I0167,P047,2023-24,2024-03-04,2024-03-22,Muscular (hamstring),Coapsă posterioară,Moderată (8–28 zile),18,Suprasolicitare,Antrenament,,Gazon natural,Vant puternic,5,Nu,Nu
+I0168,P047,2022-23,2022-12-29,2023-01-01,Contuzie genunchi,Genunchi,Ușoară (1–7 zile),3,Non-contact,Meci oficial,9,Gazon hibrid,Vant puternic,5,Nu,Nu
+I0169,P047,2021-22,2021-11-28,2021-12-06,Muscular (quadriceps),Coapsă anterioară,Moderată (8–28 zile),8,Sprint,Meci oficial,18,Gazon natural,Vant puternic,13,Nu,Nu
+I0170,P048,2023-24,2023-08-10,2023-08-22,Ruptura musculara partiala,Coapsă posterioară,Moderată (8–28 zile),12,Suprasolicitare,Meci oficial,11,Gazon hibrid,Vant puternic,12,Nu,Nu
+I0171,P048,2020-21,2020-12-17,2020-12-28,Tendinita Achilles,Tendon Achilles,Moderată (8–28 zile),11,Suprasolicitare,Meci amical,23,Gazon hibrid,Caldura,30,Nu,Nu
+I0172,P048,2022-23,2022-08-09,2022-08-13,Entorsa glezna gr.I,Gleznă,Ușoară (1–7 zile),4,Non-contact,Meci oficial,39,Gazon sintetic,Caldura,30,Nu,Nu
+I0173,P048,2019-20,2020-04-09,2020-05-14,Entorsa glezna gr.II,Gleznă,Severă (29–90 zile),35,Non-contact,Antrenament,,Gazon sintetic,Vant puternic,11,Nu,Nu
+I0174,P050,2023-24,2023-09-25,2023-10-29,Muscular (hamstring),Coapsă posterioară,Severă (29–90 zile),34,Non-contact,Meci oficial,75,Gazon sintetic,Caldura,37,Nu,Nu
+I0175,P050,2021-22,2021-10-03,2021-11-09,Muscular (hamstring),Coapsă posterioară,Severă (29–90 zile),37,Suprasolicitare,Meci oficial,7,Gazon hibrid,Soare,18,Nu,Nu
+I0176,P050,2022-23,2023-05-15,2023-05-19,Muscular (quadriceps),Coapsă anterioară,Ușoară (1–7 zile),4,Suprasolicitare,Meci oficial,87,Gazon hibrid,Caldura,30,Nu,Nu
+I0177,P050,2022-23,2023-04-14,2023-04-29,Entorsa glezna gr.I,Gleznă,Moderată (8–28 zile),15,Contact direct,Antrenament,,Gazon natural,Vant puternic,12,Nu,Nu
+I0178,P051,2020-21,2020-08-22,2020-09-06,Elongatie musculara,Coapsă,Moderată (8–28 zile),15,Contact direct,Meci oficial,65,Gazon sintetic,Frig,2,Nu,Nu
+I0179,P051,2022-23,2022-07-24,2022-10-14,Ruptura musculara partiala,Coapsă posterioară,Severă (29–90 zile),82,Suprasolicitare,Meci oficial,57,Gazon natural,Caldura,28,Nu,Nu
+I0180,P051,2019-20,2020-06-14,2020-06-29,Muscular (quadriceps),Coapsă anterioară,Moderată (8–28 zile),15,Sprint,Antrenament,,Gazon sintetic,Frig,-1,Nu,Nu
+I0181,P051,2022-23,2023-05-29,2023-06-02,Ligament (ankle),Gleznă,Ușoară (1–7 zile),4,Non-contact,Antrenament,,Gazon hibrid,Frig,5,Nu,Nu
+I0182,P051,2022-23,2023-02-11,2023-02-20,Ligament (ankle),Gleznă,Moderată (8–28 zile),9,Non-contact,Antrenament,,Gazon natural,Vant puternic,12,Nu,Nu
+I0183,P051,2020-21,2020-09-04,2020-11-04,Ligament (ankle),Gleznă,Severă (29–90 zile),61,Non-contact,Antrenament,,Gazon hibrid,Soare,20,Da,Nu
+I0184,P051,2020-21,2021-01-21,2021-02-02,Contuzie gleznă,Gleznă,Moderată (8–28 zile),12,Sprint,Antrenament,,Gazon hibrid,Soare,32,Nu,Nu
+I0185,P052,2023-24,2023-11-05,2023-11-29,Luxatie umar,Umăr,Moderată (8–28 zile),24,Non-contact,Antrenament,,Gazon sintetic,Vant puternic,10,Nu,Nu
+I0186,P052,2019-20,2020-05-21,2020-05-27,Muscular (hamstring),Coapsă posterioară,Ușoară (1–7 zile),6,Suprasolicitare,Meci oficial,87,Gazon hibrid,Frig,-1,Nu,Nu
+I0187,P052,2019-20,2019-11-09,2020-01-03,Elongatie musculara,Coapsă,Severă (29–90 zile),55,Non-contact,Meci oficial,5,Gazon natural,Soare,25,Nu,Nu
+I0188,P052,2019-20,2020-03-29,2020-04-18,Ligament (MCL),Genunchi,Moderată (8–28 zile),20,Suprasolicitare,Meci amical,26,Gazon natural,Ploaie,15,Nu,Nu
+I0189,P053,2019-20,2019-12-24,2020-02-03,Entorsa glezna gr.II,Gleznă,Severă (29–90 zile),41,Suprasolicitare,Antrenament,,Gazon sintetic,Soare,21,Nu,Nu
+I0190,P053,2020-21,2020-07-14,2020-09-02,Contuzie gleznă,Gleznă,Severă (29–90 zile),50,Schimbare de directie,Meci amical,68,Gazon sintetic,Frig,5,Nu,Nu
+I0191,P053,2019-20,2020-04-08,2020-06-30,Ligament (ankle),Gleznă,Severă (29–90 zile),83,Suprasolicitare,Meci oficial,10,Gazon natural,Caldura,29,Nu,Nu
+I0192,P054,2020-21,2021-05-08,2021-05-13,Contuzie genunchi,Genunchi,Ușoară (1–7 zile),5,Schimbare de directie,Meci oficial,38,Gazon natural,Vant puternic,6,Nu,Nu
+I0193,P054,2022-23,2022-12-03,2022-12-08,Contuzie gleznă,Gleznă,Ușoară (1–7 zile),5,Non-contact,Antrenament,,Gazon hibrid,Soare,26,Nu,Nu
+I0194,P054,2020-21,2020-08-14,2020-08-17,Muscular (hamstring),Coapsă posterioară,Ușoară (1–7 zile),3,Sprint,Meci oficial,71,Gazon natural,Vant puternic,5,Nu,Nu
+I0195,P054,2022-23,2023-06-09,2023-07-06,Entorsa glezna gr.III,Gleznă,Moderată (8–28 zile),27,Non-contact,Antrenament,,Gazon sintetic,Soare,24,Nu,Nu
+I0196,P055,2020-21,2020-10-04,2020-10-09,Muscular (hamstring),Coapsă posterioară,Ușoară (1–7 zile),5,Sprint,Antrenament,,Gazon hibrid,Ploaie,8,Nu,Nu
+I0197,P055,2022-23,2022-08-05,2022-08-13,Elongatie musculara,Coapsă,Moderată (8–28 zile),8,Non-contact,Meci oficial,49,Gazon sintetic,Ploaie,14,Nu,Nu
+I0198,P055,2020-21,2021-06-20,2021-07-09,Muscular (quadriceps),Coapsă anterioară,Moderată (8–28 zile),19,Sprint,Meci oficial,30,Gazon hibrid,Soare,27,Nu,Nu
+I0199,P055,2023-24,2023-07-14,2023-10-06,Muscular (hamstring),Coapsă posterioară,Severă (29–90 zile),84,Suprasolicitare,Meci oficial,37,Gazon sintetic,Soare,23,Da,Nu
+I0200,P055,2019-20,2020-03-07,2020-03-13,Muscular (quadriceps),Coapsă anterioară,Ușoară (1–7 zile),6,Sprint,Meci oficial,46,Gazon hibrid,Ploaie,12,Nu,Nu
+I0201,P055,2022-23,2023-05-30,2023-07-18,Muscular (adductor),Adductori,Severă (29–90 zile),49,Sprint,Antrenament,,Gazon natural,Frig,2,Nu,Nu
+I0202,P056,2020-21,2020-10-15,2020-12-16,Ruptura musculara partiala,Coapsă posterioară,Severă (29–90 zile),62,Suprasolicitare,Meci oficial,16,Gazon hibrid,Vant puternic,5,Nu,Nu
+I0203,P056,2021-22,2022-04-17,2022-07-22,Entorsa glezna gr.II,Gleznă,Foarte severă (>90 zile),96,Non-contact,Antrenament,,Gazon hibrid,Caldura,32,Nu,Nu
+I0204,P057,2020-21,2020-08-25,2020-09-09,Ligament (ankle),Gleznă,Moderată (8–28 zile),15,Suprasolicitare,Meci oficial,69,Gazon natural,Soare,28,Nu,Nu
+I0205,P057,2023-24,2024-02-21,2024-04-11,Elongatie musculara,Coapsă,Severă (29–90 zile),50,Schimbare de directie,Meci amical,76,Gazon sintetic,Ploaie,8,Nu,Nu
+I0206,P057,2019-20,2019-10-25,2020-01-10,Entorsa glezna gr.III,Gleznă,Severă (29–90 zile),77,Duel aerian,Antrenament,,Gazon hibrid,Vant puternic,12,Nu,Nu
+I0207,P058,2021-22,2021-08-19,2021-09-01,Tendinita Achilles,Tendon Achilles,Moderată (8–28 zile),13,Fault,Meci oficial,31,Gazon natural,Ploaie,8,Nu,Nu
+I0208,P058,2020-21,2021-05-22,2021-07-08,Ruptura musculara partiala,Coapsă posterioară,Severă (29–90 zile),47,Contact direct,Antrenament,,Gazon hibrid,Vant puternic,15,Nu,Nu
+I0209,P058,2020-21,2021-04-18,2021-04-24,Muscular (hamstring),Coapsă posterioară,Ușoară (1–7 zile),6,Sprint,Antrenament,,Gazon hibrid,Soare,25,Nu,Nu
+I0210,P059,2022-23,2022-08-03,2022-08-08,Ruptura musculara partiala,Coapsă posterioară,Ușoară (1–7 zile),5,Contact direct,Meci oficial,24,Gazon natural,Vant puternic,9,Nu,Nu
+I0211,P059,2022-23,2023-03-05,2023-03-10,Tendinita Achilles,Tendon Achilles,Ușoară (1–7 zile),5,Contact direct,Meci oficial,5,Gazon natural,Ploaie,16,Nu,Nu
+I0212,P059,2020-21,2020-12-12,2020-12-18,Contuzie gleznă,Gleznă,Ușoară (1–7 zile),6,Contact direct,Meci amical,46,Gazon natural,Caldura,33,Nu,Nu
+I0213,P060,2019-20,2019-12-06,2019-12-30,Muscular (quadriceps),Coapsă anterioară,Moderată (8–28 zile),24,Sprint,Meci oficial,88,Gazon natural,Frig,2,Nu,Nu
+I0214,P060,2021-22,2021-10-13,2021-12-02,Ligament (ankle),Gleznă,Severă (29–90 zile),50,Non-contact,Meci amical,38,Gazon natural,Caldura,32,Nu,Nu
+I0215,P060,2020-21,2020-09-06,2020-09-11,Elongatie musculara,Coapsă,Ușoară (1–7 zile),5,Non-contact,Antrenament,,Gazon hibrid,Caldura,34,Nu,Nu
+I0216,P060,2023-24,2023-10-09,2023-10-29,Muscular (hamstring),Coapsă posterioară,Moderată (8–28 zile),20,Sprint,Meci amical,29,Gazon hibrid,Caldura,34,Nu,Nu
+I0217,P061,2022-23,2023-03-12,2023-03-16,Contuzie gleznă,Gleznă,Ușoară (1–7 zile),4,Non-contact,Antrenament,,Gazon natural,Vant puternic,9,Nu,Nu
+I0218,P063,2022-23,2023-05-20,2023-05-21,Muscular (adductor),Adductori,Ușoară (1–7 zile),1,Non-contact,Meci oficial,47,Gazon hibrid,Soare,23,Nu,Nu
+I0219,P063,2021-22,2021-11-04,2021-11-11,Fractura tibie,Gambă,Ușoară (1–7 zile),7,Schimbare de directie,Meci oficial,17,Gazon sintetic,Caldura,38,Nu,Da
+I0220,P063,2019-20,2019-12-14,2019-12-15,Entorsa glezna gr.II,Gleznă,Ușoară (1–7 zile),1,Non-contact,Meci oficial,19,Gazon natural,Caldura,35,Nu,Nu
+I0221,P063,2022-23,2023-06-26,2023-07-21,Muscular (calf),Gambă,Moderată (8–28 zile),25,Sprint,Antrenament,,Gazon hibrid,Frig,0,Nu,Nu
+I0222,P063,2019-20,2020-03-18,2020-05-08,Elongatie musculara,Coapsă,Severă (29–90 zile),51,Suprasolicitare,Meci oficial,38,Gazon natural,Soare,23,Nu,Nu
+I0223,P065,2021-22,2021-10-15,2021-10-19,Entorsa glezna gr.I,Gleznă,Ușoară (1–7 zile),4,Schimbare de directie,Antrenament,,Gazon hibrid,Frig,0,Nu,Nu
+I0224,P065,2022-23,2022-10-27,2023-01-01,Muscular (quadriceps),Coapsă anterioară,Severă (29–90 zile),66,Sprint,Meci oficial,57,Gazon sintetic,Ploaie,17,Nu,Nu
+I0225,P065,2021-22,2022-06-10,2022-06-15,Fractura tibie,Gambă,Ușoară (1–7 zile),5,Schimbare de directie,Antrenament,,Gazon natural,Frig,3,Nu,Nu
+I0226,P065,2021-22,2021-11-28,2021-12-12,Entorsa glezna gr.II,Gleznă,Moderată (8–28 zile),14,Suprasolicitare,Antrenament,,Gazon sintetic,Soare,23,Nu,Nu
+I0227,P066,2020-21,2021-02-10,2021-02-12,Contuzie genunchi,Genunchi,Ușoară (1–7 zile),2,Non-contact,Meci amical,78,Gazon natural,Soare,32,Nu,Nu
+I0228,P066,2019-20,2020-06-10,2020-08-26,Muscular (calf),Gambă,Severă (29–90 zile),77,Non-contact,Meci oficial,70,Gazon sintetic,Caldura,28,Nu,Nu
+I0229,P066,2021-22,2021-11-20,2022-07-15,Muscular (calf),Gambă,Foarte severă (>90 zile),237,Sprint,Antrenament,,Gazon sintetic,Soare,29,Nu,Nu
+I0230,P067,2023-24,2024-01-01,2024-01-20,Ligament (ACL),Genunchi,Moderată (8–28 zile),19,Contact direct,Meci oficial,42,Gazon hibrid,Ploaie,13,Nu,Nu
+I0231,P067,2019-20,2019-09-17,2019-10-05,Entorsa glezna gr.I,Gleznă,Moderată (8–28 zile),18,Duel aerian,Meci oficial,67,Gazon hibrid,Vant puternic,15,Nu,Nu
+I0232,P067,2021-22,2021-08-09,2021-08-14,Tendinita Achilles,Tendon Achilles,Ușoară (1–7 zile),5,Contact direct,Antrenament,,Gazon hibrid,Ploaie,15,Nu,Nu
+I0233,P067,2019-20,2019-12-29,2020-01-04,Fractura tibie,Gambă,Ușoară (1–7 zile),6,Sprint,Meci amical,28,Gazon natural,Soare,24,Nu,Da
+I0234,P068,2021-22,2021-08-17,2021-09-13,Muscular (hamstring),Coapsă posterioară,Moderată (8–28 zile),27,Sprint,Antrenament,,Gazon hibrid,Caldura,32,Nu,Nu
+I0235,P068,2022-23,2022-11-06,2022-12-30,Contuzie genunchi,Genunchi,Severă (29–90 zile),54,Non-contact,Meci oficial,13,Gazon natural,Ploaie,12,Nu,Nu
+I0236,P068,2020-21,2021-04-14,2021-04-18,Tendinita rotuliana,Genunchi,Ușoară (1–7 zile),4,Non-contact,Meci oficial,17,Gazon natural,Frig,4,Nu,Nu
+I0237,P069,2019-20,2019-11-02,2019-12-27,Muscular (adductor),Adductori,Severă (29–90 zile),55,Suprasolicitare,Antrenament,,Gazon natural,Frig,4,Nu,Nu
+I0238,P069,2022-23,2023-01-24,2023-02-11,Ligament (ACL),Genunchi,Moderată (8–28 zile),18,Non-contact,Antrenament,,Gazon hibrid,Caldura,38,Nu,Da
+I0239,P069,2019-20,2019-08-10,2019-08-15,Tendinita Achilles,Tendon Achilles,Ușoară (1–7 zile),5,Contact direct,Meci amical,49,Gazon hibrid,Soare,30,Nu,Nu
+I0240,P069,2020-21,2020-08-10,2020-08-15,Muscular (hamstring),Coapsă posterioară,Ușoară (1–7 zile),5,Sprint,Meci amical,30,Gazon natural,Vant puternic,10,Nu,Nu
+I0241,P070,2019-20,2019-09-12,2019-09-13,Contuzie genunchi,Genunchi,Ușoară (1–7 zile),1,Schimbare de directie,Antrenament,,Gazon natural,Caldura,28,Nu,Nu
+I0242,P070,2023-24,2023-10-29,2023-11-04,Ligament (MCL),Genunchi,Ușoară (1–7 zile),6,Schimbare de directie,Meci oficial,49,Gazon hibrid,Frig,-1,Nu,Nu
+I0243,P070,2019-20,2019-08-11,2019-10-05,Tendinita rotuliana,Genunchi,Severă (29–90 zile),55,Suprasolicitare,Antrenament,,Gazon sintetic,Ploaie,17,Da,Nu
+I0244,P071,2020-21,2020-08-19,2020-08-23,Entorsa glezna gr.I,Gleznă,Ușoară (1–7 zile),4,Duel aerian,Meci oficial,74,Gazon sintetic,Frig,-1,Nu,Nu
+I0245,P071,2021-22,2022-05-03,2022-05-28,Contuzie gleznă,Gleznă,Moderată (8–28 zile),25,Non-contact,Meci oficial,51,Gazon hibrid,Vant puternic,6,Da,Nu
+I0246,P071,2021-22,2022-01-01,2022-01-03,Ruptura musculara partiala,Coapsă posterioară,Ușoară (1–7 zile),2,Suprasolicitare,Meci oficial,83,Gazon hibrid,Vant puternic,15,Nu,Nu
+I0247,P071,2022-23,2022-10-28,2022-12-27,Muscular (calf),Gambă,Severă (29–90 zile),60,Suprasolicitare,Meci oficial,61,Gazon sintetic,Caldura,35,Nu,Nu
+I0248,P072,2019-20,2019-09-13,2019-09-25,Fractura metatarsian,Picior,Moderată (8–28 zile),12,Suprasolicitare,Meci oficial,53,Gazon hibrid,Soare,22,Nu,Da
+I0249,P073,2019-20,2020-02-01,2020-02-11,Contuzie genunchi,Genunchi,Moderată (8–28 zile),10,Contact direct,Meci oficial,17,Gazon sintetic,Soare,20,Nu,Nu
+I0250,P073,2021-22,2022-04-10,2022-04-14,Elongatie musculara,Coapsă,Ușoară (1–7 zile),4,Schimbare de directie,Meci oficial,63,Gazon sintetic,Ploaie,16,Nu,Nu
+I0251,P073,2020-21,2021-01-06,2021-09-27,Muscular (quadriceps),Coapsă anterioară,Foarte severă (>90 zile),264,Sprint,Antrenament,,Gazon hibrid,Ploaie,12,Nu,Nu
+I0252,P073,2020-21,2020-11-26,2020-12-01,Ruptura musculara partiala,Coapsă posterioară,Ușoară (1–7 zile),5,Contact direct,Meci oficial,43,Gazon sintetic,Ploaie,16,Nu,Nu
+I0253,P074,2020-21,2021-03-30,2021-04-07,Muscular (calf),Gambă,Moderată (8–28 zile),8,Sprint,Antrenament,,Gazon hibrid,Frig,7,Nu,Nu
+I0254,P074,2020-21,2020-10-05,2020-10-10,Muscular (calf),Gambă,Ușoară (1–7 zile),5,Sprint,Meci oficial,55,Gazon sintetic,Caldura,34,Da,Nu
+I0255,P074,2019-20,2019-12-06,2019-12-20,Contuzie gleznă,Gleznă,Moderată (8–28 zile),14,Contact direct,Antrenament,,Gazon natural,Ploaie,10,Nu,Nu
+I0256,P074,2020-21,2021-05-07,2021-05-27,Entorsa glezna gr.III,Gleznă,Moderată (8–28 zile),20,Suprasolicitare,Antrenament,,Gazon natural,Caldura,28,Nu,Nu
+I0257,P074,2022-23,2022-12-11,2022-12-18,Ruptura musculara partiala,Coapsă posterioară,Ușoară (1–7 zile),7,Contact direct,Meci oficial,1,Gazon sintetic,Vant puternic,7,Nu,Nu
+I0258,P074,2023-24,2023-10-04,2023-10-09,Luxatie umar,Umăr,Ușoară (1–7 zile),5,Suprasolicitare,Meci oficial,49,Gazon sintetic,Frig,2,Nu,Nu
+I0259,P074,2020-21,2020-09-11,2020-12-02,Contuzie gleznă,Gleznă,Severă (29–90 zile),82,Schimbare de directie,Meci amical,19,Gazon natural,Frig,2,Nu,Nu
+I0260,P075,2023-24,2024-04-16,2024-04-19,Ligament (ankle),Gleznă,Ușoară (1–7 zile),3,Suprasolicitare,Meci oficial,55,Gazon natural,Ploaie,16,Nu,Nu
+I0261,P076,2021-22,2021-12-22,2022-05-12,Elongatie musculara,Coapsă,Foarte severă (>90 zile),141,Contact direct,Meci oficial,76,Gazon natural,Vant puternic,10,Nu,Nu
+I0262,P076,2022-23,2023-02-04,2023-02-07,Contuzie gleznă,Gleznă,Ușoară (1–7 zile),3,Contact direct,Meci oficial,90,Gazon hibrid,Vant puternic,5,Nu,Nu
+I0263,P077,2023-24,2023-09-13,2023-10-06,Tendinita Achilles,Tendon Achilles,Moderată (8–28 zile),23,Schimbare de directie,Antrenament,,Gazon hibrid,Soare,18,Nu,Nu
+I0264,P077,2019-20,2019-12-17,2020-01-23,Entorsa glezna gr.I,Gleznă,Severă (29–90 zile),37,Schimbare de directie,Meci oficial,8,Gazon sintetic,Frig,-1,Nu,Nu
+I0265,P077,2023-24,2023-08-19,2023-08-24,Ruptura musculara partiala,Coapsă posterioară,Ușoară (1–7 zile),5,Schimbare de directie,Meci oficial,41,Gazon hibrid,Ploaie,17,Nu,Nu
+I0266,P077,2019-20,2019-11-03,2020-01-13,Meniscus,Genunchi,Severă (29–90 zile),71,Schimbare de directie,Meci oficial,65,Gazon hibrid,Ploaie,12,Nu,Da
+I0267,P077,2022-23,2023-01-22,2023-02-04,Muscular (adductor),Adductori,Moderată (8–28 zile),13,Sprint,Antrenament,,Gazon hibrid,Vant puternic,6,Nu,Nu
+I0268,P077,2019-20,2019-12-28,2020-01-01,Entorsa glezna gr.III,Gleznă,Ușoară (1–7 zile),4,Schimbare de directie,Meci oficial,24,Gazon natural,Vant puternic,5,Da,Nu
+I0269,P077,2020-21,2021-03-22,2021-04-06,Tendinita Achilles,Tendon Achilles,Moderată (8–28 zile),15,Sprint,Antrenament,,Gazon hibrid,Ploaie,10,Nu,Nu
+I0270,P077,2020-21,2021-04-07,2021-04-12,Ligament (MCL),Genunchi,Ușoară (1–7 zile),5,Non-contact,Antrenament,,Gazon natural,Ploaie,12,Da,Nu
+I0271,P077,2023-24,2023-10-29,2023-11-17,Contuzie genunchi,Genunchi,Moderată (8–28 zile),19,Suprasolicitare,Meci oficial,22,Gazon hibrid,Soare,31,Nu,Nu
+I0272,P077,2022-23,2023-02-13,2023-03-04,Muscular (adductor),Adductori,Moderată (8–28 zile),19,Suprasolicitare,Antrenament,,Gazon sintetic,Caldura,31,Nu,Nu
+I0273,P077,2021-22,2022-05-24,2022-05-25,Ligament (ACL),Genunchi,Ușoară (1–7 zile),1,Contact direct,Meci oficial,48,Gazon hibrid,Caldura,33,Nu,Nu
+I0274,P079,2022-23,2023-02-16,2023-03-06,Muscular (calf),Gambă,Moderată (8–28 zile),18,Sprint,Meci amical,21,Gazon sintetic,Frig,5,Nu,Nu
+I0275,P080,2021-22,2022-02-24,2022-03-16,Tendinita Achilles,Tendon Achilles,Moderată (8–28 zile),20,Non-contact,Antrenament,,Gazon sintetic,Vant puternic,12,Nu,Nu
+I0276,P080,2023-24,2023-10-10,2023-11-22,Muscular (hamstring),Coapsă posterioară,Severă (29–90 zile),43,Sprint,Meci amical,55,Gazon hibrid,Vant puternic,14,Nu,Nu
+I0277,P080,2022-23,2023-05-29,2023-06-03,Muscular (calf),Gambă,Ușoară (1–7 zile),5,Non-contact,Meci amical,18,Gazon natural,Ploaie,13,Nu,Nu
+I0278,P080,2021-22,2022-01-29,2022-02-11,Entorsa glezna gr.III,Gleznă,Moderată (8–28 zile),13,Contact direct,Meci oficial,23,Gazon sintetic,Vant puternic,7,Nu,Nu
+I0279,P080,2022-23,2022-08-11,2022-08-17,Muscular (quadriceps),Coapsă anterioară,Ușoară (1–7 zile),6,Suprasolicitare,Antrenament,,Gazon hibrid,Vant puternic,13,Nu,Nu
+I0280,P080,2023-24,2024-02-27,2024-03-18,Muscular (calf),Gambă,Moderată (8–28 zile),20,Sprint,Meci oficial,41,Gazon hibrid,Ploaie,13,Nu,Nu
+I0281,P080,2022-23,2023-04-02,2023-04-06,Meniscus,Genunchi,Ușoară (1–7 zile),4,Suprasolicitare,Antrenament,,Gazon hibrid,Ploaie,17,Nu,Da
+I0282,P081,2020-21,2020-10-14,2020-12-23,Entorsa glezna gr.I,Gleznă,Severă (29–90 zile),70,Contact direct,Meci oficial,28,Gazon natural,Vant puternic,10,Nu,Nu
+I0283,P081,2022-23,2023-04-13,2023-04-17,Fractura metatarsian,Picior,Ușoară (1–7 zile),4,Contact direct,Antrenament,,Gazon sintetic,Frig,8,Nu,Nu
+I0284,P081,2019-20,2020-01-24,2020-01-30,Entorsa glezna gr.II,Gleznă,Ușoară (1–7 zile),6,Schimbare de directie,Meci oficial,21,Gazon sintetic,Vant puternic,13,Nu,Nu
+I0285,P081,2021-22,2021-11-12,2021-12-02,Muscular (hamstring),Coapsă posterioară,Moderată (8–28 zile),20,Sprint,Antrenament,,Gazon hibrid,Soare,27,Nu,Nu
+I0286,P081,2019-20,2020-02-14,2020-03-04,Ligament (ankle),Gleznă,Moderată (8–28 zile),19,Non-contact,Meci amical,50,Gazon natural,Soare,20,Nu,Nu
+I0287,P081,2021-22,2021-12-07,2021-12-29,Contuzie genunchi,Genunchi,Moderată (8–28 zile),22,Non-contact,Meci oficial,16,Gazon sintetic,Frig,7,Nu,Nu
+I0288,P081,2023-24,2023-10-18,2023-10-21,Ligament (ACL),Genunchi,Ușoară (1–7 zile),3,Non-contact,Antrenament,,Gazon sintetic,Soare,25,Nu,Da
+I0289,P082,2020-21,2020-11-21,2020-12-11,Entorsa glezna gr.I,Gleznă,Moderată (8–28 zile),20,Non-contact,Meci oficial,17,Gazon sintetic,Ploaie,15,Nu,Nu
+I0290,P083,2023-24,2024-02-05,2024-04-20,Entorsa glezna gr.II,Gleznă,Severă (29–90 zile),75,Non-contact,Antrenament,,Gazon hibrid,Soare,23,Nu,Nu
+I0291,P083,2021-22,2022-05-15,2022-07-07,Tendinita Achilles,Tendon Achilles,Severă (29–90 zile),53,Contact direct,Meci amical,82,Gazon hibrid,Vant puternic,5,Nu,Nu
+I0292,P083,2021-22,2021-12-04,2022-02-24,Tendinita rotuliana,Genunchi,Severă (29–90 zile),82,Schimbare de directie,Meci amical,74,Gazon hibrid,Vant puternic,13,Nu,Nu
+I0293,P083,2020-21,2020-09-13,2020-09-17,Entorsa glezna gr.II,Gleznă,Ușoară (1–7 zile),4,Schimbare de directie,Meci oficial,24,Gazon natural,Vant puternic,5,Nu,Nu
+I0294,P083,2020-21,2020-08-28,2020-09-01,Tendinita rotuliana,Genunchi,Ușoară (1–7 zile),4,Contact direct,Meci oficial,35,Gazon natural,Frig,-1,Da,Nu
+I0295,P084,2022-23,2022-12-04,2022-12-05,Muscular (hamstring),Coapsă posterioară,Ușoară (1–7 zile),1,Non-contact,Meci oficial,76,Gazon sintetic,Frig,6,Nu,Nu
+I0296,P084,2020-21,2021-04-15,2021-04-18,Ruptura musculara partiala,Coapsă posterioară,Ușoară (1–7 zile),3,Non-contact,Meci oficial,64,Gazon sintetic,Ploaie,10,Da,Nu
+I0297,P084,2019-20,2019-12-08,2020-03-07,Muscular (hamstring),Coapsă posterioară,Severă (29–90 zile),90,Sprint,Antrenament,,Gazon hibrid,Caldura,35,Nu,Nu
+I0298,P084,2019-20,2020-06-06,2020-06-11,Fractura metatarsian,Picior,Ușoară (1–7 zile),5,Suprasolicitare,Antrenament,,Gazon sintetic,Frig,6,Nu,Nu
+I0299,P085,2021-22,2021-09-18,2021-10-23,Tendinita rotuliana,Genunchi,Severă (29–90 zile),35,Fault,Meci oficial,74,Gazon sintetic,Vant puternic,11,Nu,Nu
+I0300,P085,2020-21,2021-01-22,2021-02-18,Entorsa glezna gr.II,Gleznă,Moderată (8–28 zile),27,Non-contact,Meci oficial,14,Gazon sintetic,Vant puternic,13,Nu,Nu
+I0301,P085,2019-20,2020-05-17,2020-06-08,Contuzie genunchi,Genunchi,Moderată (8–28 zile),22,Non-contact,Meci oficial,69,Gazon natural,Vant puternic,15,Nu,Nu
+I0302,P085,2021-22,2021-10-18,2021-11-08,Ligament (ankle),Gleznă,Moderată (8–28 zile),21,Contact direct,Meci oficial,79,Gazon natural,Caldura,34,Da,Nu
+I0303,P085,2022-23,2023-01-02,2023-01-07,Ligament (MCL),Genunchi,Ușoară (1–7 zile),5,Non-contact,Meci oficial,77,Gazon sintetic,Frig,0,Nu,Nu
+I0304,P085,2022-23,2023-06-29,2023-07-03,Entorsa glezna gr.I,Gleznă,Ușoară (1–7 zile),4,Non-contact,Meci oficial,4,Gazon hibrid,Ploaie,15,Nu,Nu
+I0305,P085,2021-22,2022-01-30,2022-02-01,Fractura metatarsian,Picior,Ușoară (1–7 zile),2,Contact direct,Antrenament,,Gazon natural,Caldura,35,Nu,Nu
+I0306,P086,2021-22,2021-10-10,2021-10-16,Muscular (hamstring),Coapsă posterioară,Ușoară (1–7 zile),6,Non-contact,Antrenament,,Gazon hibrid,Soare,30,Nu,Nu
+I0307,P086,2023-24,2023-07-03,2023-07-28,Entorsa glezna gr.I,Gleznă,Moderată (8–28 zile),25,Non-contact,Meci oficial,8,Gazon hibrid,Vant puternic,5,Nu,Nu
+I0308,P086,2021-22,2021-11-24,2021-12-16,Ruptura musculara partiala,Coapsă posterioară,Moderată (8–28 zile),22,Schimbare de directie,Meci oficial,75,Gazon sintetic,Soare,29,Nu,Nu
+I0309,P086,2020-21,2020-09-03,2020-09-07,Muscular (quadriceps),Coapsă anterioară,Ușoară (1–7 zile),4,Suprasolicitare,Meci oficial,59,Gazon hibrid,Frig,3,Nu,Nu
+I0310,P086,2020-21,2020-12-10,2021-02-21,Fractura metatarsian,Picior,Severă (29–90 zile),73,Suprasolicitare,Antrenament,,Gazon hibrid,Ploaie,16,Nu,Nu
+I0311,P087,2020-21,2021-03-16,2021-03-22,Ruptura musculara partiala,Coapsă posterioară,Ușoară (1–7 zile),6,Non-contact,Meci oficial,38,Gazon sintetic,Ploaie,10,Nu,Nu
+I0312,P087,2020-21,2020-09-06,2020-09-13,Muscular (adductor),Adductori,Ușoară (1–7 zile),7,Sprint,Antrenament,,Gazon hibrid,Vant puternic,13,Nu,Nu
+I0313,P087,2019-20,2020-05-15,2021-01-25,Elongatie musculara,Coapsă,Foarte severă (>90 zile),255,Non-contact,Antrenament,,Gazon hibrid,Caldura,30,Nu,Nu
+I0314,P087,2019-20,2019-07-30,2019-08-19,Fractura tibie,Gambă,Moderată (8–28 zile),20,Contact direct,Antrenament,,Gazon hibrid,Ploaie,11,Nu,Da
+I0315,P088,2021-22,2022-04-17,2022-05-06,Entorsa glezna gr.II,Gleznă,Moderată (8–28 zile),19,Sprint,Meci oficial,2,Gazon natural,Caldura,38,Nu,Nu
+I0316,P088,2021-22,2022-05-05,2022-05-08,Meniscus,Genunchi,Ușoară (1–7 zile),3,Suprasolicitare,Meci oficial,69,Gazon natural,Caldura,37,Nu,Da
+I0317,P088,2023-24,2024-04-21,2024-05-19,Ligament (ACL),Genunchi,Moderată (8–28 zile),28,Non-contact,Antrenament,,Gazon natural,Caldura,31,Da,Nu
+I0318,P088,2019-20,2019-11-02,2019-11-05,Elongatie musculara,Coapsă,Ușoară (1–7 zile),3,Contact direct,Meci oficial,75,Gazon hibrid,Frig,-2,Nu,Nu
+I0319,P088,2019-20,2019-12-18,2020-01-09,Muscular (hamstring),Coapsă posterioară,Moderată (8–28 zile),22,Suprasolicitare,Meci oficial,77,Gazon natural,Frig,7,Nu,Nu
+I0320,P088,2020-21,2020-08-02,2020-08-30,Entorsa glezna gr.I,Gleznă,Moderată (8–28 zile),28,Schimbare de directie,Antrenament,,Gazon hibrid,Soare,22,Nu,Nu
+I0321,P088,2020-21,2021-02-01,2021-02-25,Muscular (calf),Gambă,Moderată (8–28 zile),24,Non-contact,Meci amical,32,Gazon hibrid,Vant puternic,13,Nu,Nu
+I0322,P090,2021-22,2022-05-09,2022-05-27,Ruptura musculara partiala,Coapsă posterioară,Moderată (8–28 zile),18,Contact direct,Meci oficial,9,Gazon hibrid,Frig,5,Nu,Nu
+I0323,P090,2023-24,2023-11-11,2023-12-22,Entorsa glezna gr.I,Gleznă,Severă (29–90 zile),41,Contact direct,Meci oficial,40,Gazon hibrid,Caldura,29,Nu,Nu
+I0324,P090,2022-23,2023-04-07,2023-05-03,Ligament (ACL),Genunchi,Moderată (8–28 zile),26,Schimbare de directie,Meci oficial,22,Gazon hibrid,Ploaie,18,Nu,Nu
+I0325,P090,2020-21,2020-10-11,2020-10-27,Tendinita Achilles,Tendon Achilles,Moderată (8–28 zile),16,Non-contact,Meci amical,39,Gazon sintetic,Vant puternic,10,Nu,Nu
+I0326,P090,2019-20,2019-07-12,2019-08-02,Ligament (MCL),Genunchi,Moderată (8–28 zile),21,Duel aerian,Meci oficial,46,Gazon hibrid,Ploaie,12,Nu,Nu
+I0327,P090,2019-20,2019-08-18,2019-08-21,Entorsa glezna gr.I,Gleznă,Ușoară (1–7 zile),3,Non-contact,Antrenament,,Gazon sintetic,Caldura,36,Da,Nu
+I0328,P090,2019-20,2020-05-24,2020-05-26,Elongatie musculara,Coapsă,Ușoară (1–7 zile),2,Non-contact,Meci oficial,76,Gazon sintetic,Frig,5,Nu,Nu
+I0329,P090,2019-20,2020-01-24,2020-02-02,Ruptura musculara partiala,Coapsă posterioară,Moderată (8–28 zile),9,Non-contact,Meci oficial,57,Gazon hibrid,Vant puternic,7,Da,Nu
+I0330,P090,2022-23,2022-10-20,2022-10-22,Fractura metatarsian,Picior,Ușoară (1–7 zile),2,Contact direct,Meci oficial,12,Gazon hibrid,Frig,6,Nu,Da
+I0331,P090,2023-24,2023-10-29,2023-11-10,Entorsa glezna gr.III,Gleznă,Moderată (8–28 zile),12,Suprasolicitare,Antrenament,,Gazon sintetic,Vant puternic,12,Nu,Nu
+I0332,P091,2020-21,2020-12-04,2020-12-20,Ligament (MCL),Genunchi,Moderată (8–28 zile),16,Duel aerian,Antrenament,,Gazon sintetic,Ploaie,18,Nu,Nu
+I0333,P091,2021-22,2022-05-15,2022-06-16,Entorsa glezna gr.III,Gleznă,Severă (29–90 zile),32,Suprasolicitare,Meci oficial,5,Gazon hibrid,Caldura,32,Nu,Nu
+I0334,P092,2022-23,2022-08-31,2022-09-01,Ligament (MCL),Genunchi,Ușoară (1–7 zile),1,Suprasolicitare,Meci oficial,15,Gazon hibrid,Caldura,35,Nu,Nu
+I0335,P092,2023-24,2023-10-19,2023-10-20,Tendinita Achilles,Tendon Achilles,Ușoară (1–7 zile),1,Schimbare de directie,Antrenament,,Gazon natural,Frig,3,Nu,Nu
+I0336,P092,2023-24,2023-11-16,2023-11-21,Tendinita Achilles,Tendon Achilles,Ușoară (1–7 zile),5,Non-contact,Antrenament,,Gazon sintetic,Soare,24,Nu,Nu
+I0337,P092,2019-20,2020-05-04,2020-05-08,Muscular (hamstring),Coapsă posterioară,Ușoară (1–7 zile),4,Suprasolicitare,Meci oficial,42,Gazon sintetic,Caldura,37,Nu,Nu
+I0338,P092,2019-20,2020-05-08,2020-06-03,Elongatie musculara,Coapsă,Moderată (8–28 zile),26,Contact direct,Meci oficial,40,Gazon natural,Ploaie,8,Nu,Nu
+I0339,P092,2020-21,2021-04-06,2021-09-27,Contuzie genunchi,Genunchi,Foarte severă (>90 zile),174,Contact direct,Antrenament,,Gazon natural,Ploaie,12,Nu,Nu
+I0340,P092,2019-20,2020-03-09,2020-05-05,Muscular (quadriceps),Coapsă anterioară,Severă (29–90 zile),57,Suprasolicitare,Antrenament,,Gazon natural,Ploaie,8,Nu,Nu
+I0341,P093,2021-22,2022-05-03,2022-05-05,Entorsa glezna gr.II,Gleznă,Ușoară (1–7 zile),2,Schimbare de directie,Meci amical,16,Gazon sintetic,Ploaie,11,Nu,Nu
+I0342,P093,2020-21,2020-09-03,2020-09-05,Entorsa glezna gr.I,Gleznă,Ușoară (1–7 zile),2,Non-contact,Antrenament,,Gazon sintetic,Vant puternic,12,Nu,Nu
+I0343,P093,2020-21,2021-06-26,2021-07-07,Entorsa glezna gr.II,Gleznă,Moderată (8–28 zile),11,Contact direct,Meci oficial,84,Gazon sintetic,Vant puternic,15,Da,Nu
+I0344,P093,2020-21,2021-04-23,2022-01-04,Muscular (hamstring),Coapsă posterioară,Foarte severă (>90 zile),256,Sprint,Meci oficial,2,Gazon natural,Ploaie,10,Nu,Nu
+I0345,P093,2022-23,2023-03-15,2023-03-21,Contuzie gleznă,Gleznă,Ușoară (1–7 zile),6,Schimbare de directie,Antrenament,,Gazon natural,Frig,0,Da,Nu
+I0346,P093,2019-20,2020-05-28,2020-08-15,Ligament (ankle),Gleznă,Severă (29–90 zile),79,Non-contact,Meci oficial,48,Gazon natural,Vant puternic,5,Da,Nu
+I0347,P093,2019-20,2020-04-21,2020-04-28,Elongatie musculara,Coapsă,Ușoară (1–7 zile),7,Contact direct,Meci amical,49,Gazon natural,Caldura,29,Nu,Nu
+I0348,P094,2019-20,2019-11-13,2019-11-17,Ligament (ankle),Gleznă,Ușoară (1–7 zile),4,Non-contact,Meci oficial,54,Gazon sintetic,Caldura,28,Nu,Nu
+I0349,P094,2019-20,2020-03-19,2020-05-03,Contuzie genunchi,Genunchi,Severă (29–90 zile),45,Non-contact,Meci oficial,79,Gazon natural,Soare,25,Nu,Nu
+I0350,P094,2020-21,2020-10-04,2020-11-11,Contuzie genunchi,Genunchi,Severă (29–90 zile),38,Schimbare de directie,Antrenament,,Gazon sintetic,Vant puternic,6,Nu,Nu
+I0351,P094,2022-23,2023-06-25,2023-07-13,Muscular (adductor),Adductori,Moderată (8–28 zile),18,Suprasolicitare,Meci amical,74,Gazon hibrid,Vant puternic,10,Nu,Nu
+I0352,P094,2023-24,2023-09-09,2023-09-18,Muscular (calf),Gambă,Moderată (8–28 zile),9,Sprint,Meci amical,26,Gazon natural,Ploaie,10,Nu,Nu
+I0353,P094,2021-22,2022-03-17,2022-03-21,Meniscus,Genunchi,Ușoară (1–7 zile),4,Sprint,Meci oficial,74,Gazon natural,Frig,7,Nu,Da
+I0354,P094,2020-21,2021-05-21,2021-06-14,Entorsa glezna gr.I,Gleznă,Moderată (8–28 zile),24,Non-contact,Meci amical,63,Gazon hibrid,Caldura,33,Da,Nu
+I0355,P094,2022-23,2023-02-05,2023-04-02,Ligament (ACL),Genunchi,Severă (29–90 zile),56,Schimbare de directie,Antrenament,,Gazon sintetic,Soare,19,Da,Da
+I0356,P096,2021-22,2021-09-22,2022-02-06,Ruptura musculara partiala,Coapsă posterioară,Foarte severă (>90 zile),137,Sprint,Antrenament,,Gazon natural,Caldura,28,Nu,Nu
+I0357,P096,2023-24,2023-11-14,2023-11-19,Entorsa glezna gr.II,Gleznă,Ușoară (1–7 zile),5,Sprint,Meci oficial,68,Gazon hibrid,Soare,30,Nu,Nu
+I0358,P096,2019-20,2020-05-21,2020-06-09,Ruptura musculara partiala,Coapsă posterioară,Moderată (8–28 zile),19,Suprasolicitare,Meci oficial,80,Gazon natural,Ploaie,10,Da,Nu
+I0359,P097,2021-22,2021-11-09,2021-11-14,Ruptura musculara partiala,Coapsă posterioară,Ușoară (1–7 zile),5,Non-contact,Meci amical,18,Gazon sintetic,Vant puternic,9,Nu,Nu
+I0360,P097,2019-20,2019-11-14,2019-12-11,Muscular (calf),Gambă,Moderată (8–28 zile),27,Sprint,Meci oficial,21,Gazon hibrid,Ploaie,10,Nu,Nu
+I0361,P097,2020-21,2020-10-06,2020-11-08,Muscular (calf),Gambă,Severă (29–90 zile),33,Sprint,Meci oficial,75,Gazon sintetic,Ploaie,15,Nu,Nu
+I0362,P097,2021-22,2022-06-08,2022-06-11,Muscular (hamstring),Coapsă posterioară,Ușoară (1–7 zile),3,Suprasolicitare,Antrenament,,Gazon natural,Vant puternic,13,Da,Nu
+I0363,P097,2020-21,2021-01-08,2021-07-05,Muscular (hamstring),Coapsă posterioară,Foarte severă (>90 zile),178,Sprint,Meci oficial,81,Gazon natural,Frig,5,Nu,Nu
+I0364,P098,2022-23,2022-11-17,2022-11-23,Contuzie genunchi,Genunchi,Ușoară (1–7 zile),6,Sprint,Meci amical,31,Gazon natural,Frig,-2,Nu,Nu
+I0365,P098,2023-24,2023-08-09,2023-08-15,Elongatie musculara,Coapsă,Ușoară (1–7 zile),6,Non-contact,Meci oficial,66,Gazon natural,Vant puternic,9,Nu,Nu
+I0366,P098,2022-23,2022-10-12,2022-11-25,Muscular (quadriceps),Coapsă anterioară,Severă (29–90 zile),44,Suprasolicitare,Meci oficial,14,Gazon hibrid,Frig,4,Nu,Nu
+I0367,P098,2022-23,2022-11-14,2022-11-23,Elongatie musculara,Coapsă,Moderată (8–28 zile),9,Suprasolicitare,Antrenament,,Gazon hibrid,Soare,27,Da,Nu
+I0368,P098,2023-24,2024-01-25,2024-03-20,Tendinita rotuliana,Genunchi,Severă (29–90 zile),55,Non-contact,Antrenament,,Gazon sintetic,Frig,6,Da,Nu
+I0369,P098,2022-23,2023-04-01,2023-04-22,Entorsa glezna gr.II,Gleznă,Moderată (8–28 zile),21,Contact direct,Meci amical,24,Gazon natural,Soare,28,Nu,Nu
+I0370,P098,2021-22,2021-07-04,2021-08-18,Entorsa glezna gr.I,Gleznă,Severă (29–90 zile),45,Fault,Meci oficial,32,Gazon sintetic,Vant puternic,10,Nu,Nu
+I0371,P098,2023-24,2023-10-26,2023-10-31,Entorsa glezna gr.I,Gleznă,Ușoară (1–7 zile),5,Schimbare de directie,Antrenament,,Gazon sintetic,Vant puternic,12,Nu,Nu
+I0372,P098,2020-21,2021-04-09,2021-04-24,Tendinita Achilles,Tendon Achilles,Moderată (8–28 zile),15,Contact direct,Antrenament,,Gazon hibrid,Soare,28,Nu,Nu
+I0373,P099,2020-21,2021-05-21,2021-06-09,Muscular (adductor),Adductori,Moderată (8–28 zile),19,Non-contact,Antrenament,,Gazon sintetic,Ploaie,8,Nu,Nu
+I0374,P099,2020-21,2021-02-26,2021-03-23,Elongatie musculara,Coapsă,Moderată (8–28 zile),25,Non-contact,Antrenament,,Gazon hibrid,Frig,-1,Nu,Nu
+I0375,P099,2020-21,2020-12-21,2021-02-13,Tendinita Achilles,Tendon Achilles,Severă (29–90 zile),54,Non-contact,Meci oficial,46,Gazon hibrid,Frig,2,Nu,Nu
+I0376,P099,2021-22,2021-12-23,2021-12-25,Ruptura musculara partiala,Coapsă posterioară,Ușoară (1–7 zile),2,Contact direct,Antrenament,,Gazon hibrid,Ploaie,12,Nu,Nu
+I0377,P100,2021-22,2021-12-18,2021-12-20,Ruptura musculara partiala,Coapsă posterioară,Ușoară (1–7 zile),2,Contact direct,Antrenament,,Gazon sintetic,Soare,22,Nu,Nu
+I0378,P100,2020-21,2020-07-28,2020-08-23,Meniscus,Genunchi,Moderată (8–28 zile),26,Schimbare de directie,Meci oficial,75,Gazon sintetic,Frig,2,Nu,Nu
+I0379,P100,2020-21,2021-04-16,2021-04-18,Fractura metatarsian,Picior,Ușoară (1–7 zile),2,Contact direct,Antrenament,,Gazon hibrid,Ploaie,11,Nu,Da
+I0380,P100,2023-24,2024-01-09,2024-01-20,Luxatie umar,Umăr,Moderată (8–28 zile),11,Contact direct,Antrenament,,Gazon sintetic,Vant puternic,13,Nu,Nu
+I0381,P101,2019-20,2019-11-10,2019-12-01,Tendinita Achilles,Tendon Achilles,Moderată (8–28 zile),21,Contact direct,Meci amical,72,Gazon hibrid,Frig,3,Nu,Nu
+I0382,P101,2023-24,2023-07-12,2023-07-22,Muscular (quadriceps),Coapsă anterioară,Moderată (8–28 zile),10,Non-contact,Meci oficial,4,Gazon hibrid,Caldura,31,Nu,Nu
+I0383,P101,2020-21,2021-05-07,2021-05-24,Fractura metatarsian,Picior,Moderată (8–28 zile),17,Schimbare de directie,Meci oficial,66,Gazon hibrid,Frig,7,Nu,Nu
+I0384,P102,2019-20,2020-03-02,2020-05-07,Muscular (hamstring),Coapsă posterioară,Severă (29–90 zile),66,Sprint,Antrenament,,Gazon natural,Frig,1,Nu,Nu
+I0385,P102,2023-24,2023-08-01,2023-08-05,Elongatie musculara,Coapsă,Ușoară (1–7 zile),4,Contact direct,Meci oficial,52,Gazon hibrid,Caldura,34,Nu,Nu
+I0386,P102,2019-20,2020-01-13,2020-02-22,Contuzie genunchi,Genunchi,Severă (29–90 zile),40,Contact direct,Meci oficial,56,Gazon natural,Vant puternic,7,Nu,Nu
+I0387,P103,2019-20,2020-01-09,2020-01-16,Tendinita Achilles,Tendon Achilles,Ușoară (1–7 zile),7,Contact direct,Antrenament,,Gazon natural,Caldura,33,Nu,Nu
+I0388,P103,2019-20,2019-07-26,2020-03-08,Muscular (calf),Gambă,Foarte severă (>90 zile),226,Sprint,Meci oficial,73,Gazon hibrid,Caldura,38,Nu,Nu
+I0389,P103,2019-20,2020-01-15,2020-02-03,Contuzie genunchi,Genunchi,Moderată (8–28 zile),19,Sprint,Antrenament,,Gazon hibrid,Caldura,30,Nu,Nu
+I0390,P103,2022-23,2022-12-26,2023-01-25,Muscular (calf),Gambă,Severă (29–90 zile),30,Non-contact,Antrenament,,Gazon natural,Vant puternic,6,Da,Nu
+I0391,P104,2021-22,2022-04-15,2022-04-16,Contuzie gleznă,Gleznă,Ușoară (1–7 zile),1,Contact direct,Meci oficial,79,Gazon natural,Vant puternic,13,Nu,Nu
+I0392,P104,2021-22,2021-07-18,2021-07-20,Tendinita Achilles,Tendon Achilles,Ușoară (1–7 zile),2,Duel aerian,Meci oficial,63,Gazon sintetic,Ploaie,14,Nu,Nu
+I0393,P104,2023-24,2023-09-23,2023-12-06,Entorsa glezna gr.I,Gleznă,Severă (29–90 zile),74,Non-contact,Meci oficial,85,Gazon hibrid,Vant puternic,14,Nu,Nu
+I0394,P104,2020-21,2021-01-29,2021-02-12,Meniscus,Genunchi,Moderată (8–28 zile),14,Non-contact,Meci oficial,26,Gazon natural,Vant puternic,11,Nu,Da
+I0395,P104,2022-23,2022-11-30,2022-12-04,Fractura tibie,Gambă,Ușoară (1–7 zile),4,Non-contact,Meci oficial,37,Gazon hibrid,Soare,26,Nu,Nu
+I0396,P104,2020-21,2021-04-03,2021-05-01,Elongatie musculara,Coapsă,Moderată (8–28 zile),28,Non-contact,Antrenament,,Gazon natural,Soare,22,Nu,Nu
+I0397,P104,2023-24,2023-08-21,2023-09-11,Entorsa glezna gr.II,Gleznă,Moderată (8–28 zile),21,Non-contact,Antrenament,,Gazon natural,Soare,32,Nu,Nu
+I0398,P105,2022-23,2022-12-07,2022-12-13,Muscular (adductor),Adductori,Ușoară (1–7 zile),6,Sprint,Meci oficial,89,Gazon sintetic,Soare,32,Nu,Nu
+I0399,P105,2021-22,2021-07-31,2021-12-27,Ruptura musculara partiala,Coapsă posterioară,Foarte severă (>90 zile),149,Non-contact,Meci amical,20,Gazon sintetic,Ploaie,11,Nu,Nu
+I0400,P105,2020-21,2021-03-26,2021-04-23,Luxatie umar,Umăr,Moderată (8–28 zile),28,Sprint,Meci oficial,35,Gazon sintetic,Frig,4,Nu,Nu
+I0401,P105,2021-22,2022-03-26,2022-04-02,Entorsa glezna gr.III,Gleznă,Ușoară (1–7 zile),7,Contact direct,Meci oficial,89,Gazon natural,Frig,8,Nu,Nu
+I0402,P106,2021-22,2022-03-27,2022-04-03,Tendinita rotuliana,Genunchi,Ușoară (1–7 zile),7,Non-contact,Meci oficial,22,Gazon sintetic,Vant puternic,9,Nu,Nu
+I0403,P106,2019-20,2020-03-01,2020-03-08,Elongatie musculara,Coapsă,Ușoară (1–7 zile),7,Sprint,Meci oficial,26,Gazon natural,Soare,26,Nu,Nu
+I0404,P106,2019-20,2019-09-16,2019-09-18,Contuzie genunchi,Genunchi,Ușoară (1–7 zile),2,Schimbare de directie,Meci oficial,9,Gazon sintetic,Ploaie,17,Nu,Nu
+I0405,P107,2023-24,2023-10-21,2023-12-01,Ruptura musculara partiala,Coapsă posterioară,Severă (29–90 zile),41,Non-contact,Meci oficial,73,Gazon sintetic,Soare,20,Nu,Nu
+I0406,P107,2021-22,2021-08-17,2021-09-06,Muscular (adductor),Adductori,Moderată (8–28 zile),20,Sprint,Meci oficial,24,Gazon natural,Ploaie,18,Nu,Nu
+I0407,P107,2022-23,2022-08-14,2022-08-31,Elongatie musculara,Coapsă,Moderată (8–28 zile),17,Non-contact,Meci oficial,41,Gazon hibrid,Soare,19,Nu,Nu
+I0408,P108,2021-22,2021-07-28,2021-08-15,Muscular (hamstring),Coapsă posterioară,Moderată (8–28 zile),18,Suprasolicitare,Meci oficial,1,Gazon natural,Frig,4,Nu,Nu
+I0409,P108,2022-23,2022-08-28,2022-09-28,Elongatie musculara,Coapsă,Severă (29–90 zile),31,Contact direct,Antrenament,,Gazon hibrid,Frig,4,Nu,Nu
+I0410,P109,2020-21,2020-11-24,2020-12-21,Entorsa glezna gr.I,Gleznă,Moderată (8–28 zile),27,Fault,Meci oficial,59,Gazon natural,Frig,6,Nu,Nu
+I0411,P109,2021-22,2021-09-03,2021-09-16,Muscular (calf),Gambă,Moderată (8–28 zile),13,Sprint,Meci amical,3,Gazon sintetic,Frig,-2,Nu,Nu
+I0412,P110,2021-22,2021-10-01,2021-10-16,Tendinita rotuliana,Genunchi,Moderată (8–28 zile),15,Suprasolicitare,Meci oficial,27,Gazon sintetic,Frig,5,Nu,Nu
+I0413,P111,2020-21,2020-08-25,2020-08-30,Tendinita rotuliana,Genunchi,Ușoară (1–7 zile),5,Schimbare de directie,Meci oficial,73,Gazon hibrid,Ploaie,18,Nu,Nu
+I0414,P111,2022-23,2023-02-08,2023-04-01,Elongatie musculara,Coapsă,Severă (29–90 zile),52,Non-contact,Meci oficial,61,Gazon sintetic,Soare,26,Nu,Nu
+I0415,P112,2019-20,2020-05-16,2020-05-21,Muscular (hamstring),Coapsă posterioară,Ușoară (1–7 zile),5,Suprasolicitare,Antrenament,,Gazon natural,Frig,7,Nu,Nu
+I0416,P112,2023-24,2023-10-23,2023-11-18,Ligament (ACL),Genunchi,Moderată (8–28 zile),26,Schimbare de directie,Meci oficial,26,Gazon sintetic,Ploaie,13,Nu,Nu
+I0417,P112,2021-22,2022-06-21,2023-02-23,Ligament (MCL),Genunchi,Foarte severă (>90 zile),247,Suprasolicitare,Antrenament,,Gazon natural,Soare,19,Nu,Nu
+I0418,P112,2023-24,2023-08-31,2023-10-11,Ligament (MCL),Genunchi,Severă (29–90 zile),41,Schimbare de directie,Meci oficial,47,Gazon sintetic,Caldura,35,Da,Nu
+I0419,P113,2019-20,2020-05-30,2020-06-11,Muscular (calf),Gambă,Moderată (8–28 zile),12,Suprasolicitare,Meci oficial,21,Gazon natural,Caldura,31,Nu,Nu
+I0420,P113,2019-20,2020-01-15,2020-01-19,Tendinita Achilles,Tendon Achilles,Ușoară (1–7 zile),4,Contact direct,Antrenament,,Gazon hibrid,Frig,0,Nu,Nu
+I0421,P113,2021-22,2021-12-20,2022-03-18,Tendinita rotuliana,Genunchi,Severă (29–90 zile),88,Contact direct,Antrenament,,Gazon natural,Soare,25,Nu,Nu
+I0422,P114,2022-23,2022-12-30,2023-01-01,Elongatie musculara,Coapsă,Ușoară (1–7 zile),2,Non-contact,Meci oficial,20,Gazon sintetic,Soare,32,Nu,Nu
+I0423,P114,2020-21,2021-06-26,2021-10-16,Entorsa glezna gr.I,Gleznă,Foarte severă (>90 zile),112,Schimbare de directie,Antrenament,,Gazon sintetic,Soare,27,Nu,Nu
+I0424,P115,2020-21,2021-04-13,2021-06-12,Contuzie gleznă,Gleznă,Severă (29–90 zile),60,Contact direct,Meci amical,31,Gazon sintetic,Vant puternic,11,Nu,Nu
+I0425,P115,2022-23,2023-03-12,2023-05-09,Entorsa glezna gr.II,Gleznă,Severă (29–90 zile),58,Contact direct,Antrenament,,Gazon natural,Caldura,34,Da,Nu
+I0426,P115,2022-23,2023-05-24,2023-05-25,Elongatie musculara,Coapsă,Ușoară (1–7 zile),1,Suprasolicitare,Antrenament,,Gazon natural,Vant puternic,11,Nu,Nu
+I0427,P115,2020-21,2020-07-30,2020-08-24,Ruptura musculara partiala,Coapsă posterioară,Moderată (8–28 zile),25,Non-contact,Meci oficial,58,Gazon natural,Soare,30,Nu,Nu
+I0428,P116,2020-21,2020-11-09,2020-12-14,Entorsa glezna gr.II,Gleznă,Severă (29–90 zile),35,Non-contact,Meci oficial,20,Gazon hibrid,Caldura,28,Nu,Nu
+I0429,P116,2022-23,2022-12-16,2023-03-10,Muscular (hamstring),Coapsă posterioară,Severă (29–90 zile),84,Non-contact,Meci oficial,59,Gazon natural,Vant puternic,6,Nu,Nu
+I0430,P116,2019-20,2019-12-14,2019-12-20,Tendinita rotuliana,Genunchi,Ușoară (1–7 zile),6,Schimbare de directie,Meci oficial,12,Gazon hibrid,Soare,24,Nu,Nu
+I0431,P116,2020-21,2020-07-29,2020-08-03,Muscular (quadriceps),Coapsă anterioară,Ușoară (1–7 zile),5,Non-contact,Meci oficial,78,Gazon sintetic,Ploaie,12,Nu,Nu
+I0432,P116,2020-21,2020-08-08,2020-08-10,Muscular (calf),Gambă,Ușoară (1–7 zile),2,Suprasolicitare,Meci oficial,25,Gazon natural,Soare,29,Nu,Nu
+I0433,P117,2022-23,2023-02-01,2023-02-25,Tendinita Achilles,Tendon Achilles,Moderată (8–28 zile),24,Non-contact,Meci oficial,45,Gazon sintetic,Ploaie,8,Nu,Nu
+I0434,P117,2021-22,2022-04-07,2022-04-08,Entorsa glezna gr.I,Gleznă,Ușoară (1–7 zile),1,Schimbare de directie,Meci oficial,80,Gazon natural,Frig,-2,Nu,Nu
+I0435,P117,2021-22,2021-07-10,2021-10-05,Ligament (MCL),Genunchi,Severă (29–90 zile),87,Suprasolicitare,Antrenament,,Gazon hibrid,Soare,27,Nu,Nu
+I0436,P118,2023-24,2023-10-11,2023-10-14,Entorsa glezna gr.II,Gleznă,Ușoară (1–7 zile),3,Non-contact,Meci oficial,25,Gazon sintetic,Ploaie,10,Nu,Nu
+I0437,P118,2023-24,2024-03-29,2024-04-05,Elongatie musculara,Coapsă,Ușoară (1–7 zile),7,Non-contact,Meci amical,60,Gazon natural,Frig,4,Nu,Nu
+I0438,P118,2022-23,2023-01-15,2023-01-22,Entorsa glezna gr.II,Gleznă,Ușoară (1–7 zile),7,Non-contact,Meci oficial,85,Gazon natural,Ploaie,17,Da,Nu
+I0439,P118,2020-21,2020-08-09,2020-08-12,Ligament (ankle),Gleznă,Ușoară (1–7 zile),3,Non-contact,Meci oficial,71,Gazon sintetic,Vant puternic,12,Da,Nu
+I0440,P118,2022-23,2023-03-25,2023-05-24,Meniscus,Genunchi,Severă (29–90 zile),60,Duel aerian,Meci oficial,9,Gazon sintetic,Vant puternic,14,Nu,Da
+I0441,P119,2020-21,2021-05-24,2021-05-26,Muscular (hamstring),Coapsă posterioară,Ușoară (1–7 zile),2,Suprasolicitare,Antrenament,,Gazon hibrid,Soare,27,Nu,Nu
+I0442,P119,2021-22,2021-07-26,2021-08-07,Ligament (ankle),Gleznă,Moderată (8–28 zile),12,Non-contact,Antrenament,,Gazon sintetic,Soare,25,Nu,Nu
+I0443,P119,2020-21,2021-04-01,2021-06-26,Tendinita rotuliana,Genunchi,Severă (29–90 zile),86,Sprint,Antrenament,,Gazon sintetic,Frig,3,Nu,Nu
+I0444,P120,2020-21,2021-04-20,2021-07-19,Luxatie umar,Umăr,Severă (29–90 zile),90,Suprasolicitare,Antrenament,,Gazon sintetic,Ploaie,17,Nu,Nu
+I0445,P122,2023-24,2023-09-14,2023-11-06,Ligament (MCL),Genunchi,Severă (29–90 zile),53,Non-contact,Meci oficial,68,Gazon sintetic,Frig,-1,Nu,Nu
+I0446,P122,2022-23,2023-06-27,2023-08-12,Entorsa glezna gr.I,Gleznă,Severă (29–90 zile),46,Schimbare de directie,Meci oficial,8,Gazon sintetic,Frig,-2,Nu,Nu
+I0447,P123,2021-22,2022-03-19,2022-03-22,Muscular (quadriceps),Coapsă anterioară,Ușoară (1–7 zile),3,Suprasolicitare,Meci amical,83,Gazon hibrid,Ploaie,17,Nu,Nu
+I0448,P123,2023-24,2023-12-23,2024-02-23,Muscular (hamstring),Coapsă posterioară,Severă (29–90 zile),62,Sprint,Antrenament,,Gazon natural,Soare,22,Nu,Nu
+I0449,P123,2019-20,2019-12-09,2019-12-30,Muscular (hamstring),Coapsă posterioară,Moderată (8–28 zile),21,Suprasolicitare,Antrenament,,Gazon natural,Frig,5,Da,Nu
+I0450,P123,2022-23,2023-06-16,2023-06-30,Ruptura musculara partiala,Coapsă posterioară,Moderată (8–28 zile),14,Suprasolicitare,Meci oficial,42,Gazon sintetic,Soare,19,Nu,Nu
+I0451,P123,2022-23,2022-07-31,2022-09-22,Muscular (quadriceps),Coapsă anterioară,Severă (29–90 zile),53,Sprint,Meci oficial,79,Gazon natural,Soare,28,Da,Nu
+I0452,P124,2023-24,2023-07-01,2023-07-07,Elongatie musculara,Coapsă,Ușoară (1–7 zile),6,Contact direct,Meci oficial,9,Gazon natural,Ploaie,9,Nu,Nu
+I0453,P125,2021-22,2022-04-04,2022-04-14,Ligament (ankle),Gleznă,Moderată (8–28 zile),10,Contact direct,Meci oficial,54,Gazon sintetic,Frig,-1,Nu,Nu
+I0454,P125,2020-21,2020-12-16,2021-03-10,Muscular (calf),Gambă,Severă (29–90 zile),84,Suprasolicitare,Meci oficial,4,Gazon natural,Soare,28,Nu,Nu
+I0455,P125,2021-22,2022-04-21,2022-08-25,Entorsa glezna gr.II,Gleznă,Foarte severă (>90 zile),126,Suprasolicitare,Meci oficial,51,Gazon hibrid,Soare,26,Da,Nu
+I0456,P125,2020-21,2020-08-13,2020-08-22,Entorsa glezna gr.I,Gleznă,Moderată (8–28 zile),9,Suprasolicitare,Meci oficial,1,Gazon natural,Vant puternic,14,Nu,Nu
+I0457,P127,2020-21,2021-01-27,2021-02-23,Muscular (hamstring),Coapsă posterioară,Moderată (8–28 zile),27,Sprint,Meci oficial,26,Gazon sintetic,Caldura,32,Nu,Nu
+I0458,P127,2021-22,2021-12-29,2021-12-30,Muscular (quadriceps),Coapsă anterioară,Ușoară (1–7 zile),1,Suprasolicitare,Antrenament,,Gazon natural,Frig,-2,Nu,Nu
+I0459,P128,2023-24,2023-10-03,2023-11-13,Entorsa glezna gr.I,Gleznă,Severă (29–90 zile),41,Schimbare de directie,Antrenament,,Gazon natural,Ploaie,17,Nu,Nu
+I0460,P128,2020-21,2020-11-28,2020-12-05,Tendinita Achilles,Tendon Achilles,Ușoară (1–7 zile),7,Contact direct,Meci oficial,2,Gazon hibrid,Ploaie,10,Nu,Nu
+I0461,P128,2022-23,2022-11-14,2022-11-18,Ligament (ankle),Gleznă,Ușoară (1–7 zile),4,Non-contact,Meci amical,77,Gazon natural,Vant puternic,8,Nu,Nu
+I0462,P128,2019-20,2019-10-11,2019-12-18,Elongatie musculara,Coapsă,Severă (29–90 zile),68,Duel aerian,Antrenament,,Gazon natural,Soare,22,Nu,Nu
+I0463,P129,2019-20,2019-12-03,2019-12-22,Muscular (calf),Gambă,Moderată (8–28 zile),19,Sprint,Meci oficial,5,Gazon natural,Soare,22,Nu,Nu
+I0464,P129,2021-22,2022-03-02,2022-03-10,Ruptura musculara partiala,Coapsă posterioară,Moderată (8–28 zile),8,Contact direct,Meci oficial,31,Gazon natural,Frig,2,Nu,Nu
+I0465,P129,2020-21,2020-09-14,2020-09-26,Entorsa glezna gr.I,Gleznă,Moderată (8–28 zile),12,Suprasolicitare,Meci oficial,4,Gazon natural,Soare,25,Nu,Nu
+I0466,P129,2023-24,2023-10-24,2023-10-25,Tendinita Achilles,Tendon Achilles,Ușoară (1–7 zile),1,Schimbare de directie,Antrenament,,Gazon natural,Frig,8,Nu,Nu
+I0467,P130,2022-23,2023-02-21,2023-03-01,Muscular (adductor),Adductori,Moderată (8–28 zile),8,Non-contact,Meci oficial,72,Gazon natural,Frig,2,Nu,Nu
+I0468,P130,2022-23,2022-07-20,2022-08-12,Tendinita Achilles,Tendon Achilles,Moderată (8–28 zile),23,Suprasolicitare,Meci oficial,48,Gazon sintetic,Caldura,33,Nu,Nu
+I0469,P130,2020-21,2021-06-11,2021-07-03,Muscular (calf),Gambă,Moderată (8–28 zile),22,Suprasolicitare,Antrenament,,Gazon natural,Frig,3,Nu,Nu
+I0470,P130,2021-22,2021-07-04,2021-08-23,Tendinita Achilles,Tendon Achilles,Severă (29–90 zile),50,Non-contact,Meci oficial,88,Gazon natural,Ploaie,8,Nu,Nu
+I0471,P130,2023-24,2024-04-08,2024-04-21,Tendinita Achilles,Tendon Achilles,Moderată (8–28 zile),13,Schimbare de directie,Meci oficial,27,Gazon natural,Frig,6,Nu,Nu
+I0472,P131,2023-24,2023-08-23,2023-09-05,Muscular (adductor),Adductori,Moderată (8–28 zile),13,Sprint,Meci oficial,15,Gazon hibrid,Vant puternic,13,Nu,Nu
+I0473,P132,2023-24,2023-09-13,2023-09-16,Entorsa glezna gr.II,Gleznă,Ușoară (1–7 zile),3,Schimbare de directie,Meci oficial,14,Gazon hibrid,Ploaie,18,Nu,Nu
+I0474,P132,2023-24,2023-12-25,2024-02-24,Muscular (hamstring),Coapsă posterioară,Severă (29–90 zile),61,Sprint,Meci oficial,40,Gazon hibrid,Ploaie,14,Nu,Nu
+I0475,P132,2019-20,2019-08-03,2019-09-02,Muscular (quadriceps),Coapsă anterioară,Severă (29–90 zile),30,Sprint,Meci oficial,88,Gazon sintetic,Soare,19,Nu,Nu
+I0476,P133,2020-21,2020-08-30,2020-09-02,Contuzie gleznă,Gleznă,Ușoară (1–7 zile),3,Suprasolicitare,Meci oficial,62,Gazon sintetic,Caldura,28,Nu,Nu
+I0477,P133,2021-22,2022-02-24,2022-03-02,Ligament (MCL),Genunchi,Ușoară (1–7 zile),6,Non-contact,Antrenament,,Gazon sintetic,Caldura,37,Nu,Nu
+I0478,P134,2021-22,2021-08-17,2021-08-25,Ruptura musculara partiala,Coapsă posterioară,Moderată (8–28 zile),8,Non-contact,Meci oficial,12,Gazon hibrid,Frig,-1,Nu,Nu
+I0479,P134,2021-22,2022-01-17,2022-01-28,Entorsa glezna gr.III,Gleznă,Moderată (8–28 zile),11,Non-contact,Meci oficial,78,Gazon natural,Frig,6,Nu,Nu
+I0480,P134,2019-20,2020-03-19,2020-03-25,Contuzie gleznă,Gleznă,Ușoară (1–7 zile),6,Contact direct,Antrenament,,Gazon sintetic,Caldura,35,Nu,Nu
+I0481,P135,2020-21,2020-11-30,2020-12-09,Ruptura musculara partiala,Coapsă posterioară,Moderată (8–28 zile),9,Suprasolicitare,Antrenament,,Gazon sintetic,Frig,0,Nu,Nu
+I0482,P135,2023-24,2024-03-10,2024-03-22,Tendinita Achilles,Tendon Achilles,Moderată (8–28 zile),12,Non-contact,Meci oficial,32,Gazon sintetic,Soare,24,Nu,Nu
+I0483,P135,2022-23,2022-10-08,2022-10-14,Muscular (calf),Gambă,Ușoară (1–7 zile),6,Suprasolicitare,Antrenament,,Gazon hibrid,Soare,19,Nu,Nu
+I0484,P136,2019-20,2019-08-12,2019-09-02,Muscular (hamstring),Coapsă posterioară,Moderată (8–28 zile),21,Sprint,Antrenament,,Gazon sintetic,Caldura,32,Nu,Nu
+I0485,P137,2021-22,2021-07-02,2021-07-08,Muscular (calf),Gambă,Ușoară (1–7 zile),6,Sprint,Meci oficial,18,Gazon hibrid,Soare,18,Nu,Nu
+I0486,P138,2021-22,2021-08-03,2021-08-28,Muscular (calf),Gambă,Moderată (8–28 zile),25,Non-contact,Antrenament,,Gazon natural,Ploaie,14,Nu,Nu
+I0487,P138,2022-23,2023-06-06,2023-06-12,Muscular (calf),Gambă,Ușoară (1–7 zile),6,Sprint,Meci oficial,68,Gazon sintetic,Vant puternic,5,Da,Nu
+I0488,P139,2021-22,2022-03-06,2022-03-10,Entorsa glezna gr.II,Gleznă,Ușoară (1–7 zile),4,Contact direct,Meci oficial,50,Gazon hibrid,Caldura,30,Nu,Nu
+I0489,P139,2021-22,2022-03-05,2022-03-15,Muscular (quadriceps),Coapsă anterioară,Moderată (8–28 zile),10,Suprasolicitare,Antrenament,,Gazon sintetic,Ploaie,14,Nu,Nu
+I0490,P139,2020-21,2021-04-17,2021-05-18,Meniscus,Genunchi,Severă (29–90 zile),31,Contact direct,Antrenament,,Gazon hibrid,Vant puternic,14,Nu,Da
+I0491,P139,2019-20,2020-05-18,2020-06-15,Elongatie musculara,Coapsă,Moderată (8–28 zile),28,Non-contact,Meci oficial,64,Gazon hibrid,Soare,24,Nu,Nu
+I0492,P139,2023-24,2023-10-30,2023-12-07,Muscular (quadriceps),Coapsă anterioară,Severă (29–90 zile),38,Suprasolicitare,Meci oficial,44,Gazon sintetic,Vant puternic,14,Nu,Nu
+I0493,P139,2023-24,2024-03-15,2024-03-22,Contuzie genunchi,Genunchi,Ușoară (1–7 zile),7,Sprint,Antrenament,,Gazon sintetic,Caldura,35,Nu,Nu
+I0494,P140,2021-22,2022-06-26,2022-07-14,Muscular (quadriceps),Coapsă anterioară,Moderată (8–28 zile),18,Sprint,Antrenament,,Gazon natural,Vant puternic,9,Nu,Nu
+I0495,P141,2020-21,2021-03-19,2021-04-07,Elongatie musculara,Coapsă,Moderată (8–28 zile),19,Non-contact,Meci oficial,87,Gazon hibrid,Frig,4,Nu,Nu
+I0496,P141,2023-24,2023-12-29,2024-01-10,Ligament (ACL),Genunchi,Moderată (8–28 zile),12,Contact direct,Antrenament,,Gazon hibrid,Vant puternic,13,Nu,Nu
+I0497,P142,2020-21,2021-02-16,2021-02-22,Contuzie gleznă,Gleznă,Ușoară (1–7 zile),6,Contact direct,Antrenament,,Gazon sintetic,Vant puternic,12,Nu,Nu
+I0498,P142,2021-22,2022-01-26,2022-01-31,Contuzie genunchi,Genunchi,Ușoară (1–7 zile),5,Contact direct,Antrenament,,Gazon sintetic,Caldura,36,Nu,Nu
+I0499,P142,2021-22,2022-04-09,2022-04-12,Muscular (hamstring),Coapsă posterioară,Ușoară (1–7 zile),3,Suprasolicitare,Meci oficial,36,Gazon sintetic,Caldura,28,Nu,Nu
+I0500,P142,2021-22,2022-03-02,2022-03-13,Tendinita Achilles,Tendon Achilles,Moderată (8–28 zile),11,Non-contact,Meci oficial,18,Gazon sintetic,Ploaie,13,Nu,Nu
+I0501,P143,2022-23,2023-05-07,2023-05-13,Muscular (quadriceps),Coapsă anterioară,Ușoară (1–7 zile),6,Suprasolicitare,Meci oficial,8,Gazon sintetic,Soare,19,Nu,Nu
+I0502,P143,2022-23,2022-09-11,2022-09-16,Muscular (adductor),Adductori,Ușoară (1–7 zile),5,Sprint,Antrenament,,Gazon natural,Ploaie,8,Nu,Nu
+I0503,P143,2020-21,2020-08-20,2021-02-25,Muscular (calf),Gambă,Foarte severă (>90 zile),189,Sprint,Antrenament,,Gazon natural,Caldura,29,Nu,Nu
+I0504,P143,2021-22,2022-01-27,2022-02-11,Ligament (ACL),Genunchi,Moderată (8–28 zile),15,Schimbare de directie,Antrenament,,Gazon hibrid,Vant puternic,8,Nu,Da
+I0505,P143,2019-20,2020-01-22,2020-02-06,Elongatie musculara,Coapsă,Moderată (8–28 zile),15,Non-contact,Antrenament,,Gazon natural,Frig,7,Nu,Nu
+I0506,P143,2021-22,2022-04-02,2022-04-08,Contuzie gleznă,Gleznă,Ușoară (1–7 zile),6,Sprint,Meci oficial,44,Gazon sintetic,Vant puternic,13,Nu,Nu
+I0507,P143,2019-20,2019-12-06,2019-12-12,Tendinita Achilles,Tendon Achilles,Ușoară (1–7 zile),6,Suprasolicitare,Antrenament,,Gazon sintetic,Frig,1,Nu,Nu
+I0508,P143,2020-21,2020-10-15,2020-10-18,Meniscus,Genunchi,Ușoară (1–7 zile),3,Duel aerian,Antrenament,,Gazon sintetic,Caldura,28,Da,Da
+I0509,P144,2023-24,2023-07-23,2023-07-27,Ligament (ankle),Gleznă,Ușoară (1–7 zile),4,Non-contact,Meci oficial,56,Gazon sintetic,Vant puternic,9,Nu,Nu
+I0510,P144,2022-23,2023-02-10,2023-02-15,Muscular (calf),Gambă,Ușoară (1–7 zile),5,Sprint,Antrenament,,Gazon hibrid,Soare,24,Nu,Nu
+I0511,P144,2022-23,2022-08-06,2022-08-12,Elongatie musculara,Coapsă,Ușoară (1–7 zile),6,Contact direct,Meci oficial,33,Gazon natural,Frig,4,Nu,Nu
+I0512,P144,2019-20,2019-11-14,2019-11-19,Muscular (adductor),Adductori,Ușoară (1–7 zile),5,Sprint,Meci oficial,84,Gazon natural,Ploaie,16,Nu,Nu
+I0513,P144,2022-23,2023-06-29,2024-02-29,Muscular (hamstring),Coapsă posterioară,Foarte severă (>90 zile),245,Sprint,Meci oficial,23,Gazon natural,Caldura,30,Nu,Nu
+I0514,P144,2019-20,2019-07-18,2019-07-25,Contuzie gleznă,Gleznă,Ușoară (1–7 zile),7,Non-contact,Meci oficial,3,Gazon natural,Caldura,30,Da,Nu
+I0515,P144,2022-23,2022-11-29,2023-01-12,Fractura tibie,Gambă,Severă (29–90 zile),44,Non-contact,Antrenament,,Gazon natural,Ploaie,10,Nu,Da
+I0516,P145,2022-23,2023-04-18,2023-05-11,Muscular (hamstring),Coapsă posterioară,Moderată (8–28 zile),23,Suprasolicitare,Antrenament,,Gazon hibrid,Caldura,37,Nu,Nu
+I0517,P145,2021-22,2022-06-07,2022-06-23,Entorsa glezna gr.I,Gleznă,Moderată (8–28 zile),16,Contact direct,Meci amical,64,Gazon sintetic,Ploaie,8,Nu,Nu
+I0518,P145,2021-22,2021-08-22,2021-08-26,Entorsa glezna gr.III,Gleznă,Ușoară (1–7 zile),4,Non-contact,Meci oficial,26,Gazon hibrid,Soare,21,Da,Nu
+I0519,P145,2023-24,2023-12-12,2024-01-09,Entorsa glezna gr.II,Gleznă,Moderată (8–28 zile),28,Contact direct,Meci oficial,30,Gazon sintetic,Frig,5,Da,Nu
+I0520,P146,2019-20,2019-10-14,2019-11-04,Elongatie musculara,Coapsă,Moderată (8–28 zile),21,Contact direct,Meci oficial,82,Gazon sintetic,Soare,22,Nu,Nu
+I0521,P146,2022-23,2022-11-07,2022-12-10,Elongatie musculara,Coapsă,Severă (29–90 zile),33,Suprasolicitare,Antrenament,,Gazon natural,Soare,32,Da,Nu
+I0522,P146,2019-20,2020-01-24,2020-02-01,Ligament (MCL),Genunchi,Moderată (8–28 zile),8,Schimbare de directie,Meci oficial,35,Gazon sintetic,Soare,18,Nu,Nu
+I0523,P146,2021-22,2022-01-28,2022-02-24,Muscular (hamstring),Coapsă posterioară,Moderată (8–28 zile),27,Sprint,Meci oficial,67,Gazon natural,Caldura,36,Nu,Nu
+I0524,P147,2023-24,2024-02-14,2024-02-26,Entorsa glezna gr.I,Gleznă,Moderată (8–28 zile),12,Suprasolicitare,Meci oficial,57,Gazon sintetic,Vant puternic,8,Nu,Nu
+I0525,P147,2020-21,2021-03-12,2021-03-13,Ligament (MCL),Genunchi,Ușoară (1–7 zile),1,Contact direct,Meci oficial,54,Gazon hibrid,Caldura,36,Nu,Nu
+I0526,P147,2019-20,2019-11-13,2019-12-12,Ligament (ACL),Genunchi,Severă (29–90 zile),29,Schimbare de directie,Meci oficial,29,Gazon sintetic,Frig,5,Da,Da
+I0527,P148,2021-22,2021-08-01,2021-08-07,Entorsa glezna gr.I,Gleznă,Ușoară (1–7 zile),6,Duel aerian,Antrenament,,Gazon hibrid,Vant puternic,13,Nu,Nu
+I0528,P149,2022-23,2023-04-28,2023-05-22,Tendinita rotuliana,Genunchi,Moderată (8–28 zile),24,Suprasolicitare,Meci oficial,32,Gazon sintetic,Ploaie,8,Nu,Nu
+I0529,P149,2021-22,2021-10-06,2021-10-12,Ruptura musculara partiala,Coapsă posterioară,Ușoară (1–7 zile),6,Suprasolicitare,Meci oficial,33,Gazon natural,Soare,31,Nu,Nu
+I0530,P149,2022-23,2023-05-29,2023-05-30,Fractura metatarsian,Picior,Ușoară (1–7 zile),1,Non-contact,Antrenament,,Gazon hibrid,Frig,2,Nu,Da
+I0531,P150,2023-24,2023-11-04,2023-12-07,Contuzie genunchi,Genunchi,Severă (29–90 zile),33,Sprint,Meci oficial,56,Gazon natural,Frig,4,Nu,Nu
+I0532,P150,2020-21,2020-10-25,2020-10-28,Ligament (ankle),Gleznă,Ușoară (1–7 zile),3,Fault,Meci oficial,51,Gazon natural,Caldura,32,Nu,Nu
+I0533,P151,2023-24,2024-04-12,2024-04-16,Muscular (adductor),Adductori,Ușoară (1–7 zile),4,Non-contact,Meci oficial,2,Gazon natural,Ploaie,14,Nu,Nu
+I0534,P151,2019-20,2019-09-05,2019-09-07,Ruptura musculara partiala,Coapsă posterioară,Ușoară (1–7 zile),2,Fault,Meci oficial,47,Gazon sintetic,Vant puternic,6,Nu,Nu
+I0535,P152,2019-20,2019-12-16,2019-12-21,Ligament (MCL),Genunchi,Ușoară (1–7 zile),5,Suprasolicitare,Meci amical,25,Gazon hibrid,Ploaie,14,Nu,Nu
+I0536,P152,2023-24,2024-02-28,2024-04-01,Ligament (MCL),Genunchi,Severă (29–90 zile),33,Non-contact,Meci oficial,34,Gazon natural,Ploaie,16,Nu,Nu
+I0537,P152,2020-21,2021-05-24,2021-05-31,Tendinita rotuliana,Genunchi,Ușoară (1–7 zile),7,Schimbare de directie,Antrenament,,Gazon sintetic,Vant puternic,9,Nu,Nu
+I0538,P153,2020-21,2020-09-04,2020-09-07,Ruptura musculara partiala,Coapsă posterioară,Ușoară (1–7 zile),3,Contact direct,Meci oficial,20,Gazon natural,Soare,19,Nu,Nu
+I0539,P153,2019-20,2019-11-28,2019-12-04,Ruptura musculara partiala,Coapsă posterioară,Ușoară (1–7 zile),6,Non-contact,Meci oficial,31,Gazon hibrid,Frig,8,Da,Nu
+I0540,P153,2021-22,2022-02-24,2022-03-10,Contuzie gleznă,Gleznă,Moderată (8–28 zile),14,Non-contact,Antrenament,,Gazon sintetic,Frig,-2,Nu,Nu
+I0541,P153,2022-23,2023-03-10,2023-05-07,Meniscus,Genunchi,Severă (29–90 zile),58,Schimbare de directie,Meci amical,42,Gazon hibrid,Frig,8,Nu,Nu
+I0542,P153,2023-24,2023-11-21,2023-11-28,Elongatie musculara,Coapsă,Ușoară (1–7 zile),7,Non-contact,Meci oficial,12,Gazon natural,Frig,-2,Nu,Nu
+I0543,P154,2020-21,2020-08-18,2020-09-03,Contuzie genunchi,Genunchi,Moderată (8–28 zile),16,Non-contact,Antrenament,,Gazon sintetic,Soare,28,Nu,Nu
+I0544,P154,2020-21,2020-08-17,2020-09-10,Muscular (hamstring),Coapsă posterioară,Moderată (8–28 zile),24,Suprasolicitare,Meci oficial,65,Gazon hibrid,Vant puternic,13,Nu,Nu
+I0545,P155,2022-23,2022-10-23,2022-10-29,Luxatie umar,Umăr,Ușoară (1–7 zile),6,Non-contact,Antrenament,,Gazon hibrid,Frig,-2,Nu,Nu
+I0546,P155,2023-24,2024-02-23,2024-04-22,Tendinita Achilles,Tendon Achilles,Severă (29–90 zile),59,Sprint,Antrenament,,Gazon sintetic,Caldura,31,Nu,Nu
+I0547,P156,2019-20,2019-09-18,2019-12-10,Ligament (ACL),Genunchi,Severă (29–90 zile),83,Contact direct,Antrenament,,Gazon sintetic,Frig,1,Nu,Da
+I0548,P156,2019-20,2019-12-03,2019-12-04,Muscular (adductor),Adductori,Ușoară (1–7 zile),1,Non-contact,Antrenament,,Gazon hibrid,Caldura,32,Nu,Nu
+I0549,P156,2020-21,2020-09-10,2020-10-06,Tendinita rotuliana,Genunchi,Moderată (8–28 zile),26,Schimbare de directie,Antrenament,,Gazon hibrid,Ploaie,14,Nu,Nu
+I0550,P156,2019-20,2019-12-11,2019-12-15,Tendinita rotuliana,Genunchi,Ușoară (1–7 zile),4,Non-contact,Meci oficial,13,Gazon hibrid,Ploaie,12,Da,Nu
+I0551,P156,2020-21,2020-08-21,2020-08-25,Ligament (ACL),Genunchi,Ușoară (1–7 zile),4,Non-contact,Meci oficial,70,Gazon natural,Caldura,29,Nu,Nu
+I0552,P156,2023-24,2023-12-13,2023-12-20,Ruptura musculara partiala,Coapsă posterioară,Ușoară (1–7 zile),7,Non-contact,Antrenament,,Gazon hibrid,Ploaie,15,Nu,Nu
+I0553,P157,2020-21,2021-06-29,2021-06-30,Entorsa glezna gr.I,Gleznă,Ușoară (1–7 zile),1,Non-contact,Antrenament,,Gazon hibrid,Frig,2,Nu,Nu
+I0554,P157,2019-20,2019-11-07,2019-12-11,Entorsa glezna gr.III,Gleznă,Severă (29–90 zile),34,Non-contact,Meci oficial,89,Gazon sintetic,Caldura,28,Da,Nu
+I0555,P158,2019-20,2020-01-29,2020-03-25,Elongatie musculara,Coapsă,Severă (29–90 zile),56,Schimbare de directie,Antrenament,,Gazon sintetic,Frig,7,Nu,Nu
+I0556,P158,2023-24,2023-09-03,2023-09-13,Entorsa glezna gr.II,Gleznă,Moderată (8–28 zile),10,Suprasolicitare,Meci oficial,64,Gazon sintetic,Caldura,38,Nu,Nu
+I0557,P158,2020-21,2020-07-20,2020-07-24,Muscular (adductor),Adductori,Ușoară (1–7 zile),4,Non-contact,Meci oficial,48,Gazon natural,Vant puternic,10,Nu,Nu
+I0558,P158,2023-24,2023-10-17,2023-11-11,Entorsa glezna gr.III,Gleznă,Moderată (8–28 zile),25,Non-contact,Meci oficial,71,Gazon natural,Vant puternic,5,Da,Nu
+I0559,P159,2020-21,2021-03-06,2021-04-07,Ligament (ACL),Genunchi,Severă (29–90 zile),32,Contact direct,Antrenament,,Gazon sintetic,Frig,4,Nu,Nu
+I0560,P159,2021-22,2021-10-11,2021-10-14,Muscular (hamstring),Coapsă posterioară,Ușoară (1–7 zile),3,Sprint,Meci oficial,12,Gazon sintetic,Ploaie,16,Nu,Nu
+I0561,P159,2020-21,2021-04-12,2021-10-05,Muscular (quadriceps),Coapsă anterioară,Foarte severă (>90 zile),176,Sprint,Meci amical,11,Gazon natural,Ploaie,12,Nu,Nu
+I0562,P160,2022-23,2023-05-15,2023-06-10,Entorsa glezna gr.II,Gleznă,Moderată (8–28 zile),26,Sprint,Antrenament,,Gazon natural,Vant puternic,5,Nu,Nu
+I0563,P160,2019-20,2020-04-06,2020-04-07,Tendinita rotuliana,Genunchi,Ușoară (1–7 zile),1,Duel aerian,Meci oficial,76,Gazon sintetic,Soare,19,Nu,Nu
+I0564,P160,2022-23,2022-08-23,2022-08-28,Contuzie genunchi,Genunchi,Ușoară (1–7 zile),5,Non-contact,Meci oficial,24,Gazon natural,Caldura,35,Nu,Nu
+I0565,P160,2023-24,2024-02-08,2024-02-14,Luxatie umar,Umăr,Ușoară (1–7 zile),6,Non-contact,Antrenament,,Gazon hibrid,Frig,2,Nu,Nu
+I0566,P160,2020-21,2020-10-30,2020-11-04,Entorsa glezna gr.I,Gleznă,Ușoară (1–7 zile),5,Suprasolicitare,Meci oficial,25,Gazon sintetic,Caldura,37,Da,Nu
+I0567,P160,2022-23,2022-12-14,2022-12-16,Elongatie musculara,Coapsă,Ușoară (1–7 zile),2,Contact direct,Antrenament,,Gazon natural,Frig,5,Nu,Nu
+I0568,P160,2022-23,2023-05-16,2023-05-19,Meniscus,Genunchi,Ușoară (1–7 zile),3,Suprasolicitare,Meci oficial,16,Gazon hibrid,Ploaie,8,Da,Nu
+I0569,P162,2022-23,2023-02-24,2023-02-25,Ligament (ACL),Genunchi,Ușoară (1–7 zile),1,Contact direct,Meci oficial,53,Gazon natural,Soare,23,Nu,Nu
+I0570,P162,2021-22,2021-08-14,2021-08-18,Elongatie musculara,Coapsă,Ușoară (1–7 zile),4,Suprasolicitare,Antrenament,,Gazon sintetic,Frig,0,Nu,Nu
+I0571,P162,2022-23,2023-03-18,2023-06-09,Ligament (ankle),Gleznă,Severă (29–90 zile),83,Non-contact,Meci oficial,36,Gazon natural,Frig,4,Nu,Nu
+I0572,P162,2023-24,2023-09-10,2023-10-12,Muscular (hamstring),Coapsă posterioară,Severă (29–90 zile),32,Suprasolicitare,Meci oficial,37,Gazon sintetic,Ploaie,12,Nu,Nu
+I0573,P162,2021-22,2022-01-16,2022-02-11,Entorsa glezna gr.II,Gleznă,Moderată (8–28 zile),26,Non-contact,Antrenament,,Gazon sintetic,Vant puternic,11,Da,Nu
+I0574,P162,2023-24,2023-11-16,2023-12-16,Muscular (adductor),Adductori,Severă (29–90 zile),30,Sprint,Meci oficial,71,Gazon hibrid,Caldura,33,Nu,Nu
+I0575,P162,2022-23,2023-03-10,2023-03-17,Muscular (adductor),Adductori,Ușoară (1–7 zile),7,Sprint,Meci oficial,14,Gazon hibrid,Ploaie,12,Nu,Nu
+I0576,P162,2020-21,2020-07-09,2020-08-02,Elongatie musculara,Coapsă,Moderată (8–28 zile),24,Contact direct,Meci amical,3,Gazon natural,Vant puternic,11,Nu,Nu
+I0577,P163,2020-21,2020-11-26,2020-12-17,Luxatie umar,Umăr,Moderată (8–28 zile),21,Non-contact,Antrenament,,Gazon hibrid,Ploaie,14,Nu,Nu
+I0578,P164,2020-21,2020-08-05,2020-08-10,Ligament (ankle),Gleznă,Ușoară (1–7 zile),5,Non-contact,Meci amical,44,Gazon natural,Vant puternic,13,Nu,Nu
+I0579,P164,2019-20,2020-01-28,2020-02-07,Meniscus,Genunchi,Moderată (8–28 zile),10,Contact direct,Antrenament,,Gazon hibrid,Frig,5,Nu,Da
+I0580,P164,2021-22,2021-12-20,2022-01-14,Muscular (quadriceps),Coapsă anterioară,Moderată (8–28 zile),25,Sprint,Antrenament,,Gazon sintetic,Vant puternic,9,Nu,Nu
+I0581,P165,2019-20,2020-01-08,2020-01-22,Contuzie gleznă,Gleznă,Moderată (8–28 zile),14,Contact direct,Meci oficial,16,Gazon natural,Soare,30,Nu,Nu
+I0582,P165,2019-20,2020-06-07,2020-07-02,Muscular (hamstring),Coapsă posterioară,Moderată (8–28 zile),25,Sprint,Antrenament,,Gazon natural,Frig,3,Nu,Nu
+I0583,P165,2020-21,2021-01-19,2021-01-24,Contuzie genunchi,Genunchi,Ușoară (1–7 zile),5,Suprasolicitare,Meci oficial,46,Gazon hibrid,Frig,-1,Nu,Nu
+I0584,P165,2023-24,2024-02-09,2024-02-11,Muscular (hamstring),Coapsă posterioară,Ușoară (1–7 zile),2,Sprint,Antrenament,,Gazon hibrid,Ploaie,10,Da,Nu
+I0585,P166,2019-20,2020-02-27,2020-03-07,Fractura tibie,Gambă,Moderată (8–28 zile),9,Schimbare de directie,Antrenament,,Gazon natural,Vant puternic,15,Nu,Da
+I0586,P166,2019-20,2019-09-10,2019-09-13,Contuzie genunchi,Genunchi,Ușoară (1–7 zile),3,Suprasolicitare,Antrenament,,Gazon natural,Frig,1,Nu,Nu
+I0587,P166,2020-21,2020-12-27,2021-01-09,Meniscus,Genunchi,Moderată (8–28 zile),13,Sprint,Antrenament,,Gazon hibrid,Caldura,35,Nu,Da
+I0588,P166,2021-22,2021-11-17,2021-12-09,Contuzie gleznă,Gleznă,Moderată (8–28 zile),22,Schimbare de directie,Meci oficial,57,Gazon natural,Vant puternic,14,Nu,Nu
+I0589,P166,2021-22,2022-02-07,2022-02-12,Meniscus,Genunchi,Ușoară (1–7 zile),5,Contact direct,Antrenament,,Gazon sintetic,Ploaie,8,Nu,Da
+I0590,P167,2020-21,2020-07-03,2020-07-08,Entorsa glezna gr.I,Gleznă,Ușoară (1–7 zile),5,Contact direct,Antrenament,,Gazon natural,Ploaie,8,Nu,Nu
+I0591,P167,2021-22,2022-06-10,2022-06-28,Muscular (adductor),Adductori,Moderată (8–28 zile),18,Sprint,Antrenament,,Gazon natural,Ploaie,10,Nu,Nu
+I0592,P167,2022-23,2023-01-24,2023-04-07,Muscular (quadriceps),Coapsă anterioară,Severă (29–90 zile),73,Suprasolicitare,Meci oficial,55,Gazon sintetic,Caldura,38,Nu,Nu
+I0593,P167,2023-24,2023-10-15,2023-10-16,Ruptura musculara partiala,Coapsă posterioară,Ușoară (1–7 zile),1,Contact direct,Meci oficial,86,Gazon hibrid,Soare,31,Nu,Nu
+I0594,P167,2022-23,2023-05-09,2023-05-19,Entorsa glezna gr.II,Gleznă,Moderată (8–28 zile),10,Contact direct,Meci amical,69,Gazon sintetic,Vant puternic,14,Da,Nu
+I0595,P167,2022-23,2023-02-12,2023-03-08,Ligament (MCL),Genunchi,Moderată (8–28 zile),24,Non-contact,Meci oficial,21,Gazon hibrid,Soare,26,Nu,Nu
+I0596,P167,2019-20,2020-05-04,2020-05-14,Fractura tibie,Gambă,Moderată (8–28 zile),10,Schimbare de directie,Meci oficial,65,Gazon sintetic,Caldura,35,Nu,Da
+I0597,P167,2019-20,2019-07-06,2019-07-07,Fractura metatarsian,Picior,Ușoară (1–7 zile),1,Sprint,Antrenament,,Gazon sintetic,Frig,-1,Nu,Nu
+I0598,P167,2019-20,2020-03-08,2020-04-03,Contuzie genunchi,Genunchi,Moderată (8–28 zile),26,Non-contact,Meci oficial,30,Gazon natural,Vant puternic,5,Da,Nu
+I0599,P168,2022-23,2022-08-05,2022-08-06,Entorsa glezna gr.II,Gleznă,Ușoară (1–7 zile),1,Suprasolicitare,Antrenament,,Gazon hibrid,Soare,24,Nu,Nu
+I0600,P168,2023-24,2023-10-29,2023-11-06,Contuzie gleznă,Gleznă,Moderată (8–28 zile),8,Duel aerian,Antrenament,,Gazon natural,Caldura,32,Nu,Nu
+I0601,P168,2023-24,2024-03-05,2024-04-19,Ruptura musculara partiala,Coapsă posterioară,Severă (29–90 zile),45,Sprint,Antrenament,,Gazon hibrid,Caldura,32,Nu,Nu
+I0602,P169,2020-21,2020-08-01,2021-03-12,Contuzie genunchi,Genunchi,Foarte severă (>90 zile),223,Schimbare de directie,Meci oficial,68,Gazon natural,Soare,24,Nu,Nu
+I0603,P169,2023-24,2023-07-26,2023-08-12,Muscular (quadriceps),Coapsă anterioară,Moderată (8–28 zile),17,Suprasolicitare,Meci oficial,40,Gazon hibrid,Frig,1,Nu,Nu
+I0604,P169,2021-22,2021-11-29,2021-12-23,Muscular (quadriceps),Coapsă anterioară,Moderată (8–28 zile),24,Sprint,Meci oficial,6,Gazon sintetic,Frig,0,Da,Nu
+I0605,P169,2020-21,2020-07-17,2020-08-17,Entorsa glezna gr.II,Gleznă,Severă (29–90 zile),31,Contact direct,Meci oficial,87,Gazon natural,Vant puternic,15,Nu,Nu
+I0606,P169,2022-23,2023-03-31,2023-04-30,Ruptura musculara partiala,Coapsă posterioară,Severă (29–90 zile),30,Non-contact,Meci oficial,53,Gazon hibrid,Vant puternic,13,Nu,Nu
+I0607,P169,2023-24,2023-08-05,2023-08-07,Ruptura musculara partiala,Coapsă posterioară,Ușoară (1–7 zile),2,Suprasolicitare,Meci oficial,67,Gazon hibrid,Ploaie,12,Da,Nu
+I0608,P169,2020-21,2021-05-27,2021-06-02,Elongatie musculara,Coapsă,Ușoară (1–7 zile),6,Suprasolicitare,Meci oficial,8,Gazon natural,Vant puternic,8,Nu,Nu
+I0609,P169,2022-23,2023-06-21,2023-06-24,Elongatie musculara,Coapsă,Ușoară (1–7 zile),3,Schimbare de directie,Antrenament,,Gazon sintetic,Soare,19,Da,Nu
+I0610,P169,2019-20,2019-10-07,2019-12-09,Entorsa glezna gr.I,Gleznă,Severă (29–90 zile),63,Suprasolicitare,Meci oficial,81,Gazon sintetic,Ploaie,11,Nu,Nu
+I0611,P170,2023-24,2024-04-15,2024-04-19,Ruptura musculara partiala,Coapsă posterioară,Ușoară (1–7 zile),4,Contact direct,Meci oficial,11,Gazon natural,Caldura,34,Nu,Nu
+I0612,P170,2023-24,2023-11-12,2023-12-03,Fractura metatarsian,Picior,Moderată (8–28 zile),21,Sprint,Antrenament,,Gazon sintetic,Soare,18,Nu,Da
+I0613,P170,2023-24,2024-03-11,2024-03-13,Entorsa glezna gr.I,Gleznă,Ușoară (1–7 zile),2,Sprint,Antrenament,,Gazon hibrid,Ploaie,14,Nu,Nu
+I0614,P170,2019-20,2020-03-02,2020-03-29,Fractura tibie,Gambă,Moderată (8–28 zile),27,Sprint,Meci amical,1,Gazon natural,Caldura,37,Nu,Nu
+I0615,P170,2019-20,2019-11-23,2019-11-28,Elongatie musculara,Coapsă,Ușoară (1–7 zile),5,Sprint,Antrenament,,Gazon natural,Caldura,31,Nu,Nu
+I0616,P170,2022-23,2022-10-14,2022-10-22,Ligament (ankle),Gleznă,Moderată (8–28 zile),8,Contact direct,Meci amical,21,Gazon natural,Ploaie,17,Da,Nu
+I0617,P170,2019-20,2019-12-05,2019-12-09,Fractura metatarsian,Picior,Ușoară (1–7 zile),4,Suprasolicitare,Meci amical,38,Gazon sintetic,Ploaie,16,Da,Da
+I0618,P170,2021-22,2021-12-08,2022-06-26,Muscular (adductor),Adductori,Foarte severă (>90 zile),200,Suprasolicitare,Meci amical,13,Gazon natural,Soare,29,Nu,Nu
+I0619,P170,2021-22,2021-07-09,2021-07-11,Elongatie musculara,Coapsă,Ușoară (1–7 zile),2,Contact direct,Meci amical,4,Gazon hibrid,Frig,-1,Da,Nu
+I0620,P170,2020-21,2020-12-02,2021-04-27,Muscular (adductor),Adductori,Foarte severă (>90 zile),146,Suprasolicitare,Meci oficial,24,Gazon sintetic,Frig,8,Nu,Nu
+I0621,P170,2022-23,2022-12-24,2023-01-05,Entorsa glezna gr.I,Gleznă,Moderată (8–28 zile),12,Non-contact,Antrenament,,Gazon hibrid,Soare,19,Da,Nu
+I0622,P170,2020-21,2021-03-03,2021-04-22,Ruptura musculara partiala,Coapsă posterioară,Severă (29–90 zile),50,Sprint,Antrenament,,Gazon hibrid,Caldura,31,Da,Nu
+I0623,P170,2019-20,2020-01-26,2020-02-04,Ligament (ankle),Gleznă,Moderată (8–28 zile),9,Suprasolicitare,Meci oficial,78,Gazon sintetic,Soare,26,Nu,Nu
+I0624,P171,2022-23,2022-10-06,2023-03-11,Muscular (hamstring),Coapsă posterioară,Foarte severă (>90 zile),156,Suprasolicitare,Antrenament,,Gazon sintetic,Caldura,37,Nu,Nu
+I0625,P171,2022-23,2023-02-04,2023-03-01,Elongatie musculara,Coapsă,Moderată (8–28 zile),25,Suprasolicitare,Antrenament,,Gazon sintetic,Frig,0,Nu,Nu
+I0626,P171,2020-21,2020-11-20,2020-12-16,Tendinita Achilles,Tendon Achilles,Moderată (8–28 zile),26,Suprasolicitare,Meci oficial,38,Gazon natural,Soare,30,Nu,Nu
+I0627,P171,2020-21,2020-07-13,2020-08-17,Ruptura musculara partiala,Coapsă posterioară,Severă (29–90 zile),35,Contact direct,Antrenament,,Gazon natural,Ploaie,14,Nu,Nu
+I0628,P171,2021-22,2022-02-23,2022-03-20,Fractura metatarsian,Picior,Moderată (8–28 zile),25,Suprasolicitare,Meci oficial,59,Gazon sintetic,Frig,5,Nu,Nu
+I0629,P172,2021-22,2022-05-30,2022-10-26,Contuzie gleznă,Gleznă,Foarte severă (>90 zile),149,Non-contact,Antrenament,,Gazon natural,Caldura,36,Nu,Nu
+I0630,P172,2023-24,2024-03-08,2024-03-16,Tendinita rotuliana,Genunchi,Moderată (8–28 zile),8,Non-contact,Antrenament,,Gazon natural,Soare,32,Nu,Nu
+I0631,P172,2020-21,2021-05-30,2021-06-20,Elongatie musculara,Coapsă,Moderată (8–28 zile),21,Schimbare de directie,Meci oficial,19,Gazon sintetic,Frig,8,Nu,Nu
+I0632,P172,2021-22,2021-08-22,2021-08-27,Tendinita rotuliana,Genunchi,Ușoară (1–7 zile),5,Suprasolicitare,Meci oficial,28,Gazon hibrid,Soare,26,Nu,Nu
+I0633,P172,2021-22,2022-06-17,2022-09-05,Elongatie musculara,Coapsă,Severă (29–90 zile),80,Sprint,Meci oficial,16,Gazon natural,Vant puternic,9,Da,Nu
+I0634,P172,2021-22,2022-05-08,2022-06-25,Ligament (ACL),Genunchi,Severă (29–90 zile),48,Schimbare de directie,Meci amical,22,Gazon sintetic,Frig,-2,Da,Nu
+I0635,P172,2019-20,2019-11-06,2019-12-29,Contuzie gleznă,Gleznă,Severă (29–90 zile),53,Fault,Meci oficial,50,Gazon hibrid,Caldura,31,Nu,Nu
+I0636,P174,2021-22,2021-08-07,2021-08-08,Entorsa glezna gr.III,Gleznă,Ușoară (1–7 zile),1,Suprasolicitare,Antrenament,,Gazon hibrid,Vant puternic,15,Nu,Nu
+I0637,P174,2023-24,2024-05-02,2024-05-15,Ligament (ankle),Gleznă,Moderată (8–28 zile),13,Suprasolicitare,Meci oficial,57,Gazon hibrid,Frig,3,Nu,Nu
+I0638,P174,2021-22,2021-12-19,2021-12-23,Ligament (MCL),Genunchi,Ușoară (1–7 zile),4,Non-contact,Meci oficial,21,Gazon hibrid,Soare,29,Nu,Nu
+I0639,P174,2022-23,2022-08-11,2022-08-12,Muscular (calf),Gambă,Ușoară (1–7 zile),1,Suprasolicitare,Antrenament,,Gazon hibrid,Frig,0,Nu,Nu
+I0640,P174,2020-21,2020-12-21,2020-12-28,Elongatie musculara,Coapsă,Ușoară (1–7 zile),7,Duel aerian,Meci oficial,87,Gazon sintetic,Caldura,31,Nu,Nu
+I0641,P174,2021-22,2021-07-02,2021-12-20,Ligament (ACL),Genunchi,Foarte severă (>90 zile),171,Schimbare de directie,Meci oficial,14,Gazon natural,Frig,-2,Nu,Nu
+I0642,P174,2019-20,2019-07-01,2019-07-03,Tendinita rotuliana,Genunchi,Ușoară (1–7 zile),2,Non-contact,Meci oficial,66,Gazon sintetic,Vant puternic,12,Da,Nu
+I0643,P174,2019-20,2019-11-30,2019-12-04,Ligament (ankle),Gleznă,Ușoară (1–7 zile),4,Non-contact,Antrenament,,Gazon natural,Caldura,28,Nu,Nu
+I0644,P174,2023-24,2024-01-30,2024-01-31,Entorsa glezna gr.III,Gleznă,Ușoară (1–7 zile),1,Fault,Meci oficial,31,Gazon sintetic,Frig,-1,Da,Nu
+I0645,P176,2022-23,2023-03-28,2023-04-20,Elongatie musculara,Coapsă,Moderată (8–28 zile),23,Sprint,Antrenament,,Gazon hibrid,Soare,18,Nu,Nu
+I0646,P176,2020-21,2020-07-31,2020-08-06,Contuzie gleznă,Gleznă,Ușoară (1–7 zile),6,Duel aerian,Meci oficial,54,Gazon hibrid,Ploaie,16,Nu,Nu

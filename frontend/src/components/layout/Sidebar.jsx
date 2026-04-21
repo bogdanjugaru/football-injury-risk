@@ -1,10 +1,13 @@
 import { NavLink } from 'react-router-dom'
-import { LayoutDashboard, Users, Target, BarChart3, GitCompare, Brain } from 'lucide-react'
+import { LayoutDashboard, Users, Target, BarChart3, GitCompare, Brain, SplitSquareHorizontal, Shield, Clock } from 'lucide-react'
 
 const navItems = [
   { to: '/', icon: LayoutDashboard, label: 'Dashboard' },
   { to: '/players', icon: Users, label: 'Jucatori' },
   { to: '/prediction', icon: Target, label: 'Predictie Risc' },
+  { to: '/compare', icon: SplitSquareHorizontal, label: 'Comparare Jucatori' },
+  { to: '/squad', icon: Shield, label: 'Risc Echipa' },
+  { to: '/injury-timeline', icon: Clock, label: 'Istoric & Recuperare' },
   { to: '/statistics', icon: BarChart3, label: 'Statistici' },
   { to: '/model-comparison', icon: GitCompare, label: 'Comparare Modele' },
   { to: '/model', icon: Brain, label: 'Model ML' },
