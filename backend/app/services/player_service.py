@@ -30,11 +30,21 @@ def get_players_list(
 
     players = query.all()
 
+    # Batch injury counts — single GROUP BY instead of N+1 queries
+    player_ids = [p.player_id for p in players]
+    inj_counts_rows = (
+        db.query(Injury.player_id, func.count(Injury.injury_id).label("cnt"))
+        .filter(Injury.player_id.in_(player_ids))
+        .group_by(Injury.player_id)
+        .all()
+    ) if player_ids else []
+    inj_count_map = {row.player_id: row.cnt for row in inj_counts_rows}
+
     # Build result with injury count and risk
     records = []
     for p in players:
-        inj_count = db.query(func.count(Injury.injury_id)).filter(Injury.player_id == p.player_id).scalar()
-        score = predictor.get_risk_score(p.player_id)
+        inj_count = inj_count_map.get(p.player_id, 0)
+        score = predictor.get_risk_score(p.player_id, age=p.varsta, position=p.pozitie)
         rc = risk_category(score)
         records.append({
             "player_id": p.player_id,
@@ -175,7 +185,7 @@ def get_player_detail(db: Session, player_id: str) -> dict | None:
     ]
 
     # Risk
-    score = predictor.get_risk_score(player_id)
+    score = predictor.get_risk_score(player_id, age=player["varsta"], position=player["pozitie"])
     rc = risk_category(score)
 
     # Feature contributions

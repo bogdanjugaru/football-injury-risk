@@ -47,6 +47,10 @@ FEATURES = [
     "age_squared",
     "bmi_category",
     "position_risk_group",
+    # Noi features v2
+    "age_position_interaction",
+    "recent_injury_weight",
+    "days_since_last_injury",
 ]
 
 FEATURE_LABELS = {
@@ -74,6 +78,9 @@ FEATURE_LABELS = {
     "age_squared": "Vârstă²",
     "bmi_category": "Categorie IMC",
     "position_risk_group": "Grup risc poziție",
+    "age_position_interaction": "Interacțiune vârstă × poziție",
+    "recent_injury_weight": "Accidentări recente (ponderate)",
+    "days_since_last_injury": "Zile de la ultima accidentare",
 }
 
 POSITION_GROUPS = {
@@ -183,6 +190,42 @@ def build_feature_matrix(db: Session) -> tuple[pd.DataFrame, pd.Series, list[str
 
     # 10. position_risk_group
     df["position_risk_group"] = df["pozitie"].map(POSITION_GROUPS).fillna(2)
+
+    # 11. age_position_interaction: combina varsta cu riscul pozitiei
+    #     Un ST de 38 ani (varsta*grup = 38*3=114) e mult mai riscant
+    #     decat un GK de 38 ani (38*0=0) sau un CB de 25 ani (25*1=25)
+    df["age_position_interaction"] = df["varsta"] * df["position_risk_group"]
+
+    # 12. recent_injury_weight: ponderi temporale pe accidentari
+    #     Accidentarile din ultimele 2 sezoane conteaza 3x mai mult
+    RECENT_SEASONS_SET = {"2022-23", "2023-24"}
+    if "sezon" in injuries_df.columns:
+        inj_all   = injuries_df.groupby("player_id").size().reset_index(name="inj_all_count")
+        inj_recent_s = injuries_df[injuries_df["sezon"].isin(RECENT_SEASONS_SET)]
+        inj_rec   = inj_recent_s.groupby("player_id").size().reset_index(name="inj_recent_count")
+        rec_weight = inj_all.merge(inj_rec, on="player_id", how="left")
+        rec_weight["inj_recent_count"] = rec_weight["inj_recent_count"].fillna(0)
+        # Scor ponderat: recent x3 + vechi x1
+        rec_weight["recent_injury_weight"] = (
+            rec_weight["inj_recent_count"] * 3 +
+            (rec_weight["inj_all_count"] - rec_weight["inj_recent_count"]) * 1
+        )
+        df = df.merge(rec_weight[["player_id", "recent_injury_weight"]], on="player_id", how="left")
+    else:
+        df["recent_injury_weight"] = df["total_prev_injuries"]
+    df["recent_injury_weight"] = df["recent_injury_weight"].fillna(0)
+
+    # 13. days_since_last_injury: zile de la ultima accidentare (mai mic = risc recidiva mai mare)
+    if "data_accidentare" in injuries_df.columns:
+        injuries_df["data_acc_dt"] = pd.to_datetime(injuries_df["data_accidentare"], errors="coerce")
+        last_inj = injuries_df.groupby("player_id")["data_acc_dt"].max().reset_index(name="last_inj_date")
+        last_inj["days_since_last_injury"] = (
+            pd.Timestamp("2026-04-25") - last_inj["last_inj_date"]
+        ).dt.days.clip(0, 1000)
+        df = df.merge(last_inj[["player_id", "days_since_last_injury"]], on="player_id", how="left")
+    else:
+        df["days_since_last_injury"] = 500
+    df["days_since_last_injury"] = df["days_since_last_injury"].fillna(500)
 
     # --- Position encoding ---
     from sklearn.preprocessing import LabelEncoder

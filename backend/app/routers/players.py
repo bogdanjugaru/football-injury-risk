@@ -243,7 +243,7 @@ def get_squad_overview(club: str, db: Session = Depends(get_db)):
         total_days = sum(inj.zile_absenta or 0 for inj in injuries)
         serious = sum(1 for inj in injuries if (inj.zile_absenta or 0) > 28)
 
-        risk_score = predictor.get_risk_score(p.player_id)
+        risk_score = predictor.get_risk_score(p.player_id, age=p.varsta, position=p.pozitie)
         rc = risk_category(risk_score)
 
         result.append({
@@ -320,7 +320,7 @@ def get_position_benchmark(player_id: str, db: Session = Depends(get_db)):
         total_injuries = len(injuries)
         total_days = sum(inj.zile_absenta or 0 for inj in injuries)
 
-        risk_score = predictor.get_risk_score(p.player_id)
+        risk_score = predictor.get_risk_score(p.player_id, age=p.varsta, position=p.pozitie)
 
         m = {
             "risk_score": risk_score,
@@ -409,7 +409,7 @@ def compare_players(ids: str, db: Session = Depends(get_db)):
         serious = sum(1 for inj in injuries if (inj.zile_absenta or 0) > 28)
         recurrences = sum(1 for inj in injuries if inj.recidiva == "Da")
 
-        risk_score = predictor.get_risk_score(pid)
+        risk_score = predictor.get_risk_score(pid, age=p.varsta, position=p.pozitie)
         from app.ml.predictor import risk_category
         rc = risk_category(risk_score)
 

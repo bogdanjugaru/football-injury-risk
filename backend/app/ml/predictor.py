@@ -73,18 +73,52 @@ class RiskPredictor:
         return self._loaded
 
     @staticmethod
-    def calibrate_score(raw_score: float) -> float:
-        """Calibrate raw probability score to realistic range [5, 85]."""
+    def calibrate_score(raw_score: float, age: float = None, position: str = None) -> float:
+        """
+        Calibrate raw probability score.
+        1. Logistic dampening to realistic range [8, 82]
+        2. Small additive age adjustment (model already has age features – avoid double-counting)
+        3. Small additive position adjustment (same reason)
+        Max realistic score: 85% (no player should be "certain" to get injured)
+        """
         import math
+
+        # Base calibration (logistic dampening)
         prob = raw_score / 100.0
         clamped = max(0.01, min(0.99, prob))
         log_odds = math.log(clamped / (1 - clamped))
-        dampened = 1 / (1 + math.exp(-log_odds * 0.5))
-        return round(5 + dampened * 80, 1)
+        dampened = 1 / (1 + math.exp(-log_odds * 0.60))
+        base = 8 + dampened * 72   # range [8, 80]
 
-    def get_risk_score(self, player_id: str) -> float:
+        # 1. Age adjustment (additive, small — model already has varsta/age_squared features)
+        age_adj = 0.0
+        if age is not None:
+            if age >= 40:
+                age_adj = 5.0    # +5 pp pentru 40+ ani
+            elif age >= 38:
+                age_adj = 3.0    # +3 pp pentru 38-39
+            elif age >= 36:
+                age_adj = 1.5    # +1.5 pp pentru 36-37
+            elif age <= 19:
+                age_adj = -3.0   # -3 pp pentru tineri
+
+        # 2. Position adjustment (additive, small — model already has position_risk_group)
+        pos_adj = 0.0
+        if position is not None:
+            pos_upper = str(position).upper()
+            if pos_upper in ("ST", "CF", "LW", "RW", "SS"):
+                pos_adj = 2.0    # atacanti: +2 pp
+            elif pos_upper in ("LB", "RB", "LWB", "RWB"):
+                pos_adj = 1.0    # fundasi laterali: +1 pp
+            elif pos_upper == "GK":
+                pos_adj = -4.0   # portari: -4 pp
+
+        calibrated = base + age_adj + pos_adj
+        return round(min(max(calibrated, 5.0), 85.0), 1)
+
+    def get_risk_score(self, player_id: str, age: float = None, position: str = None) -> float:
         raw = self.risk_scores.get(player_id, 50.0)
-        return self.calibrate_score(raw)
+        return self.calibrate_score(raw, age=age, position=position)
 
     def predict_horizons(self, input_data: dict) -> list[dict]:
         """

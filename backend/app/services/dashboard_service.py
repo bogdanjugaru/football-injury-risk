@@ -18,13 +18,14 @@ def get_dashboard_data(db: Session) -> dict:
     # High risk count
     high_risk = sum(1 for s in predictor.risk_scores.values() if s >= 50)
 
-    # Injuries per season
-    by_season = (
+    # Injuries per season — only recent seasons (2015-16 onwards, format "YYYY-YY")
+    all_seasons = (
         db.query(Injury.sezon, func.count(Injury.injury_id).label("count"))
         .group_by(Injury.sezon)
         .order_by(Injury.sezon)
         .all()
     )
+    by_season = [r for r in all_seasons if r.sezon and len(r.sezon) >= 7 and r.sezon[:4].isdigit() and int(r.sezon[:4]) >= 2019]
 
     # Severity distribution
     severity_rows = (

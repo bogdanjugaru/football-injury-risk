@@ -1,5 +1,5 @@
 import { Users, Activity, Calendar, Scissors, RefreshCw, AlertTriangle } from 'lucide-react'
-import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, PieChart, Pie, Cell, AreaChart, Area } from 'recharts'
+import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, PieChart, Pie, Cell, AreaChart, Area, LabelList } from 'recharts'
 import { useApi } from '../hooks/useApi'
 import { api } from '../api/client'
 import KPICard from '../components/common/KPICard'
@@ -13,6 +13,20 @@ const SEVERITY_COLORS = {
   'Foarte severa (>90 zile)': '#7c3aed',
 }
 const MONTHS = ['', 'Ian', 'Feb', 'Mar', 'Apr', 'Mai', 'Iun', 'Iul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+
+// Culori distincte per sezon (ciclice daca sunt mai multe)
+const SEASON_COLORS = [
+  '#3b82f6', // albastru
+  '#10b981', // verde
+  '#f59e0b', // portocaliu
+  '#ef4444', // rosu
+  '#8b5cf6', // violet
+  '#06b6d4', // cyan
+  '#f97316', // portocaliu intens
+  '#ec4899', // roz
+  '#84cc16', // galben-verde
+  '#6366f1', // indigo
+]
 
 const ChartCard = ({ title, description, children, className = '' }) => (
   <div className={`bg-bg2 border border-border rounded-xl p-4 ${className}`}>
@@ -103,15 +117,29 @@ export default function Dashboard() {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
         <ChartCard title="Accidentari per sezon" description="Evolutia numarului de accidentari de-a lungul sezoanelor competitive." className="lg:col-span-2">
           <ResponsiveContainer width="100%" height={260}>
-            <BarChart data={by_season}>
+            <BarChart data={by_season} margin={{ top: 20, right: 10, left: 0, bottom: 0 }}>
               <XAxis dataKey="sezon" tick={{ fill: '#8b949e', fontSize: 11 }} />
               <YAxis tick={{ fill: '#8b949e', fontSize: 11 }} />
               <Tooltip content={<CustomTooltip />} />
-              <Bar dataKey="count" fill="#3b82f6" radius={[4, 4, 0, 0]} />
+              <Bar dataKey="count" radius={[4, 4, 0, 0]}>
+                {by_season.map((entry, index) => (
+                  <Cell key={`cell-${index}`} fill={SEASON_COLORS[index % SEASON_COLORS.length]} />
+                ))}
+                <LabelList dataKey="count" position="top" style={{ fill: '#8b949e', fontSize: 10 }} />
+              </Bar>
             </BarChart>
           </ResponsiveContainer>
+          {/* Legenda sezoane */}
+          <div className="flex flex-wrap gap-2 mt-2 justify-center">
+            {by_season.map((s, i) => (
+              <div key={i} className="flex items-center gap-1 text-[10px] text-text-muted">
+                <span className="w-2.5 h-2.5 rounded-sm" style={{ background: SEASON_COLORS[i % SEASON_COLORS.length] }} />
+                {s.sezon}
+              </div>
+            ))}
+          </div>
           <AnalysisBox>
-            {maxSeason && minSeason && <>Sezonul cu cele mai multe accidentari a fost <strong className="text-text">{maxSeason.sezon}</strong> ({maxSeason.count} cazuri), iar cel mai putin afectat a fost <strong className="text-text">{minSeason.sezon}</strong> ({minSeason.count} cazuri). {minSeason.count < maxSeason.count * 0.85 ? 'Se observa o tendinta de scadere in ultimele sezoane, posibil datorita imbunatatirii protocoalelor de preventie.' : 'Numarul accidentarilor ramane relativ constant, sugerand necesitatea unor interventii suplimentare de preventie.'}</>}
+            {maxSeason && minSeason && <>Sezonul cu cele mai multe accidentari a fost <strong className="text-text">{maxSeason.sezon}</strong> ({maxSeason.count} cazuri), iar cel mai putin afectat a fost <strong className="text-text">{minSeason.sezon}</strong> ({minSeason.count} cazuri). Datele includ sezoanele 2024-25 si 2025-26 cu accidentari documentate din surse externe.</>}
           </AnalysisBox>
         </ChartCard>
 
